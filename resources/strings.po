@@ -3216,7 +3216,7 @@ msgstr "Nach einer neuen Netzwerkfreigabe suchen"
 
 msgctxt "#1024"
 msgid "Browse"
-msgstr "Browse"
+msgstr "Durchsuchen"
 
 msgctxt "#1025"
 msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
