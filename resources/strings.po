@@ -11272,7 +11272,7 @@ msgstr "Videocodec"
 
 msgctxt "#21446"
 msgid "Audio codec"
-msgstr "Audio-Codec"
+msgstr "Audiocodec"
 
 msgctxt "#21447"
 msgid "Audio language"
