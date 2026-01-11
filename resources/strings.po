@@ -18649,23 +18649,23 @@ msgid "Set DV Output Type"
 msgstr "DV Typ"
 
 msgctxt "#60022"
-msgid "Set type of DV output to use with display capability."
-msgstr "Typ von Dolby Vision, die mit dem Display verwendet werden soll."
+msgid "Set type of DV output to use with display capability. This setting will only show options that your display is capable of processing. For SDR display the only option available is VS10 Only."
+msgstr "Legt den Typ des DV-Ausgangs fest, der entsprechend den Fähigkeiten des Displays verwendet wird. Diese Einstellung zeigt nur Optionen an, die von deinem Display verarbeitet werden können. Bei einem SDR-Display ist die einzige verfügbare Option \"Nur VS10\"."
 
 msgctxt "#60023"
-msgid "Display Led (DV-Std RGB 8 Bit Tunnel)"
+msgid "Display Led (DV as DV-Std RGB 8 Bit Tunnel)"
 msgstr "TV-Led (DV-Standard)"
 
 msgctxt "#60024"
-msgid "Player Led (DV-LL 422 12 Bit)"
+msgid "Player Led (DV as DV-LL 422 12 Bit)"
 msgstr "Player-Led (DV-LL, 4:2:2)"
 
 msgctxt "#60025"
-msgid "Player Led (HDR10 444 12 Bit)"
+msgid "Player Led (DV as HDR10 444 12 Bit)"
 msgstr "Player-Led (HDR10, 4:4:4)"
 
 msgctxt "#60026"
-msgid "VS10 Only"
+msgid "DV as VS10 Only"
 msgstr "Nur VS10"
 
 msgctxt "#60031"
@@ -18673,8 +18673,8 @@ msgid "Set DV VSVDB - If set to On it will replace Display DV VSVDB EDID"
 msgstr "DV VSVDB"
 
 msgctxt "#60032"
-msgid "Set DV VSVDB to replace Display DV VSVDB EDID with your specified values for Display \"Colour Space\" and \"Maximum Luminance\". If Display does not have a DV VSVDB EDID then these settings values will be used even if the \"Set DV VSVDB\" is set to Off. Toggle this setting from Off-On-Off to show your Display DV VSVDB EDID values."
-msgstr "Setzt \"DV VSVDB\" so, dass die DV VSVDB EDID-Werte des Displays durch die hier angegebenen Werte für \"Farbraum\" und \"Maximale Helligkeit\" ersetzt werden. Wenn das Display keinen DV VSVDB EDID-Eintrag besitzt, werden diese Einstellungswerte auch dann verwendet, wenn \"DV VSVDB\" auf \"Aus\" gesetzt ist. Diese Einstellung von \"Aus-Ein-Aus\" umschalten, um die DV VSVDB EDID-Werte des Displays anzuzeigen."
+msgid "Set DV VSVDB to replace Display DV VSVDB EDID with your specified values for Display "Colour Space" and "Maximum Luminance". If Display does not have a DV VSVDB EDID then these settings values will be used even if the "Set DV VSVDB" is set to Off. Toggle this setting from Off-On-Off to show your Display DV VSVDB EDID values."
+msgstr "Setzt \"DV VSVDB\" so, dass die DV VSVDB EDID-Werte des Displays durch die hier angegebenen Werte für \"Farbraum\" und \"Maximale Helligkeit\" in Nits ersetzt werden. Wenn das Display keinen DV VSVDB EDID-Eintrag besitzt, werden diese Einstellungswerte auch dann verwendet, wenn \"DV VSVDB\" auf \"Aus\" gesetzt ist. Diese Einstellung von \"Aus-Ein-Aus\" umschalten, um die DV VSVDB EDID-Werte des Displays anzuzeigen."
 
 msgctxt "#60033"
 msgid "DV VSVDB Payload"
@@ -18789,8 +18789,8 @@ msgid "Set Max Lum in NITS - Required if Display does not support DV"
 msgstr "Maximale Helligkeit in (cd/m²)"
 
 msgctxt "#60076"
-msgid "Set DV Maximum Luminance based on your Display capability. If Display does not have a DV VSVDB EDID then this setting value will be used even if the \"Set DV VSVDB\" is set to Off. Toggle the \"Set DV VSVDB\" setting from Off-On-Off to show your Display Maximum Luminance DV VSVDB EDID value."
-msgstr "Maximale Helligkeit basierend auf den Fähigkeiten des Displays festlegen. Wenn das Display keinen DV VSVDB EDID-Eintrag besitzt, wird dieser Einstellungswert auch dann verwendet, wenn \"DV VSVDB\" auf \"Aus\" gesetzt ist. Die Einstellung \"DV VSVDB\" von \"Aus-Ein-Aus\" umschalten, um den DV VSVDB EDID-Wert für die maximale Helligkeit des Displays anzuzeigen."
+msgid "Set DV Maximum Luminance based on your Display capability. If Display does not have a DV VSVDB EDID then this setting value will be used even if the "Set DV VSVDB" is set to Off. Toggle the "Set DV VSVDB" setting from Off-On-Off to show your Display Maximum Luminance DV VSVDB EDID value."
+msgstr "Maximale Helligkeit basierend auf den Fähigkeiten des Displays festlegen. Wenn das Display keinen DV VSVDB EDID-Eintrag besitzt, wird dieser Einstellungswert auch dann verwendet, wenn \"DV VSVDB\" auf \"Aus\" gesetzt ist. Die Einstellung \"DV VSVDB\" von \"Aus-Ein-Aus\" umschalten, um den DV VSVDB EDID-Wert für die maximale Helligkeit in Nits des Displays anzuzeigen."
 
 msgctxt "#60081"
 msgid "DCI-P3"
@@ -19281,15 +19281,15 @@ msgid "Set what type of DV as HDR10 output format you prefer."
 msgstr "Festlegen, welche Art von Dolby Vision als HDR10-Ausgabeformat bevorzugt wird."
 
 msgctxt "#60577"
-msgid "HDR10 444 12 Bit"
+msgid "DV as HDR10 444 12 Bit"
 msgstr "HDR10 (4:4:4)"
 
 msgctxt "#60578"
-msgid "HDR10 422 12 Bit"
+msgid "DV as HDR10 422 12 Bit"
 msgstr "HDR10 (4:2:2)"
 
 msgctxt "#60579"
-msgid "Player Led (HDR10 422 12 Bit)"
+msgid "Player Led (DV as HDR10 422 12 Bit)"
 msgstr "Player-Led (HDR10, 4:2:2)"
 
 msgctxt "#60580"
@@ -19379,6 +19379,18 @@ msgstr "LAV (SB)"
 msgctxt "#60601"
 msgid "LAV Full"
 msgstr "LAV (Voll)"
+
+#. "Dolby Vision Type VP Auto"
+#: system/settings/settings.xml
+msgctxt "#60602"
+msgid "Set for Auto selection between Player Led and Video Processor settings"
+msgstr "Für die automatische Auswahl zwischen Player-Led- und Video-Prozessor-Einstellungen (VP) festlegen"
+
+#. "Dolby Vision Type VP Auto"
+#: system/settings/settings.xml
+msgctxt "#60603"
+msgid "Set this option to let the software automatically select between using normal Player Led versus Video Processor (VP) settings depending on your Display Max Lum capability (shown below) and the DV Video mastered MDL. When VP is in use the OSD will be a different colour. This feature only works with DV Mode On Demand."
+msgstr "Aktiviere diese Option, damit die Software automatisch zwischen normalen Player-Led- und Video-Prozessor-(VP-)Einstellungen wählt, abhängig von der maximalen Display-Luminanz (unten angezeigt) und der beim DV-Video gemasterten MDL. Wenn VP verwendet wird, hat das OSD eine andere Farbe. Diese Funktion arbeitet nur mit DV \"On Demand\"."
 
 msgctxt "#69196"
 msgid "Convert DV Profile 7 FEL to MEL or to Profile 8.1"
