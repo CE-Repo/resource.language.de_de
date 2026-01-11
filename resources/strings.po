@@ -19380,14 +19380,10 @@ msgctxt "#60601"
 msgid "LAV Full"
 msgstr "LAV (Voll)"
 
-#. "Dolby Vision Type VP Auto"
-#: system/settings/settings.xml
 msgctxt "#60602"
 msgid "Set for Auto selection between Player Led and Video Processor settings"
 msgstr "Für die automatische Auswahl zwischen Player-Led- und Video-Prozessor-Einstellungen (VP) festlegen"
 
-#. "Dolby Vision Type VP Auto"
-#: system/settings/settings.xml
 msgctxt "#60603"
 msgid "Set this option to let the software automatically select between using normal Player Led versus Video Processor (VP) settings depending on your Display Max Lum capability (shown below) and the DV Video mastered MDL. When VP is in use the OSD will be a different colour. This feature only works with DV Mode On Demand."
 msgstr "Aktiviere diese Option, damit die Software automatisch zwischen normalen Player-Led- und Video-Prozessor-(VP-)Einstellungen wählt, abhängig von der maximalen Display-Luminanz (unten angezeigt) und der beim DV-Video gemasterten MDL. Wenn VP verwendet wird, hat das OSD eine andere Farbe. Diese Funktion arbeitet nur mit DV \"On Demand\"."
