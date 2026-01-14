@@ -13320,7 +13320,7 @@ msgstr "Konfigurieren von"
 
 msgctxt "#33060"
 msgid "Power"
-msgstr "Power"
+msgstr "Ausschaltmenü"
 
 msgctxt "#33061"
 msgid "Menu"
