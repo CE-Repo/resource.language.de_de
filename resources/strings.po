@@ -19361,8 +19361,8 @@ msgid "Set Min PQ 0 only"
 msgstr "Nur Min. PQ 0"
 
 msgctxt "#60594"
-msgid "LAV Filters mode"
-msgstr "LAV Filters (Modus)"
+msgid "Audio Fixes mode"
+msgstr "Audiokorrektur (Modus)"
 
 msgctxt "#60595"
 msgid "Select the type of audio correction to fix seamless branching audio drop and audio sync issues. Different equipment will work better with different options, so try each option to see what works best for your setup."
