@@ -18753,8 +18753,8 @@ msgid "DV VS10 for HLG video"
 msgstr "HLG-HDR"
 
 msgctxt "#60060"
-msgid "Use DV VS10 output target mode for HLG video."
-msgstr "DV VS10 Zielmodus für HLG-HDR-Inhalte."
+msgid "Use DV VS10 output target mode for HLG video (processed by VS10 as SDR)."
+msgstr "DV VS10 Zielmodus für HLG-HDR-Inhalte (verarbeitet von VS10 als SDR)."
 
 msgctxt "#60061"
 msgid "DV VS10 for DV video"
