@@ -19361,7 +19361,7 @@ msgid "Set Min PQ 0 only"
 msgstr "Nur Min. PQ 0"
 
 msgctxt "#60594"
-msgid "Audio Fixes mode"
+msgid "Set Type of Correction to Fix Audio Issues"
 msgstr "Audiokorrektur (Modus)"
 
 msgctxt "#60595"
