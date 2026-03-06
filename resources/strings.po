@@ -16918,6 +16918,7 @@ msgctxt "#38018"
 msgid "My rating"
 msgstr "Persönliche Bewertung"
 
+msgctxt "#38019"
 msgid "LFE downmix target"
 msgstr "LFE-Downmix-Ziel"
 
@@ -18688,8 +18689,8 @@ msgid "Set DV Output Type"
 msgstr "DV Typ"
 
 msgctxt "#60022"
-msgid "Set type of DV output to use with display capability. This setting will only show options that your display is capable of processing. For SDR display the only option available is VS10 Only."
-msgstr "Legt den Typ des DV-Ausgangs fest, der entsprechend den Fähigkeiten des Displays verwendet wird. Diese Einstellung zeigt nur Optionen an, die von deinem Display verarbeitet werden können. Bei einem SDR-Display ist die einzige verfügbare Option \"Nur VS10\"."
+msgid "Set type of DV output to use with display capability."
+msgstr "Typ der DV-Ausgabe festlegen, der entsprechend den Fähigkeiten des Displays verwendet wird."
 
 msgctxt "#60023"
 msgid "Display Led (DV as DV-Std RGB 8 Bit Tunnel)"
@@ -18780,8 +18781,8 @@ msgid "DV VS10 for HLG video"
 msgstr "HLG-HDR"
 
 msgctxt "#60060"
-msgid "Use DV VS10 output target mode for HLG video (processed by VS10 as SDR)."
-msgstr "DV VS10 Zielmodus für HLG-HDR-Inhalte (verarbeitet von VS10 als SDR)."
+msgid "Use DV VS10 output target mode for HLG video."
+msgstr "DV VS10 Zielmodus für HDR-HLG-Inhalte."
 
 msgctxt "#60061"
 msgid "DV VS10 for DV video"
@@ -19404,7 +19405,7 @@ msgid "Set Min PQ 0 only"
 msgstr "Nur Min. PQ 0"
 
 msgctxt "#60594"
-msgid "Set Type of Correction to Fix Audio Issues"
+msgid "Audio Fixes mode"
 msgstr "Audiokorrektur (Modus)"
 
 msgctxt "#60595"
