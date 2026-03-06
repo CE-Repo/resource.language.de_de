@@ -16127,8 +16127,8 @@ msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher
 msgstr "Legt die visuelle Tiefe der Untertitel für stereoskopische 3D-Videos fest. Je höher der Wert, desto näher wirken die Untertitel."
 
 msgctxt "#36547"
-msgid "Sets the peak luminance level for GUI elements while the display is in HDR PQ mode. This affects all OSD, subtitles and graphics that are SDR in origin."
-msgstr "Einstellen der maximalen Leuchtdichte für GUI-Elemente, wenn der Bildschirm im HDR-PQ-Modus ist. Dies betrifft alle OSDs, Untertitel und Grafiken, die ursprünglich SDR sind."
+msgid "Sets the peak luminance level for GUI elements while the display is in HDR PQ mode. This affects all OSD, subtitles and graphics that are SDR in origin. Not used when Dolby Vision VS10 is active, as the DV compositor handles OSD brightness separately."
+msgstr "Einstellen der maximalen Leuchtdichte für GUI-Elemente, wenn der Bildschirm im HDR-PQ-Modus ist. Dies betrifft alle OSDs, Untertitel und Grafiken, die ursprünglich SDR sind. Wird nicht verwendet, wenn Dolby Vision VS10 aktiv ist, da der DV-Compositor die OSD-Helligkeit separat steuert."
 
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
@@ -16917,6 +16917,17 @@ msgstr "Region A: Nord-, Mittel- und Südamerika, Ostasien and Südostasien. Reg
 msgctxt "#38018"
 msgid "My rating"
 msgstr "Persönliche Bewertung"
+
+msgid "LFE downmix target"
+msgstr "LFE-Downmix-Ziel"
+
+msgctxt "#38020"
+msgid "When including LFE in downmixing, this controls which speakers receive the LFE signal. Use 'Front L/R' to redirect LFE away from centre."
+msgstr "Beim Einbeziehen von LFE in den Downmix steuert dies, welche Lautsprecher das LFE-Signal erhalten. 'Front L/R' leitet das LFE-Signal vom Center weg."
+
+msgctxt "#38021"
+msgid "Front L/R"
+msgstr "Vorderes (Links/Rechts)"
 
 msgctxt "#38022"
 msgid "No rating"
@@ -17898,6 +17909,22 @@ msgctxt "#39210"
 msgid "If enabled, Dolby Vision files will have level 5 (active area) metadata overridden to zero offsets. Enable if your display has issues with incorrectly cropped image in Dolby Vision playback."
 msgstr "Bei Aktivierung werden Level-5-Metadaten (aktiver Bereich) von Dolby-Vision-Dateien auf 0 (Null)-Offsets gesetzt. Aktivieren, wenn das Display bei der Dolby-Vision-Wiedergabe Probleme mit falsch beschnittenen Bildern zeigt."
 
+msgctxt "#39210"
+msgid "Bluetooth Audio Codec"
+msgstr "Bluetooth-Audio-Codec"
+
+msgctxt "#39211"
+msgid "Select the Bluetooth audio codec to use when connected to Bluetooth headphones or speakers. Higher quality codecs require device support."
+msgstr "Bluetooth-Audio-Codec auswählen, der bei Verbindung mit Bluetooth-Kopfhörern oder -Lautsprechern verwendet wird. Höherwertige Codecs erfordern Unterstützung durch das jeweilige Gerät."
+
+msgctxt "#39212"
+msgid "Bluetooth Volume Boost"
+msgstr "Bluetooth-Lautstärkeverstärkung"
+
+msgctxt "#39213"
+msgid "Apply a 25% volume boost when using Bluetooth (A2DP) audio output. This can help improve volume levels with quieter Bluetooth devices."
+msgstr "25% Lautstärkeverstärkung bei Verwendung der Bluetooth-Audioausgabe (A2DP) anwenden. Dies kann helfen, die Lautstärke bei leiseren Bluetooth-Geräten zu verbessern."
+
 msgctxt "#39300"
 msgid "off"
 msgstr "Aus"
@@ -18281,7 +18308,7 @@ msgstr "Modus"
 
 msgctxt "#50012"
 msgid "Switch On Dolby Vision always, On demand or switch Off"
-msgstr "Es kann für Dolby Vision zwischen \"Immer\", \"On Demand\" oder \"Aus\" gewählt werden"
+msgstr "Es kann für Dolby Vision zwischen \"Immer\", \"Bei Bedarf\" oder \"Aus\" gewählt werden"
 
 msgctxt "#50013"
 msgid "On"
@@ -18289,7 +18316,7 @@ msgstr "Immer"
 
 msgctxt "#50014"
 msgid "On demand"
-msgstr "On Demand"
+msgstr "Bei Bedarf"
 
 msgctxt "#50015"
 msgid "Off"
@@ -18633,8 +18660,8 @@ msgid "Set DV Mode"
 msgstr "DV Modus"
 
 msgctxt "#60012"
-msgid "Set Dolby Vision (DV) processing mode to On, On Demand, or Off. The Video Processor feature only works with DV Mode On Demand."
-msgstr "Es kann für Dolby Vision zwischen \"Immer\", \"On Demand\" oder \"Aus\" gewählt werden. Die Videoprozessor-Funktion funktioniert nur mit dem Modus \"On Demand\"."
+msgid "Set Dolby Vision (DV) processing mode to On, On Demand, or Off. The Video Processor (VP) modes are for use with an external Video Processor such as MadVR Envy and only work with DV Mode On Demand."
+msgstr "Es kann für Dolby Vision zwischen \"Immer\", \"Bei Bedarf\" oder \"Aus\" gewählt werden. Die Videoprozessor-Modi (VP) sind für die Verwendung mit einem externen Videoprozessor wie MadVR Envy vorgesehen und funktionieren nur mit dem Modus \"Bei Bedarf\"."
 
 msgctxt "#60013"
 msgid "On"
@@ -18642,7 +18669,7 @@ msgstr "Immer"
 
 msgctxt "#60014"
 msgid "On Demand"
-msgstr "On Demand"
+msgstr "Bei Bedarf"
 
 msgctxt "#60015"
 msgid "Off"
@@ -18779,6 +18806,22 @@ msgstr "HDR10"
 msgctxt "#60066"
 msgid "DV"
 msgstr "Dolby Vision"
+
+msgctxt "#60067"
+msgid "DV OSD peak brightness (nits)"
+msgstr "DV-OSD-Spitzenhelligkeit (Nits)"
+
+msgctxt "#60068"
+msgid "Set the maximum luminance for OSD graphics (GUI, subtitles) in nits during DV playback. Controls how bright overlays appear when the DV compositor is active. Default 300 matches the compositor's built-in value."
+msgstr "Maximale Luminanz für OSD-Grafiken (GUI, Untertitel) in Nits während der DV-Wiedergabe festlegen. Steuert, wie hell Overlays erscheinen, wenn der DV-Compositor aktiv ist. Der Standardwert 300 entspricht dem im Compositor integrierten Wert."
+
+msgctxt "#60069"
+msgid "HDR10 OSD peak brightness (nits)"
+msgstr "HDR10-OSD-Spitzenhelligkeit (Nits)"
+
+msgctxt "#60070"
+msgid "Set the maximum luminance for OSD graphics (GUI, subtitles) in nits when VS10 HDR10 output is active. Overrides the general DV OSD brightness for HDR10 output specifically. Default 316 matches the compositor's built-in value for HDR10."
+msgstr "Maximale Luminanz für OSD-Grafiken (GUI, Untertitel) in Nits festlegen, wenn VS10-HDR10-Ausgabe aktiv ist. Überschreibt die allgemeine DV-OSD-Helligkeit speziell für HDR10-Ausgabe. Der Standardwert 316 entspricht dem im Compositor integrierten Wert für HDR10."
 
 msgctxt "#60071"
 msgid "Set Colour Space - Required if Display does not support DV"
@@ -18994,7 +19037,7 @@ msgstr "Typ für Videoprozessor"
 
 msgctxt "#60502"
 msgid "Set when using a Video Processor (VP) since there will be no DV Dynamic Tone Mapping (DTM). All DV video output signal types are full capability DV (i.e., FEL). The VP feature only works with DV Mode On Demand. HDR10 modes include HDR10 InfoFrame Metadata and can be used without a VP with displays that perform well with HDR10."
-msgstr "Bei Verwendung eines Videoprozessors (VP) gibt es kein DV Dynamic Tone Mapping (DTM). Alle DV-Videoausgangssignaltypen sind voll funktionsfähige DV-Signale (z. B. FEL). Die VP-Funktion funktioniert nur mit dem DV-Modus \"On Demand\". HDR10-Modi enthalten HDR10 InfoFrame-Metadaten und können ohne VP mit Displays verwendet werden, die HDR10 gut unterstützen."
+msgstr "Bei Verwendung eines Videoprozessors (VP) gibt es kein DV Dynamic Tone Mapping (DTM). Alle DV-Videoausgangssignaltypen sind voll funktionsfähige DV-Signale (z. B. FEL). Die VP-Funktion funktioniert nur mit dem DV-Modus \"Bei Bedarf\". HDR10-Modi enthalten HDR10 InfoFrame-Metadaten und können ohne VP mit Displays verwendet werden, die HDR10 gut unterstützen."
 
 msgctxt "#60503"
 msgid "Off"
@@ -19398,7 +19441,7 @@ msgstr "Automatisch zwischen Player-Led und VP wählen"
 
 msgctxt "#60603"
 msgid "Set this option to let the software automatically select between using normal Player Led versus Video Processor (VP) settings depending on your Display Max Lum capability (shown below) and the DV Video mastered MDL. When VP is in use the OSD will be a different colour. This feature only works with DV Mode On Demand."
-msgstr "Aktiviere diese Option, damit die Software automatisch zwischen normalen Player-Led- und Video-Prozessor-(VP-)Einstellungen wählt, abhängig von der maximalen Display-Luminanz (unten angezeigt) und der beim DV-Video gemasterten MDL. Wenn VP verwendet wird, hat das OSD eine andere Farbe. Diese Funktion arbeitet nur mit DV \"On Demand\"."
+msgstr "Aktiviere diese Option, damit die Software automatisch zwischen normalen Player-Led- und Video-Prozessor-(VP-)Einstellungen wählt, abhängig von der maximalen Display-Luminanz (unten angezeigt) und der beim DV-Video gemasterten MDL. Wenn VP verwendet wird, hat das OSD eine andere Farbe. Diese Funktion arbeitet nur mit DV \"Bei Bedarf\"."
 
 msgctxt "#60604"
 msgid "Reset PTS offset on seek"
@@ -19407,6 +19450,22 @@ msgstr "PTS-Offset beim Seeken zurücksetzen"
 msgctxt "#60605"
 msgid "Reset the PTS timestamp correction offset when seeking. Fixes subtitle desync after multiple seeks, but introduces a slightly \"jumpy\" A/V sync behaviour after seeking, which is not a big issue and usually desirable over subtitle desync."
 msgstr "Setzt den PTS-Zeitstempel-Korrektur-Offset beim Seeken zurück. Behebt die Desynchronisation von Untertiteln nach mehreren Suchvorgängen, führt aber ein leicht \"sprunghaftes\" A/V-Synchronisationsverhalten nach dem Seekvorgang ein, was kein großes Problem darstellt und in der Regel gegenüber der Desynchronisation von Untertiteln wünschenswert ist."
+
+msgctxt "#60606"
+msgid "Force all display modes"
+msgstr "Alle Anzeigemodi erzwingen"
+
+msgctxt "#60607"
+msgid "Show all DV/VS10 output mode options regardless of the connected display's capabilities. Use with caution."
+msgstr "Alle DV/VS10-Ausgabemodus-Optionen anzeigen, unabhängig von den Fähigkeiten des angeschlossenen Displays. Mit Vorsicht verwenden."
+
+msgctxt "#60608"
+msgid "Override EDID detection"
+msgstr "EDID-Erkennung überschreiben"
+
+msgctxt "#60609"
+msgid "Skip automatic colour space and luminance detection from the display's EDID. Allows full manual control over VSVDB colour space and max luminance settings."
+msgstr "Automatische Farbraum- und Luminanz-Erkennung aus der EDID des Displays überspringen. Ermöglicht die vollständige manuelle Kontrolle über VSVDB-Farbraum und Max-Luminanz-Einstellungen."
 
 msgctxt "#69196"
 msgid "Convert DV Profile 7 FEL to MEL or to Profile 8.1"
