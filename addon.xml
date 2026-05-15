@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="resource.language.de_de"
-  version="11.0.500"
+  version="1.11.0.105"
   name="German"
   provider-name="Team Kodi, jamal2362">
   <requires>
@@ -22,8 +22,8 @@
     </sorttokens>
   </extension>
   <extension point="kodi.addon.metadata">
-    <summary lang="en_GB">German language pack for CE, CPM and avdvplus</summary>
-    <description lang="en_GB">German version of all texts used in Kodi for CE, CPM and avdvplus.</description>
+    <summary lang="en_GB">German language pack</summary>
+    <description lang="en_GB">German version of all texts used in Kodi.</description>
     <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
