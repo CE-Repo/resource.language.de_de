@@ -6282,6 +6282,34 @@ msgctxt "#13476"
 msgid "16 bit per channel"
 msgstr "16 Bits pro Kanal"
 
+msgctxt "#13477"
+msgid "2 bit"
+msgstr "2 bit"
+
+msgctxt "#13478"
+msgid "3 bit"
+msgstr "3 bit"
+
+msgctxt "#13479"
+msgid "4 bit"
+msgstr "4 bit"
+
+msgctxt "#13480"
+msgid "5 bit"
+msgstr "5 bit"
+
+msgctxt "#13481"
+msgid "6 bit"
+msgstr "6 bit"
+
+msgctxt "#13482"
+msgid "7 bit"
+msgstr "7 bit"
+
+msgctxt "#13483"
+msgid "8 bit"
+msgstr "8 bit"
+
 msgctxt "#13505"
 msgid "Resample quality"
 msgstr "Qualität der Anpassung"
