@@ -7366,7 +7366,7 @@ msgstr "TV-Led (DV-Std)"
 
 msgctxt "#14427"
 msgid "Player-Led"
-msgstr "Player-Led"
+msgstr "Player-Led (DV-LL)"
 
 msgctxt "#15011"
 msgid "{0:d} Items failed to export"
