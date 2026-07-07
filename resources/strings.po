@@ -1857,6 +1857,14 @@ msgctxt "#470"
 msgid "Credits"
 msgstr "Danksagung"
 
+msgctxt "#471"
+msgid "Input layout"
+msgstr "Eingangs-Layout"
+
+msgctxt "#472"
+msgid "Output layout"
+msgstr "Ausgangs-Layout"
+
 msgctxt "#474"
 msgid "Off"
 msgstr "Aus"
@@ -12395,6 +12403,31 @@ msgctxt "#21485"
 msgid "Supported file extensions and media types"
 msgstr "Unterstützte Dateierweiterungen und Medientypen"
 
+#. Used to show Episodes in Video->Files (eg. Episode n)
+msgctxt "#21486"
+msgid "Episode {0:d}"
+msgstr "Episode {0:d}"
+
+#. Used to show Episodes in Video->Files (eg. Episodes m-n)
+msgctxt "#21487"
+msgid "Episodes {0:d}-{1:d}"
+msgstr "Episoden {0:d}-{1:d}"
+
+#. Used to show Episodes in Video->Files (eg. Season x Episode n)
+msgctxt "#21488"
+msgid "Season {0:d} Episode {1:d}"
+msgstr "Staffel {0:d} Episode {1:d}"
+
+#. Used to show Episodes in Video->Files (eg. Season x Episodes m-n)
+msgctxt "#21489"
+msgid "Season {0:d} Episodes {1:d}-{2:d}"
+msgstr "Staffel {0:d} Episoden {1:d}-{2:d}"
+
+#. Used to show Specials in Video->Files (when there are no episodes) (eg. Specials)
+msgctxt "#21490"
+msgid "Specials"
+msgstr "Specials"
+
 msgctxt "#21602"
 msgid "(External)"
 msgstr "(Extern)"
@@ -13808,6 +13841,16 @@ msgstr "Es wurde keine gültige Episodenwiedergabeliste gefunden."
 msgctxt "#25018"
 msgid "Automatic menu selection"
 msgstr "Automatische Menüauswahl"
+
+#. Bit rate unit of measure for the audio live bit rate info label (bits per second  / 1024)
+msgctxt "#25019"
+msgid "Kb/s"
+msgstr "Kb/s"
+
+#. Bit rate unit of measure for the video live bit rate info label (bits per second  / (1024 * 1024))
+msgctxt "#25020"
+msgid "Mb/s"
+msgstr "Mb/s"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -17555,6 +17598,11 @@ msgctxt "#36439"
 msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
 msgstr "Automatische Wiedergabe der nächsten Sendung bei der Wiedergabe von vergangenen Sendungen (Catchup) oder Video-on-Demand-Sendern (VOD) aktivieren. Bitte beachten, dass Catchup und VOD nur funktioniert, wenn vom Senderanbieter unterstützt."
 
+#. Description of setting with label #13438 "Allow hardware acceleration (amcodec)"
+msgctxt "#36440"
+msgid "Enable hardware video decode using Amlogic decoder."
+msgstr "Hardware-Videodekodierung mit Amlogic-Dekoder aktivieren."
+
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
@@ -18632,6 +18680,10 @@ msgstr "Center-Kanal beim Heruntermischen anheben"
 msgctxt "#38008"
 msgid "Increase this value to make the dialogue louder compared to background sounds when downmixing multichannel audio"
 msgstr "Diesen Wert erhöhen, um den Dialog beim Heruntermischen von Mehrkanalton im Vergleich zu Hintergrundgeräuschen lauter wiederzugeben"
+
+msgctxt "#38009"
+msgid "{0} dB"
+msgstr "{0} dB"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -19829,6 +19881,45 @@ msgctxt "#39210"
 msgid "If enabled, Dolby Vision files will have level 5 (active area) metadata overridden to zero offsets. Enable if your display has issues with incorrectly cropped image in Dolby Vision playback."
 msgstr "Wenn aktiviert, werden Level-5-Metadaten (aktiver Bereich) in Dolby-Vision-Dateien mit Null-Offsets überschrieben. Aktivieren, wenn auf dem Bildschirm Probleme mit inkorrekt abgeschnittenem Bild bei der Wiedergabe von Dolby Vision auftreten."
 
+#. List formatting: pattern used to join a list of exactly two items, e.g. "A and B"
+#. STR_LIST_AND_TWO
+msgctxt "#39900"
+msgid "{0} and {1}"
+msgstr "{0} und {1}"
+
+#. List formatting: pattern used to join the first item to the rest of a list of three or more items, e.g. "A" + "B, and C" -> "A, B, and C"
+#. Note the "B, and C" is used here as an example - the actual formatting of the last two item(s) of a list of three of more is determined by STR_LIST_AND_END
+#. STR_LIST_AND_START
+msgctxt "#39901"
+msgid "{0}, {1}"
+msgstr "{0}, {1}"
+
+#. List formatting: pattern used to join an already-combined partial list to the next item, for the interior items of a list of four or more, e.g. "A, B" + "C" -> "A, B, C"
+#. STR_LIST_AND_MIDDLE
+msgctxt "#39902"
+msgid "{0}, {1}"
+msgstr "{0}, {1}"
+
+#. List formatting: pattern used to join the already-combined partial list to the final item in a list of three or more items, e.g. "A, B" + "C" -> "A, B, and C"
+#. STR_LIST_AND_END
+msgctxt "#39903"
+msgid "{0}, and {1}"
+msgstr "{0} und {1}"
+
+#. List formatting: pattern used to join a list of exactly two items, e.g. "A or B"
+#. STR_LIST_OR_TWO
+msgctxt "#39910"
+msgid "{0} or {1}"
+msgstr "{0} oder {1}"
+
+#. List formatting: pattern used to join the already-combined partial list to the final item in a list of three or more items, e.g. "A, B" + "C" -> "A, B, or C"
+#. Note: the "or"-type list uses only TWO and END patterns; the START and MIDDLE joins for lists of three or more still use the AND-type comma pattern
+#. (STR_LIST_AND_START / STR_LIST_AND_MIDDLE), with only the very last join switching to "or"
+#. STR_LIST_OR_END
+msgctxt "#39911"
+msgid "{0}, or {1}"
+msgstr "{0} oder {1}"
+
 # 40000 to 40800 are reserved for Video Versions feature
 #. Generic video versions label (plural)
 msgctxt "#40000"
@@ -20115,6 +20206,11 @@ msgstr "Neuer Name ..."
 msgctxt "#40220"
 msgid "New extra name"
 msgstr "Neuer Name für Extra"
+
+#. "Create separate versions of the same movie" setting
+msgctxt "#40222"
+msgid "Group the different versions of videos"
+msgstr "Verschiedene Videoversionen gruppieren"
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
