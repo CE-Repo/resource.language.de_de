@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-05-05 13:16+0000\n"
+"PO-Revision-Date: 2026-08-13 18:09+0000\n"
 "Last-Translator: Kai Sommerfeld <ksooo@users.noreply.kodi.weblate.cloud>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -760,7 +760,7 @@ msgstr "Stimmen"
 
 msgctxt "#206"
 msgid "Cast"
-msgstr "Darsteller"
+msgstr "Besetzung"
 
 msgctxt "#207"
 msgid "Plot"
@@ -905,7 +905,7 @@ msgstr "Fenster"
 
 msgctxt "#243"
 msgid "Refresh rate"
-msgstr "Bildwiederholrate"
+msgstr "Bildrate"
 
 msgctxt "#244"
 msgid "Full screen"
@@ -1297,7 +1297,7 @@ msgstr "Start"
 
 msgctxt "#336"
 msgid "Framerate conversion"
-msgstr "Bildwiederholrate konvertieren"
+msgstr "Bildratenumwandlung"
 
 msgctxt "#337"
 msgid "Output configuration"
@@ -1325,7 +1325,7 @@ msgstr "Filme"
 
 msgctxt "#343"
 msgid "Adjust framerate"
-msgstr "Bildwiederholrate anpassen"
+msgstr "Bildrate anpassen"
 
 msgctxt "#344"
 msgid "Actors"
@@ -3287,6 +3287,7 @@ msgid "No"
 msgstr "Nein"
 
 #. Value for setting 'Delete after watching'. Confirm delete.
+#. Value for setting 'Create versions for similar videos'
 msgctxt "#863"
 msgid "Ask"
 msgstr "Nachfragen"
@@ -3403,9 +3404,12 @@ msgctxt "#1023"
 msgid "Browse for new share"
 msgstr "Nach einer neuen Netzwerkfreigabe suchen"
 
+#. Displays a dialog to select movie title(s) for text matching in a smart rule
+#.
+#. Action on DVD/Bluray physical disc insertion - show a browse dialog
 msgctxt "#1024"
 msgid "Browse"
-msgstr "Durchsuchen"
+msgstr "Browse"
 
 msgctxt "#1025"
 msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
@@ -4850,14 +4854,6 @@ msgctxt "#12014"
 msgid "Last updated"
 msgstr "Zuletzt aktualisiert"
 
-msgctxt "#12015"
-msgid "Select video version"
-msgstr "Videoversion auswählen"
-
-msgctxt "#12016"
-msgid "Select video extra"
-msgstr "Videoextra auswählen"
-
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
 msgid "Play from beginning"
@@ -4873,7 +4869,7 @@ msgctxt "#12023"
 msgid "Resume from"
 msgstr "Fortsetzen von"
 
-# empty strings from id 12023 to 12307
+# empty strings from id 12024 to 12307
 #. Label of the show password button in the keyboard dialog
 msgctxt "#12308"
 msgid "Show password"
@@ -5416,14 +5412,6 @@ msgctxt "#13141"
 msgid "If you proceed, you might not be able to control this application any longer. Are you sure you want to stop the event server?"
 msgstr "Den Ereignisdienst wirklich beenden? Dadurch kann möglicherweise diese Anwendung nicht mehr gesteuert werden. Fortfahren?"
 
-msgctxt "#13144"
-msgid "Change Apple Remote mode?"
-msgstr "Apple-Remote-Modus wechseln?"
-
-msgctxt "#13145"
-msgid "If you are currently using the Apple Remote to control this application, changing this setting might affect your ability to continue controlling it. Do you want to proceed?"
-msgstr "Wenn aktuell Apple Remote verwendet wird, kann das Ändern dieser Einstellung die weitere Steuerung dieser Anwendung beeinträchtigen. Fortfahren?"
-
 msgctxt "#13159"
 msgid "Subnet mask"
 msgstr "Subnetzmaske"
@@ -5737,6 +5725,7 @@ msgctxt "#13328"
 msgid "{0:s} not found"
 msgstr "{0:s} wurde nicht gefunden"
 
+#. Label in the notification dialog for when a file or add-on fails to open
 msgctxt "#13329"
 msgid "Error opening {0:s}"
 msgstr "Fehler beim Öffnen von {0:s}"
@@ -6083,10 +6072,6 @@ msgctxt "#13427"
 msgid "Allow hardware acceleration - DXVA2"
 msgstr "Hardware-Beschleunigung erlauben - DXVA2"
 
-msgctxt "#13428"
-msgid "Allow hardware acceleration - CrystalHD"
-msgstr "Hardware-Beschleunigung erlauben - CrystalHD"
-
 msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Hardware-Beschleunigung erlauben - VTBDecoder"
@@ -6302,33 +6287,40 @@ msgctxt "#13476"
 msgid "16 bit per channel"
 msgstr "16 Bits pro Kanal"
 
+#. Value of setting with label #36100 "Dither depth"
 msgctxt "#13477"
 msgid "2 bit"
-msgstr "2 bit"
+msgstr "2 Bit"
 
+#. Value of setting with label #36100 "Dither depth"
 msgctxt "#13478"
 msgid "3 bit"
-msgstr "3 bit"
+msgstr "3 Bit"
 
+#. Value of setting with label #36100 "Dither depth"
 msgctxt "#13479"
 msgid "4 bit"
-msgstr "4 bit"
+msgstr "4 Bit"
 
+#. Value of setting with label #36100 "Dither depth"
 msgctxt "#13480"
 msgid "5 bit"
-msgstr "5 bit"
+msgstr "5 Bit"
 
+#. Value of setting with label #36100 "Dither depth"
 msgctxt "#13481"
 msgid "6 bit"
-msgstr "6 bit"
+msgstr "6 Bit"
 
+#. Value of setting with label #36100 "Dither depth"
 msgctxt "#13482"
 msgid "7 bit"
-msgstr "7 bit"
+msgstr "7 Bit"
 
+#. Value of setting with label #36100 "Dither depth"
 msgctxt "#13483"
 msgid "8 bit"
-msgstr "8 bit"
+msgstr "8 Bit"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -6422,8 +6414,9 @@ msgstr "Wenn aktiviert, wird das Jahr des Originalveröffentlichungsdatums anste
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
-msgstr "Verzögerung nach Änderung der Bildwiederholrate"
+msgstr "Verzögerung nach Änderung der Bildrate"
 
+#. value for setting 'Create versions for similar videos'
 msgctxt "#13551"
 msgid "Off"
 msgstr "Aus"
@@ -6748,14 +6741,6 @@ msgctxt "#14078"
 msgid "Colours"
 msgstr "Farben"
 
-msgctxt "#14079"
-msgid "Timezone country"
-msgstr "Zeitzonenland"
-
-msgctxt "#14080"
-msgid "Timezone"
-msgstr "Zeitzone"
-
 msgctxt "#14081"
 msgid "File lists"
 msgstr "Dateilisten"
@@ -6779,10 +6764,6 @@ msgstr "Wiedergabe"
 msgctxt "#14087"
 msgid "Discs"
 msgstr "Disks"
-
-msgctxt "#14088"
-msgid "Play DVDs automatically"
-msgstr "DVDs automatisch wiedergeben"
 
 #. Subtitle font selection setting
 msgctxt "#14089"
@@ -6820,10 +6801,6 @@ msgstr "Rippen"
 msgctxt "#14097"
 msgid "Audio CD insert action"
 msgstr "Aktion nach Einlegen einer Audio-CD"
-
-msgctxt "#14098"
-msgid "Play"
-msgstr "Wiedergeben"
 
 msgctxt "#14099"
 msgid "Eject disc when the CD ripping is complete"
@@ -6957,7 +6934,7 @@ msgstr "Erlaubte Auflösungen"
 
 msgctxt "#14127"
 msgid "Allow 3:2 pulldown refresh rates"
-msgstr "3:2-Pulldown-Bildwiederholraten erlauben"
+msgstr "3:2-Pulldown-Bildraten erlauben"
 
 msgctxt "#14128"
 msgid "Allow whole-number frame repeat"
@@ -7248,8 +7225,6 @@ msgstr "HDR in Dolby Vision tonemappen"
 msgctxt "#14313"
 msgid "Intended for Dolby Vision enabled displays. HDR content will be tone mapped by Dolby Vision VS-Engine."
 msgstr "Für Dolby-Vision-fähige Displays vorgesehen. HDR-Inhalte werden von der Dolby-Vision-VS-Engine tonemappt."
-
-#empty strings from id 14305 to 15010
 
 #: system/settings/settings.xml
 msgctxt "#14400"
@@ -7910,6 +7885,7 @@ msgctxt "#16315"
 msgid "Lanczos3 - Fast"
 msgstr "Lanczos3 - Schnell"
 
+#. value for setting 'Create versions for similar videos'
 msgctxt "#16316"
 msgid "Auto"
 msgstr "Automatisch"
@@ -8012,7 +7988,7 @@ msgstr "Zum Sender wechseln"
 
 msgctxt "#19001"
 msgid "Separate the search words by using AND, OR and / or NOT."
-msgstr "Suchbegriffe mit AND, OR und / oder NOT trennen"
+msgstr "Suchbegriffe mit AND, OR und / oder NOT trennen."
 
 msgctxt "#19002"
 msgid "or use phrases to find an exact match, like \"The wizard of Oz\"."
@@ -8535,7 +8511,7 @@ msgstr "um"
 #. label for PVR settings "tv fallback framerate" (in Hz) selector
 msgctxt "#19108"
 msgid "Fallback framerate"
-msgstr "Ersatzbildwiederholrate"
+msgstr "Ersatzbildrate"
 
 #. message box text stating that a timer could not be saved
 msgctxt "#19109"
@@ -9789,7 +9765,7 @@ msgstr "Comedy"
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19505"
 msgid "Soap / Melodrama / Folkloric"
-msgstr "Soap / Melodrama / Folkore"
+msgstr "Soap / Melodrama / Folklore"
 
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19506"
@@ -9944,7 +9920,7 @@ msgstr "Zeichentrick / Puppentheater"
 #. label for "music/ballet/dance" epg genre value
 msgctxt "#19580"
 msgid "Music / Ballet / Dance"
-msgstr "Musik / Ballet / Tanz"
+msgstr "Musik / Ballett / Tanz"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19581"
@@ -10189,7 +10165,7 @@ msgstr "Comedy"
 #. label for "user defined" epg subgenre value
 msgctxt "#19681"
 msgid "Soap / Melodrama / Folkloric"
-msgstr "Soap / Melodrama / Folkore"
+msgstr "Soap / Melodrama / Folklore"
 
 #. label for "user defined" epg subgenre value
 msgctxt "#19682"
@@ -11049,7 +11025,7 @@ msgstr "Windows Videobibliothek"
 
 msgctxt "#20247"
 msgid "Windows pictures library"
-msgstr "Windows Bildberibliothek"
+msgstr "Windows Bildbibliothek"
 
 msgctxt "#20248"
 msgid "Windows photos library"
@@ -12259,7 +12235,7 @@ msgstr "Videocodec"
 
 msgctxt "#21446"
 msgid "Audio codec"
-msgstr "Audiocodec"
+msgstr "Audio-Codec"
 
 msgctxt "#21447"
 msgid "Audio language"
@@ -13667,7 +13643,6 @@ msgctxt "#24163"
 msgid "The higher the value, the more sensitive the pan gesture"
 msgstr "Je höher der Wert ist, desto empfindlicher sind die Schwenkgesten"
 
-# empty string with id 24163
 #. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
 msgid "Add-on \"{0:s}\" broken"
@@ -13746,7 +13721,7 @@ msgstr "Minimal: {0:s} / Nicht verfügbar{3:s}"
 #. Progress text on splash screen
 msgctxt "#24186"
 msgid "Connecting to database - please wait"
-msgstr "Verbinden zu Dankenbank - bitte warten"
+msgstr "Verbinden zu Datenbank - bitte warten"
 
 #. Error text on splash screen
 msgctxt "#24187"
@@ -14549,7 +14524,7 @@ msgstr "Konfigurieren von"
 
 msgctxt "#33060"
 msgid "Power"
-msgstr "Ausschaltmenü"
+msgstr "Power"
 
 msgctxt "#33061"
 msgid "Menu"
@@ -15303,7 +15278,7 @@ msgstr "Anzahl der Tastaturspieler"
 #. Description of settings with label #35066
 msgctxt "#35155"
 msgid "Set the number of players using the keyboard. This is intended for devices that use keyboard drivers, but you can also see how many people fit around a keyboard!"
-msgstr "Anzahl der Spieler konfigurieren, die die Tastatur verwenden. Dies ist vorgesehen für Geräte, die Tastaturtreiber verwenden. Es kann aber auch geprüft werden, wie viele Spieler an einer Tastatur Platz haben!"
+msgstr "Anzahl der Spieler konfigurieren, welche die Tastatur verwenden. Dies ist vorgesehen für Geräte, die Tastaturtreiber verwenden. Es kann aber auch geprüft werden, wie viele Spieler an einer Tastatur Platz haben!"
 
 msgctxt "#35156"
 msgid "{0:d}"
@@ -15411,7 +15386,7 @@ msgstr "Rücklauf aktivieren (falls unterstützt)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
-msgstr "Echtzeit-Rückspulen wärend des Spielens aktivieren, falls unterstützt. „Zurück“ drücken oder die Suchleiste verwenden, um manuell zurückzuspulen."
+msgstr "Echtzeit-Rückspulen während des Spielens aktivieren, falls unterstützt. „Zurück“ drücken oder die Suchleiste verwenden, um manuell zurückzuspulen."
 
 msgctxt "#35205"
 msgid "Maximum rewind time"
@@ -15585,7 +15560,7 @@ msgctxt "#35239"
 msgid "Integer (square pixels)"
 msgstr "Ganzzahlig (Quadratische Pixel)"
 
-# empty strings from id 35237 to 35248
+# empty strings from id 35240 to 35248
 #. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
 msgid "Save / Load"
@@ -16090,19 +16065,16 @@ msgid "Tuner Device"
 msgstr "Tunergerät"
 
 #. Label of CEC setting double_tap_timeout_ms: a repeated identical button press within this many ms is treated as a duplicate and dropped (double-tap dedup). 0 disables it.
-#: system/peripherals.xml
 msgctxt "#36054"
 msgid "Remote button double press timeout (ms) (0 = off)"
 msgstr "Timeout für doppelten Tastendruck der Fernbedienung (ms) (0 = aus)"
 
 #. Item list value of setting with label #36009 "Put devices in standby mode when activating the screensaver"
-#: system/peripherals.xml
 msgctxt "#36055"
 msgid "Always"
 msgstr "Immer"
 
 #. Item list value of setting with label #36009 "Put devices in standby mode when activating the screensaver"
-#: system/peripherals.xml
 msgctxt "#36056"
 msgid "Unless media is playing"
 msgstr "Wenn keine Medienwiedergabe"
@@ -16145,17 +16117,17 @@ msgctxt "#36096"
 msgid "Use system HDR/SDR brightness balance"
 msgstr "Systemeinstellung für HDR-/SDR-Helligkeitsbalance verwenden"
 
-# empty strings from id 36054 to 36096
+# empty strings from id 36063 to 36095
 #. Label of setting "System / Display / GUI peak luminance in HDR PQ mode"
 msgctxt "#36097"
 msgid "GUI peak luminance in HDR PQ mode"
 msgstr "Maximale Leuchtdichte der GUI im HDR-PQ-Modus"
 
-# empty strings from id 36051 to 36097
+# empty strings from id 36063 to 36095
 #. Label of setting "System / Display / Use 10 bit for SDR"
 msgctxt "#36098"
 msgid "Use 10 bit for SDR"
-msgstr "10 bit für HDR verwenden"
+msgstr "10 Bit für SDR verwenden"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -16465,7 +16437,7 @@ msgstr "Erlaubt die Anpassung der Bildwiederholrate des Bildschirms an die Bildw
 #. Description of setting with label #13550 "Delay after change of refresh rate"
 msgctxt "#36165"
 msgid "Delay of reset event after a change of refresh rate"
-msgstr "Verzögerung nach Änderung der Bildwiederholrate"
+msgstr "Verzögerung nach Änderung der Bildrate"
 
 #. Description of setting with label #13510 "Sync playback to display"
 msgctxt "#36166"
@@ -16525,7 +16497,7 @@ msgstr "Kategorie mit Einstellungen zur Verarbeitung von Videodateilisten."
 #. Description of setting with label #22079 "Default select action"
 msgctxt "#36177"
 msgid "Toggle between [Choose], [Play] (default), [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will play videos as defined by the setting 'Default play action'.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
-msgstr "Wahl zwischen [Auswählen], [Wiedergeben[ (Standard), [Informationen anzeigen] und [In Wiedergabeliste einreihen].[CR][Auswählen] wird ein Kontextmenü zum Wählen einer Aktion öffnen, z. B. Informationen anzeigen.[CR][Wiedergeben] wird Videos so behandeln, wie mit der Einstellung ‚Standardwiedergabeaktion‘ festgelegt.[CR][Informationen anzeigen] wird den Videoinformationsdialog öffnen.[CR][In Wiedergabeliste einreihen] wird das Video am Ende der Videowiedergabeliste hinzufügen."
+msgstr "Wahl zwischen [Auswählen], [Wiedergeben] (Standard), [Informationen anzeigen] und [In Wiedergabeliste einreihen].[CR][Auswählen] wird ein Kontextmenü zum Wählen einer Aktion öffnen, z.B. Informationen anzeigen.[CR][Wiedergeben] wird Videos so behandeln, wie mit der Einstellung ‚Standardwiedergabeaktion‘ festgelegt.[CR][Informationen anzeigen] wird den Videoinformationsdialog öffnen.[CR][In Wiedergabeliste einreihen] wird das Video am Ende der Videowiedergabeliste hinzufügen."
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 msgctxt "#36178"
@@ -16606,11 +16578,6 @@ msgctxt "#36193"
 msgid "This category contains the settings for how DVD's, Blu-ray, & CD's are handled."
 msgstr "Kategorie mit Einstellungen für die Wiedergabe von DVDs, Blu-rays und CDs."
 
-#. Description of setting with label #14088 "Play DVDs automatically"
-msgctxt "#36194"
-msgid "Autorun DVD video when inserted in drive."
-msgstr "Autostart von DVDs, wenn sie in das Laufwerk eingelegt werden."
-
 #. Description of setting with label #21372 "Forced DVD player region"
 msgctxt "#36195"
 msgid "Force a region for DVD playback."
@@ -16652,7 +16619,7 @@ msgstr "Aktiviert den „Personal Video Recorder“ (PVR). Dafür muss mindesten
 #. Description of setting with label #22076 "Default play action"
 msgctxt "#36204"
 msgid "Toggle between [Ask if resumable] (default), [Resume] and [Play from beginning].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume playback from the last position that you were viewing them. If no resume point is set, playback will automatically start from the beginning.[CR][Play from beginning] will automatically start playback from beginning, ignoring any existing resume positions."
-msgstr "Wahl zwischen [Fragen, wenn fortsetzbar] (Standard), [Fortsetzen] und [Von Anfang an wiedergeben].[CR][Fragen, wenn fortsetzbar] wird nachfragen, ob die Wiedergabe fortgesetzt oder von Anfang an erfolgen soll (wenn eine Wiedergabeposition gespeichert ist).[CR][Fortsetzen] wird die Videowiedergabe automatisch da fortsetzen, wo sie zuletzt beendet wurde. Wenn keine Wiedergabeposition vorhanden ist, wird das Video automatisch von Anfang an widergegeben.[CR][Von Anfang an wiedergeben] wird automatisch die Wiedergabe am Anfang des Videos starten. Existierende Wiedergabepositionen werden dabei ignoriert."
+msgstr "Wahl zwischen [Fragen, wenn fortsetzbar] (Standard), [Fortsetzen] und [Von Anfang an wiedergeben].[CR][Fragen, wenn fortsetzbar] wird nachfragen, ob die Wiedergabe fortgesetzt oder von Anfang an erfolgen soll (wenn eine Wiedergabeposition gespeichert ist).[CR][Fortsetzen] wird die Videowiedergabe automatisch da fortsetzen, wo sie zuletzt beendet wurde. Wenn keine Wiedergabeposition vorhanden ist, wird das Video automatisch von Anfang an wiedergegeben.[CR][Von Anfang an wiedergeben] wird automatisch die Wiedergabe am Anfang des Videos starten. Existierende Wiedergabepositionen werden dabei ignoriert."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16956,7 +16923,7 @@ msgstr "Die Visualisierung festlegen, die während der Musikwiedergabe angezeigt
 #. Description of setting with label #39125 "Enable tag reading in file view"
 msgctxt "#36274"
 msgid "When browsing music files in file view read the tags of those not in the music library as you go. This can make large directories slow to display, especially over a network."
-msgstr "Beim Blättern durch Musikdateilisten in der Dateiansicht, Tags von nicht in der Datenbank befindlichen Dateien lesen. Dies kann die Anzeige von großen Listen verlangsamen, inbesondere über Netzwerk."
+msgstr "Beim Blättern durch Musikdateilisten in der Dateiansicht, Tags von nicht in der Datenbank befindlichen Dateien lesen. Dies kann die Anzeige von großen Listen verlangsamen, insbesondere über Netzwerk."
 
 #. Description of setting with label #13307 "Track naming template" for musicfiles.trackformat
 msgctxt "#36275"
@@ -16997,11 +16964,6 @@ msgstr "Auf Netzwerkfreigaben und optischen Laufwerken nach Vorschaubildern such
 msgctxt "#36282"
 msgid "This category contains the settings for how CDs are handled."
 msgstr "Kategorie mit Einstellungen für die CD-Wiedergabe."
-
-#. Description of setting with label #14097 "Audio CD Insert Action"
-msgctxt "#36283"
-msgid "Autorun CDs when inserted in drive."
-msgstr "Autostart, wenn CDs in das Laufwerk eingelegt werden."
 
 #. Description of setting with label #227 "Load audio CD information from online service"
 msgctxt "#36284"
@@ -17209,12 +17171,12 @@ msgstr "Aktiviert den UPnP-Client. Dies ermöglicht, Medien von beliebigen UPnP-
 #. Description of setting with label #21361 "Look for remote UPnP players"
 msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control its playback."
-msgstr "Aktiviert den UPnP Control Point. Dies erlaubt, Medien zu beliebigen UPnP-Clients zu streamen und deren Wiedergabe zu steueren."
+msgstr "Aktiviert den UPnP Control Point. Dies erlaubt, Medien zu beliebigen UPnP-Clients zu streamen und deren Wiedergabe zu steuern."
 
 #. Description of settings category with label #20187 "Control"
 msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
-msgstr "Diese Kategorie enthält Einstellungen für den Webserverdienst und den Anwendungsteuerungsdienst."
+msgstr "Diese Kategorie enthält Einstellungen für den Webserverdienst und den Anwendungssteuerungsdienst."
 
 #. Description of setting with label #263 "Allow remote control via HTTP"
 msgctxt "#36328"
@@ -17269,7 +17231,7 @@ msgstr "Bestimmt die maximale Anzahl Clients, die sich verbinden dürfen."
 #. Description of setting with label #794 "Allow remote control from programs on other systems"
 msgctxt "#36338"
 msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
-msgstr "Steuerung durch Anwendungen auf diesem Gerät via JSON-RPC über WebSocket, JSON-RPC über TCP oder das EventServer-Protokoll ohne Authentifizierung erlauben. Erlaubt Jedem mit Zugang zum Netzwerk, diese Anwendung komplett zu steuern und somit auch dieses Gerät. Niemals die entsprechenden Zugangspunkte im Internet zugänglich machen."
+msgstr "Steuerung durch Anwendungen auf diesem Gerät via JSON-RPC über WebSocket, JSON-RPC über TCP oder das EventServer-Protokoll ohne Authentifizierung erlauben. Erlaubt jedem mit Zugang zum Netzwerk, diese Anwendung komplett zu steuern und somit auch dieses Gerät. Niemals die entsprechenden Zugangspunkte im Internet zugänglich machen."
 
 #. Description of setting with label #795 "Initial repeat delay (ms)"
 msgctxt "#36339"
@@ -17652,14 +17614,14 @@ msgctxt "#36416"
 msgid "Restarts playback of the last played file when woken up."
 msgstr "Setzt die Wiedergabe des letzten Mediums beim Aufwachen des Systems fort."
 
-# empty strings from id 36417 to 36417
+# empty string with id 36417
 #. Description of setting with label #295 "Low latency mode"
 msgctxt "#36418"
 msgid ""
 "Reduces audio processing latency. Improves playback start, unpause and seek (the audio returns sooner).\n"
 "You can disable this setting if you experience audio issues."
 msgstr ""
-"Verringert die Latenz für das Verabeiten von Audiodaten. Verbessert Wiedergabestart, Fortsetzen nach Pause und Suchen (die Audiodaten sind früher verfügbar).\n"
+"Verringert die Latenz für das Verarbeiten von Audiodaten. Verbessert Wiedergabestart, Fortsetzen nach Pause und Suchen (die Audiodaten sind früher verfügbar).\n"
 "Deaktivieren, falls Probleme mit dem Ton auftreten."
 
 #. Description of setting with label #21417 "Settings"
@@ -17741,7 +17703,6 @@ msgctxt "#36435"
 msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
 msgstr "Sendergruppen nach der von den Backend(s) vorgegebenen Reihenfolge sortieren. Wenn aktiviert, können Gruppen im Sendergruppenmanager nicht umsortiert werden"
 
-# empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
 #. Setting in System -> Input -> Hardware keyboard layouts
 #. Select the layout of a physically attached keyboard
@@ -17932,7 +17893,7 @@ msgstr "Wie Film"
 #. Description of setting with label #346 "Normalize levels on downmix"
 msgctxt "#36533"
 msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
-msgstr "Legt fest, wie Mehrkanalton heruntergemischt wird, z. B. 5.1 zu 2.0[CR][Aktiviert] Erhält den Lautstärkepegel der Audioquelle, reduziert jedoch den Dynamikumfang.[CR][Deaktiviert] Erhält den Dynamikumfang der Audioquelle, jedoch wird beim Heruntermischen der Lautstärkepegel reduziert. Hinweis: als Dynamikumfang bezeichnet man den Unterschied zwischen den leisesten und lautesten Tönen einer Audioquelle. Diese Einstellung sollte aktiviert werden, wenn Filmdialoge nur schwer zu hören sind."
+msgstr "Legt fest, wie Mehrkanalton heruntergemischt wird, z. B. 5.1 zu 2.0.[CR][Aktiviert] Erhält den Lautstärkepegel der Audioquelle, reduziert jedoch den Dynamikumfang.[CR][Deaktiviert] Erhält den Dynamikumfang der Audioquelle, jedoch wird beim Heruntermischen der Lautstärkepegel reduziert.[CR]Hinweis: Als Dynamikumfang bezeichnet man den Unterschied zwischen den leisesten und lautesten Tönen einer Audioquelle. Diese Einstellung sollte aktiviert werden, wenn Filmdialoge nur schwer zu hören sind."
 
 #. Description of setting with label #668 "Component-specific logging..."
 msgctxt "#36534"
@@ -18220,7 +18181,7 @@ msgstr "{0:1.2f}"
 #. Description of setting with label #36099 "Dither"
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
-msgstr "Die von der RGB-Level-Umwandlung oder anderen Nachbearbeitungen verursachten Banding-Effekte durch Hinzufügen von etwas Bildrauschen unterdrücken. Dies kann für langsamere Systeme deaktiviert werden oder wenn Kodi auf eingeschränke RGB-Ausgabe eingestellt ist und keine Videonachbearbeitung erfolgen muss."
+msgstr "Die von der RGB-Level-Umwandlung oder anderen Nachbearbeitungen verursachten Banding-Effekte durch Hinzufügen von etwas Bildrauschen unterdrücken. Dies kann für langsamere Systeme deaktiviert werden oder wenn Kodi auf eingeschränkte RGB-Ausgabe eingestellt ist und keine Videonachbearbeitung erfolgen muss."
 
 #. Description of setting with label #36100 "Dither depth"
 msgctxt "#36599"
@@ -18553,7 +18514,7 @@ msgstr "Inhalt anzeigen"
 #. Description of setting with label #448 "Dolby Digital Plus (E-AC3) capable receiver"
 msgctxt "#37016"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
-msgstr "Diese Option wählen, wenn der Receiver das Decodieren von Dolby-Digital-Plus-(E-AC3)-Streams unterstützt."
+msgstr "Diese Option wählen, wenn der Receiver die Decodierung von Dolby-Digital-Plus-(E-AC3)-Streams unterstützt."
 
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
@@ -18753,7 +18714,7 @@ msgstr "Speichergröße"
 #. Description of setting #37105 "Memory Size"
 msgctxt "#37106"
 msgid "The size of the memory buffer in Mbytes. Setting zero (0) forces buffering to disk, which is not recommend on flash storage devices (eMMC, SD cards, SSD)."
-msgstr "Größe des Speicherpuffers in Mbytes. Ein Wert von Null (0) erzwingt puffern auf Disk, was für Flash-Speichermedien (eMMC, SD-Karten, SSD) nicht zu empfehlen ist."
+msgstr "Größe des Speicherpuffers in MByte. Ein Wert von Null (0) erzwingt puffern auf Disk, was für Flash-Speichermedien (eMMC, SD-Karten, SSD) nicht zu empfehlen ist."
 
 #. Setting #37107 "Read Factor"
 msgctxt "#37107"
@@ -18763,7 +18724,7 @@ msgstr "Lesefaktor"
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
 msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptive] Uses dynamically calculated Read Factor based on cache level."
-msgstr "Ermittelt die Cache-Füllrate als durchnittliche Streambitrate x Lesefaktor. Erhöhung des Multiplikators führt zu schnellerem Füllen des Caches. Große Multiplikatoren können CPU-Lastspitzen auf einigen Geräten erzeugen, die Netzwerkbandbreite absättigen und die Performance verschlechtern.[CR][Adaptiv] Verwendet einen dynamisch berechneten, auf dem Cache-Füllstand basierenden Lesefaktor."
+msgstr "Ermittelt die Cache-Füllrate als durchschnittliche Streambitrate x Lesefaktor. Erhöhung des Multiplikators führt zu schnellerem Füllen des Caches. Große Multiplikatoren können CPU-Lastspitzen auf einigen Geräten erzeugen, die Netzwerkbandbreite absättigen und die Performance verschlechtern.[CR][Adaptiv] Verwendet einen dynamisch berechneten, auf dem Cache-Füllstand basierenden Lesefaktor."
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -18909,7 +18870,7 @@ msgstr "{0:d} fps"
 #. Description of setting #14111 "Blu-ray region code"
 msgctxt "#38017"
 msgid "Region A - Americas, East Asia and Southeast Asia. Region B - Africa, Middle East, Southwest Asia, Europe, Australia, New Zealand. Region C - Central Asia, mainland China, Mongolia, South Asia, Belarus, Russia, Ukraine, Kazakhstan."
-msgstr "Region A: Nord-, Mittel- und Südamerika, Ostasien and Südostasien. Region B: Afrika, Mittlerer Osten, Südwestasien, Europa, Australien, Neuseeland. Region C: Zentralasien, China (Festland), Mongolei, Südasien, Weißrussland, Russland, Ukraine, Kasachstan."
+msgstr "Region A: Nord-, Mittel- und Südamerika, Ostasien and Südostasien. Region B: Afrika, Mittlerer Osten, Südwestasien, Europa, Australien, Neuseeland. Region C: Zentralasien, China (Festland), Mongolei, Südasien, Belarus, Russland, Ukraine, Kasachstan."
 
 #. Used for the viewstate selection
 msgctxt "#38018"
@@ -19677,7 +19638,7 @@ msgstr "Auslesen von Tags in Dateiansicht aktivieren"
 #. Label for component level debug logging setting
 msgctxt "#39126"
 msgid "Verbose logging for the [B]Bluray[/B] component"
-msgstr "Ausführliche Protokollierung der [B]Bluray[/B]-Komponente"
+msgstr "Ausführliche Protokollierung der [B]Blu-ray[/B]-Komponente"
 
 msgctxt "#39127"
 msgid "Use all local image files as artwork"
@@ -19985,7 +19946,7 @@ msgstr "Bildschirmschoner während Musikwiedergabe deaktivieren"
 #. Description of setting with label #39192 "Disable screensaver when playing audio"
 msgctxt "#39193"
 msgid "If music is being played, the screensaver will never be activated"
-msgstr "Bilschirmschoner nicht aktivieren während Musik gehört wird"
+msgstr "Bildschirmschoner nicht aktivieren, während Musik gehört wird"
 
 #. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
 msgctxt "#39194"
@@ -20005,7 +19966,7 @@ msgstr "Dolby Vision-Kompatibilitätsmodus"
 #. Help text for setting "Convert Dolby Vision for compatibility" of label #39196
 msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
-msgstr "Wenn aktiviert, wird das Dolby Vision-Profil 7 konvertiert zu Profil 8.1, welches von mehr Geräten unterstützt wird. Aktivieren, wenn das Gerät Dolby Vision unterstützt, es aber Probleme mit einigen Videos gibt."
+msgstr "Wenn aktiviert, wird das Dolby-Vision-Profil 7 konvertiert zu Profil 8.1, welches von mehr Geräten unterstützt wird. Aktivieren, wenn das Gerät Dolby Vision unterstützt, es aber Probleme mit einigen Videos gibt."
 
 #. Title of "Allowed HDR dynamic metadata formats" setting
 msgctxt "#39198"
@@ -20045,7 +20006,7 @@ msgstr "Untertitel mit erklärendem Text nur für Hörgeschädigte kennzeichnen"
 #. Help text for setting of label #39204
 msgctxt "#39205"
 msgid "By enabling it, CC subtitles will be labeled for the hearing impaired; this will affect the automatic selection of subtitles, which unless otherwise specified will not be displayed by default."
-msgstr "Wenn aktiviert, werden Untertitel mit erklärendem Text für Hörgeschädigte gekennzeichnet. Das beeinflusst die automatische Auswahl von Untertiteln, welche, wenn nicht anders angegeben, nicht standardmässig angezeigt werden."
+msgstr "Wenn aktiviert, werden Untertitel mit erklärendem Text für Hörgeschädigte gekennzeichnet. Das beeinflusst die automatische Auswahl von Untertiteln, welche, wenn nicht anders angegeben, nicht standardmäßig angezeigt werden."
 
 #. Abbreviation for Closed Caption subtitles (subtitles embedded in videos)
 msgctxt "#39206"
@@ -20070,7 +20031,7 @@ msgstr "Dolby Vision: Level-5-Metadaten überschreiben mit Null"
 #. Help text for setting "Dolby Vision: Override level 5 metadata to zero" of label #39209
 msgctxt "#39210"
 msgid "If enabled, Dolby Vision files will have level 5 (active area) metadata overridden to zero offsets. Enable if your display has issues with incorrectly cropped image in Dolby Vision playback."
-msgstr "Wenn aktiviert, werden Level-5-Metadaten (aktiver Bereich) in Dolby-Vision-Dateien mit Null-Offsets überschrieben. Aktivieren, wenn auf dem Bildschirm Probleme mit inkorrekt abgeschnittenem Bild bei der Wiedergabe von Dolby Vision auftreten."
+msgstr "Wenn aktiviert, werden Level-5-Metadaten (aktiver Bereich) in Dolby Vision-Dateien mit Null-Offsets überschrieben. Aktivieren, wenn auf dem Bildschirm Probleme mit inkorrekt abgeschnittenem Bild bei der Wiedergabe von Dolby Vision auftreten."
 
 #. Title of the setting that skips subtitles whose language matches the audio language
 msgctxt "#39211"
@@ -20082,6 +20043,7 @@ msgctxt "#39212"
 msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
 msgstr "Keine Untertitel aktivieren, die in derselben Sprache wie die wiedergegebene Tonspur sind. Erzwungene Untertitel sind davon nicht betroffen."
 
+# empty strings from id 39213 to 39899
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A and B"
 #. STR_LIST_AND_TWO
 msgctxt "#39900"
@@ -20105,8 +20067,9 @@ msgstr "{0}, {1}"
 #. STR_LIST_AND_END
 msgctxt "#39903"
 msgid "{0}, and {1}"
-msgstr "{0} und {1}"
+msgstr "{0}, und {1}"
 
+# 39904 to 39909 are reserved for language formatting
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A or B"
 #. STR_LIST_OR_TWO
 msgctxt "#39910"
@@ -20114,12 +20077,12 @@ msgid "{0} or {1}"
 msgstr "{0} oder {1}"
 
 #. List formatting: pattern used to join the already-combined partial list to the final item in a list of three or more items, e.g. "A, B" + "C" -> "A, B, or C"
-#. Note: the "or"-type list uses only TWO and END patterns; the START and MIDDLE joins for lists of three or more still use the AND-type comma pattern
+#. Note: the "or"-type list uses only TWO and END patterns; the START and MIDDLE joins for lists of three or more still use the AND-type comma pattern 
 #. (STR_LIST_AND_START / STR_LIST_AND_MIDDLE), with only the very last join switching to "or"
 #. STR_LIST_OR_END
 msgctxt "#39911"
 msgid "{0}, or {1}"
-msgstr "{0} oder {1}"
+msgstr "{0}, oder {1}"
 
 # 40000 to 40800 are reserved for Video Versions feature
 #. Generic video versions label (plural)
@@ -20401,7 +20364,7 @@ msgstr "Lautstärkepegel mit Netzwerk-UPnP-Playern synchronisieren"
 #. Help string for UPnP remote player volume level sync setting
 msgctxt "#40213"
 msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
-msgstr "Wenn ausgewählt, wird der Laustärkepegel des Netzwerk-Players mit dem Pegel dieser Applikation synchronisiert.[CR]Warnung: Der Laustärkepegel des Systems kann anders sein als der Pegel der Applikation, da sie unabhängig voneinander gesteuert werden.[CR]Das kann dazu führen, dass der Netzwerk-Player auf 100% Lautstärkepegel gesetzt wird, wenn der Pegel der Applikation 100% ist, aber der Systemlautstärkepegel kann geringer sein."
+msgstr "Wenn ausgewählt, wird der Lautstärkepegel des Netzwerk-Players mit dem Pegel dieser Applikation synchronisiert.[CR]Warnung: Der Lautstärkepegel des Systems kann anders sein als der Pegel der Applikation, da sie unabhängig voneinander gesteuert werden.[CR]Das kann dazu führen, dass der Netzwerk-Player auf 100% Lautstärkepegel gesetzt wird, wenn der Pegel der Applikation 100% ist, aber der Systemlautstärkepegel kann geringer sein."
 
 #. Title of the dialog for version rename action from Versions Manager
 msgctxt "#40215"
@@ -20433,10 +20396,11 @@ msgctxt "#40220"
 msgid "New extra name"
 msgstr "Neuer Name für Extra"
 
+# empty string id 40221 freed in v22
 #. "Create separate versions of the same movie" setting
 msgctxt "#40222"
 msgid "Group the different versions of videos"
-msgstr "Verschiedene Videoversionen gruppieren"
+msgstr "Verschiedene Versionen von Videos gruppieren"
 
 #. "The newly scanned versions replace the default versions of movies" setting
 msgctxt "#40223"
@@ -20603,7 +20567,7 @@ msgstr "Löschen von Dateien bestätigen"
 #. Description of setting with label #40801 "Confirm file deletion"
 msgctxt "#40802"
 msgid "If enabled, a confirmation dialog will be displayed when files shall be deleted. If disabled, files will be deleted without user confirmation."
-msgstr "Wenn altiviert, wird ein Bestätigungsdialog angezeigt, wenn Dateien gelöscht werden sollen. Wenn dektiviert, werden Dateien ohne vorherige Nachfrage gelöscht."
+msgstr "Wenn aktiviert, wird ein Bestätigungsdialog angezeigt, wenn Dateien gelöscht werden sollen. Wenn deaktiviert, werden Dateien ohne vorherige Nachfrage gelöscht."
 
 #. Description of setting with label #246 "Monitor"
 msgctxt "#40803"
@@ -20614,6 +20578,38 @@ msgstr "Nach dem Ändern des Bildschirms ist möglicherweise ein Neustart erford
 msgctxt "#40804"
 msgid "{0:.1f} dB"
 msgstr "{0:.1f} dB"
+
+#~ msgctxt "#14088"
+#~ msgid "Play DVDs automatically"
+#~ msgstr "DVDs automatisch wiedergeben"
+
+#~ msgctxt "#14098"
+#~ msgid "Play"
+#~ msgstr "Wiedergeben"
+
+#~ msgctxt "#36194"
+#~ msgid "Autorun DVD video when inserted in drive."
+#~ msgstr "Autostart von DVDs, wenn sie in das Laufwerk eingelegt werden."
+
+#~ msgctxt "#36283"
+#~ msgid "Autorun CDs when inserted in drive."
+#~ msgstr "Autostart, wenn CDs in das Laufwerk eingelegt werden."
+
+#~ msgctxt "#16315"
+#~ msgid "Lanczos3 - Optimised"
+#~ msgstr "Lanczos3 - Optimiert"
+
+#~ msgctxt "#16323"
+#~ msgid "Spline36 - Optimised"
+#~ msgstr "Spline36 - Optimiert"
+
+#~ msgctxt "#40203"
+#~ msgid "Select scanner action for different video versions.[CR][Enabled] Add different video versions to library seperately without confirmation.[CR][Disabled] Prompt for converting different video versions into additional versions of the original."
+#~ msgstr "Scanner-Aktion für Videos mit verschiedenen Versionen auswählen.[CR][Aktiviert] Ohne Nachfrage verschiedene Versionen zur Bibliothek hinzufügen.[CR][Deaktiviert] Nachfragen für Konvertierung verschiedener Versionen in zusätzliche Versionen des Originals."
+
+#~ msgctxt "#36599"
+#~ msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
+#~ msgstr "Video-Dithering Ausgabegenauigkeit in Bits. Höchste Einstellung, die kein Banding produziert, verwenden. Der Standardwert 8 ist für die meisten Systeme empfohlen. Wenn die GPU das RGB-Level skaliert oder ein Laptop verwendet wird, kann ein Wert von 6 oder 7 Bit das Banding ggf. besser eliminieren. Niedrigere Werte sind nur dazu da, um zu testen, ob das Dithering angewandt wird und dessen Pixelgröße der des Displays entspricht."
 
 #~ msgctxt "#35237"
 #~ msgid "Normal (1:1 PAR)"
@@ -21139,7 +21135,7 @@ msgstr "{0:.1f} dB"
 #~ msgid "Game Menu"
 #~ msgstr "Spielmenü"
 
-# empty strings from id 35237 to 35248
+# empty strings from id 35240 to 35248
 #~ msgctxt "#35249"
 #~ msgid "Saved games"
 #~ msgstr "Gespeicherte Spiele"
