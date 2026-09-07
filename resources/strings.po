@@ -4102,7 +4102,7 @@ msgstr "Bildschirm während Leerlauf in den Ruhezustand versetzen"
 
 msgctxt "#1451"
 msgid "Restart playback after waking up"
-msgstr "Wiedergabe nach dem Aufwachen neu starten"
+msgstr "Wiedergabe nach Aufwachen fortsetzen"
 
 msgctxt "#2050"
 msgid "Runtime"
@@ -5127,7 +5127,7 @@ msgstr "Gesamtbetriebszeit"
 
 msgctxt "#12395"
 msgid "Battery level"
-msgstr "Akkustand"
+msgstr "Ladestand der Batterie"
 
 #. Label of button in the System Info screen asking for donations. "Thank you!" is used to convey gratitude to the users of our beloved software.
 msgctxt "#12396"
@@ -5246,7 +5246,7 @@ msgstr "Ausschalten bei Leerlauf erlauben"
 
 msgctxt "#13019"
 msgid "Mounted optical disc"
-msgstr "Eingebundene optische Disk"
+msgstr "Optische Disk eingebunden"
 
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
@@ -6457,7 +6457,7 @@ msgstr "Sprungverzögerung"
 #. Name of a setting to configure the maximum fast-forward speed with smooth/continuous playback
 msgctxt "#13558"
 msgid "Maximum smooth fast-forward speed"
-msgstr "Maximale Geschwindigkeit für flüssigen Vorlauf"
+msgstr "Maximale Geschwindigkeit für flüssiges Vorspulen"
 
 #. Playback speed unit used to format speeds for display ex. 2x, 4x, ...
 msgctxt "#13559"
@@ -6770,7 +6770,7 @@ msgstr "Titel bei Auswahl in Wiedergabeliste einreihen"
 
 msgctxt "#14085"
 msgid "Video disc insert action"
-msgstr "Aktion nach Einlegen einer Video-Disk"
+msgstr "Einlegeaktion für Video-Disk"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -15583,7 +15583,7 @@ msgstr "Integer"
 #. Label of thumbnail in the in-game menu for integer underscaling with square pixels
 msgctxt "#35239"
 msgid "Integer (square pixels)"
-msgstr "Integer (quadratische Pixel)"
+msgstr "Ganzzahlig (Quadratische Pixel)"
 
 # empty strings from id 35237 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -16093,7 +16093,7 @@ msgstr "Tunergerät"
 #: system/peripherals.xml
 msgctxt "#36054"
 msgid "Remote button double press timeout (ms) (0 = off)"
-msgstr "Zeitfenster für doppelten Tastendruck der Fernbedienung (ms) (0 = aus)"
+msgstr "Timeout für doppelten Tastendruck der Fernbedienung (ms) (0 = aus)"
 
 #. Item list value of setting with label #36009 "Put devices in standby mode when activating the screensaver"
 #: system/peripherals.xml
@@ -16105,7 +16105,7 @@ msgstr "Immer"
 #: system/peripherals.xml
 msgctxt "#36056"
 msgid "Unless media is playing"
-msgstr "Außer während der Medienwiedergabe"
+msgstr "Wenn keine Medienwiedergabe"
 
 #. Label of CEC setting volume_control: whether Kodi's volume keys adjust the volume of the amplifier or TV over CEC instead of Kodi's own mixer
 #: system/peripherals.xml
@@ -17650,7 +17650,7 @@ msgstr "Noch keine Informationen vorhanden."
 #. Description of setting with label #1451 "Restart playback after waking up"
 msgctxt "#36416"
 msgid "Restarts playback of the last played file when woken up."
-msgstr "Startet nach dem Aufwachen die Wiedergabe der zuletzt abgespielten Datei neu."
+msgstr "Setzt die Wiedergabe des letzten Mediums beim Aufwachen des Systems fort."
 
 # empty strings from id 36417 to 36417
 #. Description of setting with label #295 "Low latency mode"
@@ -17767,12 +17767,12 @@ msgstr "Automatische Wiedergabe der nächsten Sendung bei der Wiedergabe von ver
 #. Description of setting with label #14085 "Video disc insert action"
 msgctxt "#36440"
 msgid "Action to take when a video disc is inserted."
-msgstr "Legt fest, was nach dem Einlegen einer Video-Disk geschehen soll."
+msgstr "Aktion beim Einlegen einer Video-Disk."
 
 #. Description of setting with label #14097 "Audio CD Insert Action"
 msgctxt "#36441"
 msgid "Action to take when an audio CD is inserted."
-msgstr "Legt fest, was nach dem Einlegen einer Audio-CD geschehen soll."
+msgstr "Aktion beim Einlegen einer Audio-CD."
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -18225,7 +18225,7 @@ msgstr "Die von der RGB-Level-Umwandlung oder anderen Nachbearbeitungen verursac
 #. Description of setting with label #36100 "Dither depth"
 msgctxt "#36599"
 msgid "Video dithering output precision in bits. Auto enables dithering only when beneficial (limited- / full-range mismatch, bit depth reduction, downscaling, or HDR tone mapping) and uses 8- or 10-bit depth based on what the display supports. Lower settings are available for testing purposes only."
-msgstr "Ausgabegenauigkeit des Video-Ditherings in Bit. „Automatisch“ aktiviert das Dithering nur dann, wenn es sinnvoll ist (nicht übereinstimmender begrenzter/voller Farbbereich, Reduzierung der Farbtiefe, Herunterskalierung oder HDR-Tone-Mapping), und verwendet je nach Unterstützung des Bildschirms 8 oder 10 Bit. Niedrigere Werte sind nur für Testzwecke vorgesehen."
+msgstr "Präzision der Video-Dithering-Ausgabe in Bit. ‚Auto‘ schaltet Dithering nur ein, wenn es Vorteile bringt (Mismatch eingeschränkter/voller Farbraum, Bittiefenreduktion, Downscaling, oder HDR Tone Mapping) und verwendet 8 oder 10 Bit Tiefe, basierend auf den Eigenschaften des Bildschirms. Geringere Werte sind nur für Testzwecke verfügbar."
 
 #. Description of settings category with label #14022 "Library"
 msgctxt "#36600"
@@ -18808,7 +18808,7 @@ msgstr "Adaptiv"
 #. Description of setting #13558 Maximum smooth fast-forward speed
 msgctxt "#37117"
 msgid "Cutoff of the analog fast-forward mode that shows every picture. Some hardware may not be able to keep up with the higher demand of the higher speeds."
-msgstr "Obergrenze des analogen Vorlaufmodus, in dem jedes Bild angezeigt wird. Manche Hardware kann den höheren Anforderungen der schnelleren Geschwindigkeiten nicht gerecht werden."
+msgstr "Obergrenze für das flüssige Vorspulen, bei dem jedes Bild angezeigt wird. Manche Hardware kann mit den gesteigerten Anforderungen bei höheren Geschwindigkeiten möglicherweise nicht Schritt halten."
 
 # empty strings from id 37118 to 37119
 #. Value of setting - Byte
@@ -20335,7 +20335,7 @@ msgstr "Wiedergabeliste der aktuellen Videoversion zuordnen?"
 #. Different video version found dialog text for blurays
 msgctxt "#40042"
 msgid "Found a different version of the movie \"{0:s}\" in playlist {1:s} of {2:s} - length {3:s}. Would you like to convert it into an additional version of the original?"
-msgstr "In Wiedergabeliste {1:s} von {2:s} wurde eine andere Version des Films „{0:s}“ gefunden – Länge {3:s}. Soll sie in eine zusätzliche Version des Originals umgewandelt werden?"
+msgstr "Andere Version des Films „{0:s}“ gefunden in Wiedergabeliste {1:s} von {2:s} - Länge {3:s}. Soll sie in eine zusätzliche Version des Originals umgewandelt werden?"
 
 #. Ungroup video version dialog title
 msgctxt "#40043"
@@ -20365,7 +20365,7 @@ msgstr "Beim Scannen verschiedene Versionen ignorieren"
 #. Help for Ignore different video versions settting
 msgctxt "#40203"
 msgid "Select the scanner action for different versions of a video.[CR][Off] Add versions of a video to the library as separate entries.[CR][Ask] Prompt if different versions should be added separately or grouped with the original.[CR][Auto] Automatically create and group the additional versions with the original."
-msgstr "Scanner-Aktion für verschiedene Versionen eines Videos auswählen.[CR][Aus] Versionen eines Videos als eigenständige Einträge zur Bibliothek hinzufügen.[CR][Nachfragen] Nachfragen, ob verschiedene Versionen separat hinzugefügt oder mit dem Original gruppiert werden sollen.[CR][Automatisch] Die zusätzlichen Versionen automatisch erstellen und mit dem Original gruppieren."
+msgstr "Scanner-Aktion für verschiedene Versionen eines Videos auswählen.[CR][Aus] Versionen eines Videos als separate Einträge zur Bibliothek hinzufügen.[CR][Fragen] Nachfragen, ob verschiedene Versionen als separate Einträge oder gruppiert mit dem Original hinzugefügt werden sollen.[CR][Auto] Automatisch die zusätzlichen Versionen erzeugen und gruppieren mit dem Original."
 
 #. Ignore video extras settting
 msgctxt "#40204"
@@ -20446,7 +20446,7 @@ msgstr "Neueste Version zur Standardversion machen"
 #. Help for setting New versions replace the default versions
 msgctxt "#40224"
 msgid "Make the most recently scanned version of a movie the movie's default version.[CR]Helps identify new movie versions as recently added and locate them when the \"Unwatched\" filter of the library is turned on."
-msgstr "Die zuletzt gescannte Version eines Films zur Standardversion des Films machen.[CR]Hilft dabei, neue Filmversionen als kürzlich hinzugefügt zu erkennen und sie zu finden, wenn der Bibliotheksfilter „Nicht gesehen“ aktiviert ist."
+msgstr "Die zuletzt vom Scanner gelieferte Version eines Films zur Standardversion dieses Films machen.[CR]Hilft dabei, neue Filmversionen als zuletzt hinzugefügt zu erkennen, und sie zu finden, wenn der „Ungesehen“-Filter der Bibliothek eingeschaltet wird."
 
 #. Setting to determine when art is retrieved - during or after scrape
 msgctxt "#40225"
@@ -20456,17 +20456,17 @@ msgstr "Grafiken abrufen"
 #. Help for retrieve art during/after scrape setting
 msgctxt "#40226"
 msgid "Determines whether art is retrieved synchronously during scrape or in the background afterwards.[CR][During scrape] Art is retrieved synchronously during scrape. This significantly extends time taken to scrape.[CR][After scrape][Default] Art is retrieved in the background after scrape. Actor thumbnails may take a while to appear."
-msgstr "Legt fest, ob Grafiken synchron während des Scrapens oder danach im Hintergrund abgerufen werden.[CR][Während des Scrapens] Grafiken werden synchron während des Scrapens abgerufen. Dies verlängert die Dauer des Scrapens erheblich.[CR][Nach dem Scrapen][Standard] Grafiken werden nach dem Scrapen im Hintergrund abgerufen. Es kann eine Weile dauern, bis Darstellervorschaubilder erscheinen."
+msgstr "Legt fest, ob Grafiken während des Auslesens von Daten (Scraping) synchron abgerufen werden, oder anschließend im Hintergrund.[CR][Während des Auslesens] Grafiken werden während des Scrapings synchron abgerufen. Dies verlängert die Auslesedauer erheblich.[CR][Nach dem Auslesen][Standard] Grafiken werden nach dem Scraping, im Hintergrund synchronisiert. Es kann eine Weile dauern, bis die Vorschaubilder der Darsteller angezeigt werden."
 
 #. Option for the retrieve art during/after scrape setting
 msgctxt "#40227"
 msgid "During scrape"
-msgstr "Während des Scrapens"
+msgstr "Während des Auslesens"
 
 #. Option for the retrieve art during/after scrape setting
 msgctxt "#40228"
 msgid "After scrape"
-msgstr "Nach dem Scrapen"
+msgstr "Nach dem Auslesen"
 
 #. "Flatten movie versions" setting
 msgctxt "#40229"
@@ -20476,7 +20476,7 @@ msgstr "Filmversionen reduzieren"
 #. Help for setting Flatten movie versions
 msgctxt "#40230"
 msgid "Turn on to show individual versions in the movies view, turn off to group them"
-msgstr "Aktivieren, um einzelne Versionen in der Filmansicht anzuzeigen, deaktivieren, um sie zu gruppieren"
+msgstr "Wenn aktiviert, werden die einzelnen Versionen in der Filmansicht angezeigt. Wenn deaktiviert, werden sie gruppiert."
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
@@ -20608,7 +20608,7 @@ msgstr "Wenn altiviert, wird ein Bestätigungsdialog angezeigt, wenn Dateien gel
 #. Description of setting with label #246 "Monitor"
 msgctxt "#40803"
 msgid "Monitor change may require restart."
-msgstr "Ein Wechsel des Bildschirms kann einen Neustart erforderlich machen."
+msgstr "Nach dem Ändern des Bildschirms ist möglicherweise ein Neustart erforderlich."
 
 # Value formatting for ReplayGain Preamp settings
 msgctxt "#40804"
