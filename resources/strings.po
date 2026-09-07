@@ -905,7 +905,7 @@ msgstr "Fenster"
 
 msgctxt "#243"
 msgid "Refresh rate"
-msgstr "Bildrate"
+msgstr "Bildwiederholrate"
 
 msgctxt "#244"
 msgid "Full screen"
@@ -1297,7 +1297,7 @@ msgstr "Start"
 
 msgctxt "#336"
 msgid "Framerate conversion"
-msgstr "Bildratenumwandlung"
+msgstr "Bildwiederholrate konvertieren"
 
 msgctxt "#337"
 msgid "Output configuration"
@@ -1325,7 +1325,7 @@ msgstr "Filme"
 
 msgctxt "#343"
 msgid "Adjust framerate"
-msgstr "Bildrate anpassen"
+msgstr "Bildwiederholrate anpassen"
 
 msgctxt "#344"
 msgid "Actors"
@@ -6414,7 +6414,7 @@ msgstr "Wenn aktiviert, wird das Jahr des Originalveröffentlichungsdatums anste
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
-msgstr "Verzögerung nach Änderung der Bildrate"
+msgstr "Verzögerung nach Änderung der Bildwiederholrate"
 
 #. value for setting 'Create versions for similar videos'
 msgctxt "#13551"
@@ -6934,7 +6934,7 @@ msgstr "Erlaubte Auflösungen"
 
 msgctxt "#14127"
 msgid "Allow 3:2 pulldown refresh rates"
-msgstr "3:2-Pulldown-Bildraten erlauben"
+msgstr "3:2-Pulldown-Bildwiederholraten erlauben"
 
 msgctxt "#14128"
 msgid "Allow whole-number frame repeat"
@@ -8511,7 +8511,7 @@ msgstr "um"
 #. label for PVR settings "tv fallback framerate" (in Hz) selector
 msgctxt "#19108"
 msgid "Fallback framerate"
-msgstr "Ersatzbildrate"
+msgstr "Ersatzbildwiederholrate"
 
 #. message box text stating that a timer could not be saved
 msgctxt "#19109"
@@ -16437,7 +16437,7 @@ msgstr "Erlaubt die Anpassung der Bildwiederholrate des Bildschirms an die Bildw
 #. Description of setting with label #13550 "Delay after change of refresh rate"
 msgctxt "#36165"
 msgid "Delay of reset event after a change of refresh rate"
-msgstr "Verzögerung nach Änderung der Bildrate"
+msgstr "Verzögerung nach Änderung der Bildwiederholrate"
 
 #. Description of setting with label #13510 "Sync playback to display"
 msgctxt "#36166"
