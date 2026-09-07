@@ -2471,12 +2471,12 @@ msgid "Use album levels"
 msgstr "Albumlautstärke verwenden"
 
 msgctxt "#641"
-msgid "Files with ReplayGain information"
-msgstr "Dateien mit ReplayGain-Informationen"
+msgid "Preamp for files with ReplayGain information"
+msgstr "Vorverstärkung für Dateien mit ReplayGain-Informationen"
 
 msgctxt "#642"
-msgid "Files without ReplayGain information"
-msgstr "Dateien ohne ReplayGain-Informationen"
+msgid "Preamp for files without ReplayGain information"
+msgstr "Vorverstärkung für Dateien ohne ReplayGain-Informationen"
 
 msgctxt "#643"
 msgid "Avoid clipping protection on ReplayGained files"
@@ -4100,6 +4100,10 @@ msgctxt "#1450"
 msgid "Put display to sleep when idle"
 msgstr "Bildschirm während Leerlauf in den Ruhezustand versetzen"
 
+msgctxt "#1451"
+msgid "Restart playback after waking up"
+msgstr "Wiedergabe nach dem Aufwachen neu starten"
+
 msgctxt "#2050"
 msgid "Runtime"
 msgstr "Laufzeit"
@@ -5122,8 +5126,8 @@ msgid "Total uptime"
 msgstr "Gesamtbetriebszeit"
 
 msgctxt "#12395"
-msgid "Linux version"
-msgstr "Linux-Version"
+msgid "Battery level"
+msgstr "Akkustand"
 
 #. Label of button in the System Info screen asking for donations. "Thank you!" is used to convey gratitude to the users of our beloved software.
 msgctxt "#12396"
@@ -5139,6 +5143,10 @@ msgstr "Kodi wird von der Kodi Foundation, einer gemeinnützigen Organisation, z
 msgctxt "#12398"
 msgid "kodi.tv/donate"
 msgstr "kodi.tv/donate"
+
+msgctxt "#12399"
+msgid "Linux version"
+msgstr "Linux-Version"
 
 msgctxt "#12600"
 msgid "Weather"
@@ -5235,6 +5243,10 @@ msgstr "Ausschalten bei Leerlauf verhindern"
 msgctxt "#13018"
 msgid "Allow idle shutdown"
 msgstr "Ausschalten bei Leerlauf erlauben"
+
+msgctxt "#13019"
+msgid "Mounted optical disc"
+msgstr "Eingebundene optische Disk"
 
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
@@ -6442,6 +6454,16 @@ msgctxt "#13557"
 msgid "Skip delay"
 msgstr "Sprungverzögerung"
 
+#. Name of a setting to configure the maximum fast-forward speed with smooth/continuous playback
+msgctxt "#13558"
+msgid "Maximum smooth fast-forward speed"
+msgstr "Maximale Geschwindigkeit für flüssigen Vorlauf"
+
+#. Playback speed unit used to format speeds for display ex. 2x, 4x, ...
+msgctxt "#13559"
+msgid "{0:d}x"
+msgstr "{0:d}x"
+
 msgctxt "#13601"
 msgid "Apple TV"
 msgstr "Apple TV"
@@ -6746,6 +6768,10 @@ msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Titel bei Auswahl in Wiedergabeliste einreihen"
 
+msgctxt "#14085"
+msgid "Video disc insert action"
+msgstr "Aktion nach Einlegen einer Video-Disk"
+
 msgctxt "#14086"
 msgid "Playback"
 msgstr "Wiedergabe"
@@ -6934,10 +6960,14 @@ msgid "Allow 3:2 pulldown refresh rates"
 msgstr "3:2-Pulldown-Bildwiederholraten erlauben"
 
 msgctxt "#14128"
+msgid "Allow whole-number frame repeat"
+msgstr "Ganzzahlige Bildwiederholung erlauben"
+
+msgctxt "#14129"
 msgid "Allow double refresh rates"
 msgstr "Bildwiederholratenverdopplung erlauben"
 
-# empty strings from id 14129 to 14186
+# empty strings from id 14130 to 14186
 msgctxt "#14187"
 msgid "Advanced"
 msgstr "Fortgeschritten"
@@ -7877,8 +7907,8 @@ msgid "Bicubic (Mitchell)"
 msgstr "Bikubisch (Mitchell)"
 
 msgctxt "#16315"
-msgid "Lanczos3 - Optimised"
-msgstr "Lanczos3 - Optimiert"
+msgid "Lanczos3 - Fast"
+msgstr "Lanczos3 - Schnell"
 
 msgctxt "#16316"
 msgid "Auto"
@@ -7909,8 +7939,8 @@ msgid "Spline36"
 msgstr "Spline36"
 
 msgctxt "#16323"
-msgid "Spline36 - Optimised"
-msgstr "Spline36 - Optimiert"
+msgid "Spline36 - Fast"
+msgstr "Spline36 - Schnell"
 
 msgctxt "#16324"
 msgid "Software - Blend"
@@ -11778,6 +11808,11 @@ msgctxt "#20478"
 msgid "DV profile"
 msgstr "DV-Profil"
 
+#. Used in the smart playlist editor to define a watched mode
+msgctxt "#20479"
+msgid "Watched Mode"
+msgstr "Gesehen-Modus"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Versteckte Dateien und Verzeichnisse anzeigen"
@@ -15538,7 +15573,7 @@ msgstr "In dieser Version können nur Controller zum Spielen verwendet werden."
 #. Label of thumbnail in the in-game menu for normal size with square pixels
 msgctxt "#35237"
 msgid "Square pixels"
-msgstr ""
+msgstr "Quadratische Pixel"
 
 #. Label of thumbnail in the in-game menu for integer underscaling
 msgctxt "#35238"
@@ -15548,7 +15583,7 @@ msgstr "Integer"
 #. Label of thumbnail in the in-game menu for integer underscaling with square pixels
 msgctxt "#35239"
 msgid "Integer (square pixels)"
-msgstr ""
+msgstr "Integer (quadratische Pixel)"
 
 # empty strings from id 35237 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -15703,6 +15738,101 @@ msgctxt "#35280"
 msgid "Select disc"
 msgstr "Disk auswählen"
 
+#. Heading of the notification shown when the player earns an achievement
+msgctxt "#35281"
+msgid "Achievement Unlocked"
+msgstr "Erfolg freigeschaltet"
+
+#. Heading of the notification shown when every achievement of a game has been earned in hardcore mode
+msgctxt "#35282"
+msgid "Game mastered"
+msgstr "Spiel gemeistert"
+
+#. Heading of the notification shown when every achievement of a game has been earned
+msgctxt "#35283"
+msgid "Game completed"
+msgstr "Spiel abgeschlossen"
+
+#. Notification shown when a game with achievement support is loaded. {0:d} is the number earned, {1:d} the total
+msgctxt "#35284"
+msgid "{0:d} of {1:d} achievements unlocked"
+msgstr "{0:d} von {1:d} Erfolgen freigeschaltet"
+
+#. Message shown when the achievements dialog is opened without being logged in to RetroAchievements
+msgctxt "#35285"
+msgid "Log in to RetroAchievements in Settings to use this feature."
+msgstr "Zur Nutzung dieser Funktion in den Einstellungen bei RetroAchievements anmelden."
+
+#. Message shown when the achievements dialog is opened for a game that RetroAchievements has no achievement set for
+msgctxt "#35286"
+msgid "This game doesn't support RetroAchievements"
+msgstr "Dieses Spiel unterstützt RetroAchievements nicht"
+
+#. Label for the button that opens the achievements dialog, and heading of that dialog
+msgctxt "#35287"
+msgid "Achievements"
+msgstr "Erfolge"
+
+#. Progress through a game's achievements, weighted by point value. {0:d} is a percentage
+msgctxt "#35288"
+msgid "{0:d}% complete"
+msgstr "{0:d} % abgeschlossen"
+
+#. Date an achievement was earned. {0:s} is a localised date
+msgctxt "#35289"
+msgid "Unlocked {0:s}"
+msgstr "Freigeschaltet am {0:s}"
+
+#. Rarity category of an achievement earned by more than half of players
+msgctxt "#35290"
+msgid "Common"
+msgstr "Häufig"
+
+#. Rarity category of an achievement earned by 10% to 50% of players
+msgctxt "#35291"
+msgid "Uncommon"
+msgstr "Weniger häufig"
+
+#. Rarity category of an achievement earned by 2% to 10% of players
+msgctxt "#35292"
+msgid "Rare"
+msgstr "Selten"
+
+#. Rarity category of an achievement earned by fewer than 2% of players
+msgctxt "#35293"
+msgid "Ultra rare"
+msgstr "Sehr selten"
+
+#. Point value of an achievement, abbreviated to fit the list. {0:d} is the number of points
+msgctxt "#35294"
+msgid "{0:d} pts"
+msgstr "{0:d} Pkt."
+
+#. Notification shown after signing in to RetroAchievements. {0:s} is the account name
+msgctxt "#35295"
+msgid "Logged in as {0:s}"
+msgstr "Angemeldet als {0:s}"
+
+#. Notification shown when RetroAchievements becomes unreachable during play
+msgctxt "#35296"
+msgid "Unlocks will be submitted when the connection returns."
+msgstr "Freischaltungen werden übermittelt, sobald die Verbindung wieder besteht."
+
+#. Notification shown when RetroAchievements becomes reachable again
+msgctxt "#35297"
+msgid "Pending unlocks have been submitted."
+msgstr "Ausstehende Freischaltungen wurden übermittelt."
+
+#. Error message shown when trying to load a compressed savestate in an unsupported version of Kodi
+msgctxt "#35298"
+msgid "This savestate is compressed and can't be loaded by this version of Kodi."
+msgstr "Dieser Spielstand ist komprimiert und kann von dieser Kodi-Version nicht geladen werden."
+
+#. Shown when the achievements dialog is opened before the game has been identified
+msgctxt "#35299"
+msgid "Still looking this game up on RetroAchievements..."
+msgstr "Dieses Spiel wird noch bei RetroAchievements gesucht ..."
+
 #. connection state "host unreachable"
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -15727,6 +15857,17 @@ msgstr "Zugriff verweigert."
 msgctxt "#35509"
 msgid "Connecting to backend."
 msgstr "Verbindung zum Backend wird hergestellt."
+
+#. Context menu item, and heading of the dialog it opens, for choosing the
+#. emulator a game or a folder of games is opened with
+msgctxt "#35510"
+msgid "Default emulator"
+msgstr "Standard-Emulator"
+
+#. Marks the emulator already set as the default in the list of emulators
+msgctxt "#35511"
+msgid "Current"
+msgstr "Aktuell"
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -15811,8 +15952,8 @@ msgid "Switch source to this device on startup"
 msgstr "Beim Starten Kodi als aktive Quelle melden"
 
 msgctxt "#36021"
-msgid "Physical address (overrules HDMI port)"
-msgstr "Physikalische Adresse (verwirft HDMI-Port)"
+msgid "Physical address"
+msgstr "Physikalische Adresse"
 
 msgctxt "#36023"
 msgid "Configuration updated"
@@ -15948,37 +16089,57 @@ msgctxt "#36053"
 msgid "Tuner Device"
 msgstr "Tunergerät"
 
+#. Label of CEC setting double_tap_timeout_ms: a repeated identical button press within this many ms is treated as a duplicate and dropped (double-tap dedup). 0 disables it.
 #: system/peripherals.xml
 msgctxt "#36054"
-msgid "Minutes standby is delayed after Screensaver is activated"
-msgstr "Minuten bis zum Standby nach Aktivierung des Bildschirmschoners verzögern"
+msgid "Remote button double press timeout (ms) (0 = off)"
+msgstr "Zeitfenster für doppelten Tastendruck der Fernbedienung (ms) (0 = aus)"
 
+#. Item list value of setting with label #36009 "Put devices in standby mode when activating the screensaver"
 #: system/peripherals.xml
 msgctxt "#36055"
-msgid "Put devices in standby by Screensaver on paused video"
-msgstr "Geräte bei pausiertem Video durch den Bildschirmschoner in den Standby versetzen"
+msgid "Always"
+msgstr "Immer"
 
+#. Item list value of setting with label #36009 "Put devices in standby mode when activating the screensaver"
 #: system/peripherals.xml
 msgctxt "#36056"
+msgid "Unless media is playing"
+msgstr "Außer während der Medienwiedergabe"
+
+#. Label of CEC setting volume_control: whether Kodi's volume keys adjust the volume of the amplifier or TV over CEC instead of Kodi's own mixer
+#: system/peripherals.xml
+msgctxt "#36057"
+msgid "Send volume commands over CEC"
+msgstr "Lautstärkebefehle über CEC senden"
+
+#. Item list value of setting with label #36057 "Send volume commands over CEC": send them to an amplifier, or to a TV that reports CEC 2.0
+#: system/peripherals.xml
+msgctxt "#36058"
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: system/peripherals.xml
+msgctxt "#36059"
 msgid "OSD name"
 msgstr "OSD-Name"
 
 #: system/peripherals.xml
-msgctxt "#36057"
+msgctxt "#36060"
 msgid "Wake-Up by auto power on"
 msgstr "Aufwachen durch automatisches Einschalten"
 
 #: system/peripherals.xml
-msgctxt "#36058"
+msgctxt "#36061"
 msgid "Wake-Up by streaming path/routing change"
 msgstr "Aufwachen durch Änderung des Streamingpfads/Routings"
 
 #: system/peripherals.xml
-msgctxt "#36059"
+msgctxt "#36062"
 msgid "Wake-Up by active route"
 msgstr "Aufwachen durch aktive Route"
 
-# empty strings from id 36054 to 36095
+# empty strings from id 36063 to 36095
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
 msgctxt "#36096"
 msgid "Use system HDR/SDR brightness balance"
@@ -16762,15 +16923,15 @@ msgctxt "#36267"
 msgid "Read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
 msgstr "ReplayGain-Informationen aus Musikdateien auslesen und Lautstärkepegel entsprechend anpassen. Solche Informationen werden von Programmen wie MP3Gain in die Dateien geschrieben."
 
-#. Description of setting with label #641 "Files with ReplayGain information"
+#. Description of setting with label #641 "Preamp for files with ReplayGain information"
 msgctxt "#36268"
-msgid "Reference volume (PreAmp level) to use for files with encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
-msgstr "Referenzlautstärke (PreAmp level) für Dateien mit eingebetteten ReplayGain-Informationen. Voreingestellt ist 89 dB, wie der ReplayGain-Standard es vorsieht. Bitte Vorsicht bei Änderungen."
+msgid "Preamplification level to use for files with encoded ReplayGain information."
+msgstr "Vorverstärkungspegel für Dateien mit eingebetteten ReplayGain-Informationen."
 
-#. Description of setting with label #642 "PreAmp Level - Non ReplayGained files"
+#. Description of setting with label #642 "Preamp for files without ReplayGain information"
 msgctxt "#36269"
-msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
-msgstr "Referenzlautsärke (PreAmp level) für Dateien ohne eingebettete ReplayGain-Informationen. Voreingestellt ist 89 dB, wie der ReplayGain-Standard es vorsieht. Bitte Vorsicht bei Änderungen."
+msgid "Preamplification level to use for files without encoded ReplayGain information."
+msgstr "Vorverstärkungspegel für Dateien ohne eingebettete ReplayGain-Informationen."
 
 #. Description of setting with label #643 "Avoid clipping protection on ReplayGained files"
 msgctxt "#36270"
@@ -17486,7 +17647,12 @@ msgctxt "#36415"
 msgid "No info available yet."
 msgstr "Noch keine Informationen vorhanden."
 
-# empty strings from id 36416 to 36417
+#. Description of setting with label #1451 "Restart playback after waking up"
+msgctxt "#36416"
+msgid "Restarts playback of the last played file when woken up."
+msgstr "Startet nach dem Aufwachen die Wiedergabe der zuletzt abgespielten Datei neu."
+
+# empty strings from id 36417 to 36417
 #. Description of setting with label #295 "Low latency mode"
 msgctxt "#36418"
 msgid ""
@@ -17598,10 +17764,15 @@ msgctxt "#36439"
 msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
 msgstr "Automatische Wiedergabe der nächsten Sendung bei der Wiedergabe von vergangenen Sendungen (Catchup) oder Video-on-Demand-Sendern (VOD) aktivieren. Bitte beachten, dass Catchup und VOD nur funktioniert, wenn vom Senderanbieter unterstützt."
 
-#. Description of setting with label #13438 "Allow hardware acceleration (amcodec)"
+#. Description of setting with label #14085 "Video disc insert action"
 msgctxt "#36440"
-msgid "Enable hardware video decode using Amlogic decoder."
-msgstr "Hardware-Videodekodierung mit Amlogic-Dekoder aktivieren."
+msgid "Action to take when a video disc is inserted."
+msgstr "Legt fest, was nach dem Einlegen einer Video-Disk geschehen soll."
+
+#. Description of setting with label #14097 "Audio CD Insert Action"
+msgctxt "#36441"
+msgid "Action to take when an audio CD is inserted."
+msgstr "Legt fest, was nach dem Einlegen einer Audio-CD geschehen soll."
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -17620,8 +17791,23 @@ msgstr "Auswählen, um 3:2-Pulldown-Bildwiederholraten zu erlauben (Wiedergabe v
 
 #. Description of setting with label #14128 "Whitelist"
 msgctxt "#36445"
-msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
-msgstr "Auswählen, um verdoppelte Bildwiederholraten zu erlauben (Wiedergabe von 29,97-FPS-Videos auf einem 59,94-Hz-Bildschirm oder 30-FPS-Videos auf einem 60-Hz-Bildschirm). Einstellung kann hilfreich sein, wenn der Bildschirm keine 29,97-Hz- oder 30-Hz-Modi unterstützt."
+msgid "Select this option to allow using whole-number repeat rate (playing 24 FPS video on a 120 Hz monitor or playing 30 FPS video on a 120 Hz monitor)."
+msgstr "Auswählen, um ganzzahlige Bildwiederholung zu erlauben (Wiedergabe von 24-FPS-Videos auf einem 120-Hz-Bildschirm oder von 30-FPS-Videos auf einem 120-Hz-Bildschirm)."
+
+#. Value of the track order settings #36448 #36450 #36452
+msgctxt "#36446"
+msgid "Sorted"
+msgstr "Sortiert"
+
+#. Name of the setting of the stream order in the stream selection screen and the OSD for video files
+msgctxt "#36447"
+msgid "Video file stream display order"
+msgstr "Anzeigereihenfolge der Streams von Videodateien"
+
+#. Description of setting with label #36447 "Video file stream display order"
+msgctxt "#36448"
+msgid "Video files only: display order in the stream selection dialogs. [Media] stream order in the media, [Sorted] sorted using the stream attributes[CR]"
+msgstr "Nur Videodateien: Anzeigereihenfolge in den Dialogen zur Streamauswahl. [Medien] Reihenfolge der Streams im Medium, [Sortiert] anhand der Streameigenschaften sortiert[CR]"
 
 #. Description of settings with label #14112 "Enable event logging"
 msgctxt "#36460"
@@ -18038,8 +18224,8 @@ msgstr "Die von der RGB-Level-Umwandlung oder anderen Nachbearbeitungen verursac
 
 #. Description of setting with label #36100 "Dither depth"
 msgctxt "#36599"
-msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
-msgstr "Video-Dithering Ausgabegenauigkeit in Bits. Höchste Einstellung, die kein Banding produziert, verwenden. Der Standardwert 8 ist für die meisten Systeme empfohlen. Wenn die GPU das RGB-Level skaliert oder ein Laptop verwendet wird, kann ein Wert von 6 oder 7 Bit das Banding ggf. besser eliminieren. Niedrigere Werte sind nur dazu da, um zu testen, ob das Dithering angewandt wird und dessen Pixelgröße der des Displays entspricht."
+msgid "Video dithering output precision in bits. Auto enables dithering only when beneficial (limited- / full-range mismatch, bit depth reduction, downscaling, or HDR tone mapping) and uses 8- or 10-bit depth based on what the display supports. Lower settings are available for testing purposes only."
+msgstr "Ausgabegenauigkeit des Video-Ditherings in Bit. „Automatisch“ aktiviert das Dithering nur dann, wenn es sinnvoll ist (nicht übereinstimmender begrenzter/voller Farbbereich, Reduzierung der Farbtiefe, Herunterskalierung oder HDR-Tone-Mapping), und verwendet je nach Unterstützung des Bildschirms 8 oder 10 Bit. Niedrigere Werte sind nur für Testzwecke vorgesehen."
 
 #. Description of settings category with label #14022 "Library"
 msgctxt "#36600"
@@ -18619,7 +18805,12 @@ msgctxt "#37116"
 msgid "Adaptive"
 msgstr "Adaptiv"
 
-# empty strings from id 37116 to 37119
+#. Description of setting #13558 Maximum smooth fast-forward speed
+msgctxt "#37117"
+msgid "Cutoff of the analog fast-forward mode that shows every picture. Some hardware may not be able to keep up with the higher demand of the higher speeds."
+msgstr "Obergrenze des analogen Vorlaufmodus, in dem jedes Bild angezeigt wird. Manche Hardware kann den höheren Anforderungen der schnelleren Geschwindigkeiten nicht gerecht werden."
+
+# empty strings from id 37118 to 37119
 #. Value of setting - Byte
 msgctxt "#37120"
 msgid "{0:d} Byte"
@@ -19881,6 +20072,16 @@ msgctxt "#39210"
 msgid "If enabled, Dolby Vision files will have level 5 (active area) metadata overridden to zero offsets. Enable if your display has issues with incorrectly cropped image in Dolby Vision playback."
 msgstr "Wenn aktiviert, werden Level-5-Metadaten (aktiver Bereich) in Dolby-Vision-Dateien mit Null-Offsets überschrieben. Aktivieren, wenn auf dem Bildschirm Probleme mit inkorrekt abgeschnittenem Bild bei der Wiedergabe von Dolby Vision auftreten."
 
+#. Title of the setting that skips subtitles whose language matches the audio language
+msgctxt "#39211"
+msgid "Don't show subtitles matching the audio language"
+msgstr "Untertitel in der Sprache der Tonspur nicht anzeigen"
+
+#. Help text for setting "Don't show subtitles matching the audio language" of label #39211
+msgctxt "#39212"
+msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
+msgstr "Keine Untertitel aktivieren, die in derselben Sprache wie die wiedergegebene Tonspur sind. Erzwungene Untertitel sind davon nicht betroffen."
+
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A and B"
 #. STR_LIST_AND_TWO
 msgctxt "#39900"
@@ -20023,8 +20224,8 @@ msgstr "Die Standardversion eines Films kann nicht entfernt werden. Bitte eine a
 
 #. Remove video version dialog text
 msgctxt "#40020"
-msgid "Are you sure to remove version \"{0:s}\"?"
-msgstr "Soll Version „{0:s}“ wirklich entfernt werden?"
+msgid "Are you sure to remove version \"{0:s}\" from the library?"
+msgstr "Soll Version „{0:s}“ wirklich aus der Bibliothek entfernt werden?"
 
 #. Remove item from library text if item has multiple versions
 msgctxt "#40021"
@@ -20131,6 +20332,31 @@ msgctxt "#40041"
 msgid "Assign playlist to current movie version?"
 msgstr "Wiedergabeliste der aktuellen Videoversion zuordnen?"
 
+#. Different video version found dialog text for blurays
+msgctxt "#40042"
+msgid "Found a different version of the movie \"{0:s}\" in playlist {1:s} of {2:s} - length {3:s}. Would you like to convert it into an additional version of the original?"
+msgstr "In Wiedergabeliste {1:s} von {2:s} wurde eine andere Version des Films „{0:s}“ gefunden – Länge {3:s}. Soll sie in eine zusätzliche Version des Originals umgewandelt werden?"
+
+#. Ungroup video version dialog title
+msgctxt "#40043"
+msgid "Ungroup video version"
+msgstr "Gruppierung der Videoversion aufheben"
+
+#. Manage versions, ungroup: ungrouping the default version of a movie is not allowed.
+msgctxt "#40044"
+msgid "The default version of a movie cannot be ungrouped. Set a different default version and try again."
+msgstr "Die Gruppierung der Standardversion eines Films kann nicht aufgehoben werden. Bitte eine andere Version als Standard setzen und dann nochmal versuchen."
+
+#. Ungroup video version dialog text
+msgctxt "#40045"
+msgid "Are you sure to ungroup version \"{0:s}\"?[CR]It will be turned into a library movie entry."
+msgstr "Soll die Gruppierung von Version „{0:s}“ wirklich aufgehoben werden?[CR]Sie wird in einen eigenen Filmeintrag der Bibliothek umgewandelt."
+
+#. Button name for video version ungroup function of the manage versions dialog
+msgctxt "#40046"
+msgid "Ungroup"
+msgstr "Gruppierung aufheben"
+
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
@@ -20138,8 +20364,8 @@ msgstr "Beim Scannen verschiedene Versionen ignorieren"
 
 #. Help for Ignore different video versions settting
 msgctxt "#40203"
-msgid "Select scanner action for different video versions.[CR][Enabled] Add different video versions to library seperately without confirmation.[CR][Disabled] Prompt for converting different video versions into additional versions of the original."
-msgstr "Scanner-Aktion für Videos mit verschiedenen Versionen auswählen.[CR][Aktiviert] Ohne Nachfrage verschiedene Versionen zur Bibliothek hinzufügen.[CR][Deaktiviert] Nachfragen für Konvertierung verschiedener Versionen in zusätzliche Versionen des Originals."
+msgid "Select the scanner action for different versions of a video.[CR][Off] Add versions of a video to the library as separate entries.[CR][Ask] Prompt if different versions should be added separately or grouped with the original.[CR][Auto] Automatically create and group the additional versions with the original."
+msgstr "Scanner-Aktion für verschiedene Versionen eines Videos auswählen.[CR][Aus] Versionen eines Videos als eigenständige Einträge zur Bibliothek hinzufügen.[CR][Nachfragen] Nachfragen, ob verschiedene Versionen separat hinzugefügt oder mit dem Original gruppiert werden sollen.[CR][Automatisch] Die zusätzlichen Versionen automatisch erstellen und mit dem Original gruppieren."
 
 #. Ignore video extras settting
 msgctxt "#40204"
@@ -20211,6 +20437,46 @@ msgstr "Neuer Name für Extra"
 msgctxt "#40222"
 msgid "Group the different versions of videos"
 msgstr "Verschiedene Videoversionen gruppieren"
+
+#. "The newly scanned versions replace the default versions of movies" setting
+msgctxt "#40223"
+msgid "Make the most recent version the default version"
+msgstr "Neueste Version zur Standardversion machen"
+
+#. Help for setting New versions replace the default versions
+msgctxt "#40224"
+msgid "Make the most recently scanned version of a movie the movie's default version.[CR]Helps identify new movie versions as recently added and locate them when the \"Unwatched\" filter of the library is turned on."
+msgstr "Die zuletzt gescannte Version eines Films zur Standardversion des Films machen.[CR]Hilft dabei, neue Filmversionen als kürzlich hinzugefügt zu erkennen und sie zu finden, wenn der Bibliotheksfilter „Nicht gesehen“ aktiviert ist."
+
+#. Setting to determine when art is retrieved - during or after scrape
+msgctxt "#40225"
+msgid "Retrieve art"
+msgstr "Grafiken abrufen"
+
+#. Help for retrieve art during/after scrape setting
+msgctxt "#40226"
+msgid "Determines whether art is retrieved synchronously during scrape or in the background afterwards.[CR][During scrape] Art is retrieved synchronously during scrape. This significantly extends time taken to scrape.[CR][After scrape][Default] Art is retrieved in the background after scrape. Actor thumbnails may take a while to appear."
+msgstr "Legt fest, ob Grafiken synchron während des Scrapens oder danach im Hintergrund abgerufen werden.[CR][Während des Scrapens] Grafiken werden synchron während des Scrapens abgerufen. Dies verlängert die Dauer des Scrapens erheblich.[CR][Nach dem Scrapen][Standard] Grafiken werden nach dem Scrapen im Hintergrund abgerufen. Es kann eine Weile dauern, bis Darstellervorschaubilder erscheinen."
+
+#. Option for the retrieve art during/after scrape setting
+msgctxt "#40227"
+msgid "During scrape"
+msgstr "Während des Scrapens"
+
+#. Option for the retrieve art during/after scrape setting
+msgctxt "#40228"
+msgid "After scrape"
+msgstr "Nach dem Scrapen"
+
+#. "Flatten movie versions" setting
+msgctxt "#40229"
+msgid "Flatten movie versions"
+msgstr "Filmversionen reduzieren"
+
+#. Help for setting Flatten movie versions
+msgctxt "#40230"
+msgid "Turn on to show individual versions in the movies view, turn off to group them"
+msgstr "Aktivieren, um einzelne Versionen in der Filmansicht anzuzeigen, deaktivieren, um sie zu gruppieren"
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
@@ -20338,6 +20604,16 @@ msgstr "Löschen von Dateien bestätigen"
 msgctxt "#40802"
 msgid "If enabled, a confirmation dialog will be displayed when files shall be deleted. If disabled, files will be deleted without user confirmation."
 msgstr "Wenn altiviert, wird ein Bestätigungsdialog angezeigt, wenn Dateien gelöscht werden sollen. Wenn dektiviert, werden Dateien ohne vorherige Nachfrage gelöscht."
+
+#. Description of setting with label #246 "Monitor"
+msgctxt "#40803"
+msgid "Monitor change may require restart."
+msgstr "Ein Wechsel des Bildschirms kann einen Neustart erforderlich machen."
+
+# Value formatting for ReplayGain Preamp settings
+msgctxt "#40804"
+msgid "{0:.1f} dB"
+msgstr "{0:.1f} dB"
 
 #~ msgctxt "#35237"
 #~ msgid "Normal (1:1 PAR)"
