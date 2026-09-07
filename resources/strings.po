@@ -20067,7 +20067,7 @@ msgstr "{0}, {1}"
 #. STR_LIST_AND_END
 msgctxt "#39903"
 msgid "{0}, and {1}"
-msgstr "{0}, und {1}"
+msgstr "{0} und {1}"
 
 # 39904 to 39909 are reserved for language formatting
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A or B"
@@ -20082,7 +20082,7 @@ msgstr "{0} oder {1}"
 #. STR_LIST_OR_END
 msgctxt "#39911"
 msgid "{0}, or {1}"
-msgstr "{0}, oder {1}"
+msgstr "{0} oder {1}"
 
 # 40000 to 40800 are reserved for Video Versions feature
 #. Generic video versions label (plural)
