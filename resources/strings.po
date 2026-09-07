@@ -760,7 +760,7 @@ msgstr "Stimmen"
 
 msgctxt "#206"
 msgid "Cast"
-msgstr "Besetzung"
+msgstr "Darsteller"
 
 msgctxt "#207"
 msgid "Plot"
@@ -3409,7 +3409,7 @@ msgstr "Nach einer neuen Netzwerkfreigabe suchen"
 #. Action on DVD/Bluray physical disc insertion - show a browse dialog
 msgctxt "#1024"
 msgid "Browse"
-msgstr "Browse"
+msgstr "Durchsuchen"
 
 msgctxt "#1025"
 msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
@@ -12235,7 +12235,7 @@ msgstr "Videocodec"
 
 msgctxt "#21446"
 msgid "Audio codec"
-msgstr "Audio-Codec"
+msgstr "Audiocodec"
 
 msgctxt "#21447"
 msgid "Audio language"
@@ -14524,7 +14524,7 @@ msgstr "Konfigurieren von"
 
 msgctxt "#33060"
 msgid "Power"
-msgstr "Power"
+msgstr "Ausschaltmenü"
 
 msgctxt "#33061"
 msgid "Menu"
