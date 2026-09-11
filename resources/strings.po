@@ -7209,22 +7209,22 @@ msgstr "RDS-Radio"
 #: system/settings/settings.xml
 msgctxt "#14310"
 msgid "Tone map SDR to Dolby Vision"
-msgstr "SDR in Dolby Vision tonemappen"
+msgstr "Tonemapping von SDR nach Dolby Vision"
 
 #: system/settings/settings.xml
 msgctxt "#14311"
-msgid "Intended for Dolby Vision enabled displays. SDR content will be tone mapped by Dolby Vision VS-Engine."
-msgstr "Für Dolby-Vision-fähige Displays vorgesehen. SDR-Inhalte werden von der Dolby-Vision-VS-Engine tonemappt."
+msgid "Intended for Dolby Vision enabled displays. SDR content will be tone mapped by Dolby Vision VS-Engine. Legacy all-or-nothing switch - prefer the per-source 'DV VS10 for SDR8/SDR10 video' settings below, which let you pick the output format per source type and pair with the display peak / VSVDB override for better tone mapping."
+msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der SDR-Inhalte übernimmt die Dolby-Vision-VS-Engine. Veralteter Alles-oder-nichts-Schalter – besser die quellenspezifischen Einstellungen „DV VS10 für SDR8-Video“ und „DV VS10 für SDR10-Video“ weiter unten verwenden: Dort lässt sich das Ausgabeformat je Quelltyp festlegen und mit der Spitzenleuchtdichte des Bildschirms bzw. der VSVDB-Übersteuerung für ein besseres Tonemapping kombinieren."
 
 #: system/settings/settings.xml
 msgctxt "#14312"
 msgid "Tone map HDR to Dolby Vision"
-msgstr "HDR in Dolby Vision tonemappen"
+msgstr "Tonemapping von HDR nach Dolby Vision"
 
 #: system/settings/settings.xml
 msgctxt "#14313"
-msgid "Intended for Dolby Vision enabled displays. HDR content will be tone mapped by Dolby Vision VS-Engine."
-msgstr "Für Dolby-Vision-fähige Displays vorgesehen. HDR-Inhalte werden von der Dolby-Vision-VS-Engine tonemappt."
+msgid "Intended for Dolby Vision enabled displays. HDR content will be tone mapped by Dolby Vision VS-Engine. Legacy all-or-nothing switch - prefer the per-source 'DV VS10 for HDR10/HDR10+ video' settings below, which let you pick the output format per source type and pair with the display peak / VSVDB override for better tone mapping."
+msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der HDR-Inhalte übernimmt die Dolby-Vision-VS-Engine. Veralteter Alles-oder-nichts-Schalter – besser die quellenspezifischen Einstellungen „DV VS10 für HDR10-Video“ und „DV VS10 für HDR10+-Video“ weiter unten verwenden: Dort lässt sich das Ausgabeformat je Quelltyp festlegen und mit der Spitzenleuchtdichte des Bildschirms bzw. der VSVDB-Übersteuerung für ein besseres Tonemapping kombinieren."
 
 #: system/settings/settings.xml
 msgctxt "#14400"
@@ -7249,22 +7249,22 @@ msgstr "Aktivieren, um die Rauschunterdrückung zu deaktivieren. Ein Neustart is
 #: system/settings/settings.xml
 msgctxt "#14404"
 msgid "Tone map SDR to HDR"
-msgstr "SDR in HDR tonemappen"
+msgstr "Tonemapping von SDR nach HDR"
 
 #: system/settings/settings.xml
 msgctxt "#14405"
 msgid "Intended for HDR enabled displays - not recommended. Turn this On to have HDR mode always on. GUI and SDR content will be tone mapped. Requires reboot."
-msgstr "Für HDR-fähige Displays vorgesehen – nicht empfohlen. Aktivieren, um den HDR-Modus dauerhaft einzuschalten. GUI- und SDR-Inhalte werden tonemappt. Ein Neustart ist erforderlich."
+msgstr "Für HDR-fähige Displays vorgesehen – nicht empfohlen. Aktivieren, um den HDR-Modus dauerhaft einzuschalten. Auf GUI- und SDR-Inhalte wird Tonemapping angewendet. Ein Neustart ist erforderlich."
 
 #: system/settings/settings.xml
 msgctxt "#14406"
 msgid "Tone map HDR to SDR"
-msgstr "HDR in SDR tonemappen"
+msgstr "Tonemapping von HDR nach SDR"
 
 #: system/settings/settings.xml
 msgctxt "#14407"
 msgid "Intended for SDR displays. Turn this On to have HDR content tone mapped to SDR. This improves color saturation and contrast of HDR content on SDR displays. Requires reboot."
-msgstr "Für SDR-Displays vorgesehen. Aktivieren, um HDR-Inhalte nach SDR zu tonemappen. Dies verbessert Farbsättigung und Kontrast von HDR-Inhalten auf SDR-Displays. Ein Neustart ist erforderlich."
+msgstr "Für SDR-Displays vorgesehen. Aktivieren, um HDR-Inhalte per Tonemapping nach SDR umzusetzen. Dies verbessert Farbsättigung und Kontrast von HDR-Inhalten auf SDR-Displays. Ein Neustart ist erforderlich."
 
 #: system/settings/settings.xml
 msgctxt "#14408"
@@ -20658,7 +20658,7 @@ msgstr "Spitzenleuchtdichte des Bildschirms (Nits)"
 #: system/settings/settings.xml
 msgctxt "#60331"
 msgid "Your display's Dolby Vision peak brightness in nits. 0 = auto: the Smart CMv4.0 bypass decision reads the display's own EDID (VSVDB) peak, and nothing is forced onto the Dolby Vision engine. Setting a value here is an explicit override: it replaces the auto-detected peak for the Smart CMv4.0 bypass decision, is injected into the display's VSVDB when 'Force peak onto display' below is enabled, and becomes the peak the Dolby Vision engine tone-maps to for VS10 HDR10 output."
-msgstr "Die Dolby-Vision-Spitzenhelligkeit des Bildschirms in Nits. 0 = automatisch: Für die Entscheidung über die Smart-Umgehung von CMv4.0 wird die im EDID (VSVDB) des Bildschirms hinterlegte Spitzenhelligkeit ausgelesen und der Dolby-Vision-Engine nichts vorgegeben. Ein hier gesetzter Wert ist eine ausdrückliche Übersteuerung: Er ersetzt die automatisch erkannte Spitzenhelligkeit bei der Smart-Umgehung von CMv4.0, wird in das VSVDB des Bildschirms eingefügt, wenn unten „Spitzenhelligkeit dem Bildschirm vorgeben (VSVDB)“ aktiviert ist, und ist die Spitzenhelligkeit, auf die die Dolby-Vision-Engine bei VS10-HDR10-Ausgabe tonemappt."
+msgstr "Die Dolby-Vision-Spitzenhelligkeit des Bildschirms in Nits. 0 = automatisch: Für die Entscheidung über die Smart-Umgehung von CMv4.0 wird die im EDID (VSVDB) des Bildschirms hinterlegte Spitzenhelligkeit ausgelesen und der Dolby-Vision-Engine nichts vorgegeben. Ein hier gesetzter Wert ist eine ausdrückliche Übersteuerung: Er ersetzt die automatisch erkannte Spitzenhelligkeit bei der Smart-Umgehung von CMv4.0, wird in das VSVDB des Bildschirms eingefügt, wenn unten „Spitzenhelligkeit dem Bildschirm vorgeben (VSVDB)“ aktiviert ist, und ist die Spitzenhelligkeit, auf die die Dolby-Vision-Engine bei VS10-HDR10-Ausgabe ihr Tonemapping ausrichtet."
 
 #. Label of Dolby Vision VS10 SDR8 output setting
 #: system/settings/settings.xml
@@ -20730,7 +20730,7 @@ msgstr "DV VS10 für DV-Video"
 #: system/settings/settings.xml
 msgctxt "#60062"
 msgid "Output format for Dolby Vision sources. HDR10: convert to HDR10, reconstructing the full image (including the profile 7 FEL enhancement layer) and tone-mapping it - use this to play Dolby Vision on an HDR10 display that does not support Dolby Vision. SDR: convert to SDR. Off: output native Dolby Vision (shown only on a Dolby Vision display)."
-msgstr "Ausgabeformat für Dolby-Vision-Quellen. HDR10: nach HDR10 konvertieren, dabei das vollständige Bild rekonstruieren (einschließlich der FEL-Erweiterungsebene von Profil 7) und tonemappen – zu verwenden, um Dolby Vision auf einem HDR10-Bildschirm ohne Dolby-Vision-Unterstützung wiederzugeben. SDR: nach SDR konvertieren. Aus: natives Dolby Vision ausgeben (nur auf einem Dolby-Vision-Bildschirm darstellbar)."
+msgstr "Ausgabeformat für Dolby-Vision-Quellen. HDR10: nach HDR10 konvertieren, dabei das vollständige Bild rekonstruieren (einschließlich der FEL-Erweiterungsebene von Profil 7) und per Tonemapping anpassen – zu verwenden, um Dolby Vision auf einem HDR10-Bildschirm ohne Dolby-Vision-Unterstützung wiederzugeben. SDR: nach SDR konvertieren. Aus: natives Dolby Vision ausgeben (nur auf einem Dolby-Vision-Bildschirm darstellbar)."
 
 #. Dolby Vision VS10 output option: Off / passthrough
 #: system/settings/settings.xml
@@ -20790,7 +20790,7 @@ msgstr "Spitzenhelligkeit dem Bildschirm vorgeben (VSVDB)"
 #: system/settings/settings.xml
 msgctxt "#60341"
 msgid "Inject the peak luminance set above into the display's Dolby Vision VSVDB (EDID), so the DV engine actually tone-maps for that brightness instead of the value the TV advertises. Useful when the TV over- or under-reports its real peak. Only the max-luminance field is changed; all other VSVDB data is kept. Snapped to the nearest Dolby PQ step. Requires a display with a v2 VSVDB and a peak value above (0 = auto does nothing). On player-led (low-latency) Dolby Vision output the DV engine takes its target peak from the VSVDB, and the peak is additionally capped to each title's own mastering peak - so a value set here can be lowered, but never raised, for content graded below it."
-msgstr "Die oben eingestellte Spitzenleuchtdichte in das Dolby-Vision-VSVDB (EDID) des Bildschirms einfügen, damit die DV-Engine tatsächlich auf diese Helligkeit tonemappt und nicht auf den vom Fernseher gemeldeten Wert. Nützlich, wenn der Fernseher seine tatsächliche Spitzenhelligkeit zu hoch oder zu niedrig angibt. Es wird nur das Feld für die maximale Leuchtdichte geändert, alle übrigen VSVDB-Daten bleiben erhalten. Der Wert wird auf die nächstgelegene Dolby-PQ-Stufe gerundet. Erfordert einen Bildschirm mit VSVDB v2 und einen oben eingetragenen Wert (0 = automatisch bewirkt nichts). Bei Player-Led-Ausgabe (Low Latency) entnimmt die DV-Engine ihre Zielspitzenhelligkeit dem VSVDB; zusätzlich wird sie auf die Mastering-Spitzenhelligkeit des jeweiligen Titels begrenzt – ein hier gesetzter Wert kann für dunkler gemasterte Inhalte also gesenkt, aber nie angehoben werden."
+msgstr "Die oben eingestellte Spitzenleuchtdichte in das Dolby-Vision-VSVDB (EDID) des Bildschirms einfügen, damit die DV-Engine ihr Tonemapping tatsächlich auf diese Helligkeit ausrichtet und nicht auf den vom Fernseher gemeldeten Wert. Nützlich, wenn der Fernseher seine tatsächliche Spitzenhelligkeit zu hoch oder zu niedrig angibt. Es wird nur das Feld für die maximale Leuchtdichte geändert, alle übrigen VSVDB-Daten bleiben erhalten. Der Wert wird auf die nächstgelegene Dolby-PQ-Stufe gerundet. Erfordert einen Bildschirm mit VSVDB v2 und einen oben eingetragenen Wert (0 = automatisch bewirkt nichts). Bei Player-Led-Ausgabe (Low Latency) entnimmt die DV-Engine ihre Zielspitzenhelligkeit dem VSVDB; zusätzlich wird sie auf die Mastering-Spitzenhelligkeit des jeweiligen Titels begrenzt – ein hier gesetzter Wert kann für dunkler gemasterte Inhalte also gesenkt, aber nie angehoben werden."
 
 #. Label of Dolby Vision VSVDB colour-space override setting
 #: system/settings/settings.xml
@@ -20802,7 +20802,7 @@ msgstr "Farbraum (VSVDB)"
 #: system/settings/settings.xml
 msgctxt "#60343"
 msgid "Override the colour primaries advertised in the injected Dolby Vision VSVDB, so the DV engine tone-maps for a specific gamut. 'Display' keeps the panel's own advertised primaries and only changes the peak luminance above. The other options force standard primaries; the display's version and capability bits are preserved. Requires a v2 VSVDB display."
-msgstr "Die im eingefügten Dolby-Vision-VSVDB angegebenen Farbprimärvalenzen übersteuern, damit die DV-Engine auf einen bestimmten Farbraum tonemappt. „Bildschirm“ behält die vom Panel gemeldeten Primärvalenzen bei und ändert nur die oben eingestellte Spitzenleuchtdichte. Die übrigen Optionen erzwingen Standardprimärvalenzen; Version und Fähigkeitsbits des Bildschirms bleiben erhalten. Erfordert einen Bildschirm mit VSVDB v2."
+msgstr "Die im eingefügten Dolby-Vision-VSVDB angegebenen Farbprimärvalenzen übersteuern, damit die DV-Engine ihr Tonemapping auf einen bestimmten Farbraum ausrichtet. „Bildschirm“ behält die vom Panel gemeldeten Primärvalenzen bei und ändert nur die oben eingestellte Spitzenleuchtdichte. Die übrigen Optionen erzwingen Standardprimärvalenzen; Version und Fähigkeitsbits des Bildschirms bleiben erhalten. Erfordert einen Bildschirm mit VSVDB v2."
 
 #. VSVDB colour space option: keep the display's advertised primaries
 #: system/settings/settings.xml
@@ -20880,7 +20880,7 @@ msgstr "Minimale Zielleuchtdichte für Dolby Vision (Referenzschwarz)"
 #: system/settings/settings.xml
 msgctxt "#60356"
 msgid "Minimum luminance the Dolby Vision engine tone-maps to, in units of 0.0001 nit. 0 (recommended) uses the built-in 0.0001 nit: reference black stays black and near-black detail stays visible. Any higher value lifts black and flattens every shade below it into one grey level - 50 (0.005 nit) already clips everything below about video level 80. Only raise it for a display that cannot reach true black. Applies to Dolby Vision output as well as to VS10 conversions to HDR10 / SDR."
-msgstr "Minimale Leuchtdichte, auf die die Dolby-Vision-Engine tonemappt, in Einheiten von 0,0001 Nits. 0 (empfohlen) verwendet den integrierten Wert von 0,0001 Nits: Referenzschwarz bleibt schwarz und Details nahe Schwarz bleiben sichtbar. Jeder höhere Wert hebt Schwarz an und fasst alle darunterliegenden Abstufungen zu einem einzigen Grauwert zusammen – 50 (0,005 Nits) beschneidet bereits alles unterhalb von etwa Videopegel 80. Nur für Bildschirme erhöhen, die kein echtes Schwarz erreichen. Gilt für die Dolby-Vision-Ausgabe ebenso wie für VS10-Konvertierungen nach HDR10/SDR."
+msgstr "Minimale Leuchtdichte, auf die die Dolby-Vision-Engine ihr Tonemapping ausrichtet, in Einheiten von 0,0001 Nits. 0 (empfohlen) verwendet den integrierten Wert von 0,0001 Nits: Referenzschwarz bleibt schwarz und Details nahe Schwarz bleiben sichtbar. Jeder höhere Wert hebt Schwarz an und fasst alle darunterliegenden Abstufungen zu einem einzigen Grauwert zusammen – 50 (0,005 Nits) beschneidet bereits alles unterhalb von etwa Videopegel 80. Nur für Bildschirme erhöhen, die kein echtes Schwarz erreichen. Gilt für die Dolby-Vision-Ausgabe ebenso wie für VS10-Konvertierungen nach HDR10/SDR."
 
 #. Toast heading when a VS10 output mode is refused for software-decoded video
 #: xbmc/utils/AMLUtils.cpp
