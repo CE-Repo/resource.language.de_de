@@ -7213,8 +7213,8 @@ msgstr "Tonemapping von SDR nach Dolby Vision"
 
 #: system/settings/settings.xml
 msgctxt "#14311"
-msgid "Intended for Dolby Vision enabled displays. SDR content will be tone mapped by Dolby Vision VS-Engine."
-msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der SDR-Inhalte übernimmt die Dolby-Vision-VS-Engine."
+msgid "Intended for Dolby Vision enabled displays. SDR content will be tone mapped by Dolby Vision VS-Engine. Legacy all-or-nothing switch - prefer the per-source 'DV VS10 for SDR8/SDR10 video' settings below, which let you pick the output format per source type and pair with the display peak / VSVDB override for better tone mapping."
+msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der SDR-Inhalte übernimmt die Dolby-Vision-VS-Engine. Veralteter Alles-oder-nichts-Schalter – besser die quellenspezifischen Einstellungen „DV VS10 für SDR8-Video“ und „DV VS10 für SDR10-Video“ weiter unten verwenden: Dort lässt sich das Ausgabeformat je Quelltyp festlegen und mit der Spitzenleuchtdichte des Bildschirms bzw. der VSVDB-Übersteuerung für ein besseres Tonemapping kombinieren."
 
 #: system/settings/settings.xml
 msgctxt "#14312"
@@ -7223,8 +7223,8 @@ msgstr "Tonemapping von HDR nach Dolby Vision"
 
 #: system/settings/settings.xml
 msgctxt "#14313"
-msgid "Intended for Dolby Vision enabled displays. HDR content will be tone mapped by Dolby Vision VS-Engine."
-msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der HDR-Inhalte übernimmt die Dolby-Vision-VS-Engine."
+msgid "Intended for Dolby Vision enabled displays. HDR content will be tone mapped by Dolby Vision VS-Engine. Legacy all-or-nothing switch - prefer the per-source 'DV VS10 for HDR10/HDR10+ video' settings below, which let you pick the output format per source type and pair with the display peak / VSVDB override for better tone mapping."
+msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der HDR-Inhalte übernimmt die Dolby-Vision-VS-Engine. Veralteter Alles-oder-nichts-Schalter – besser die quellenspezifischen Einstellungen „DV VS10 für HDR10-Video“ und „DV VS10 für HDR10+-Video“ weiter unten verwenden: Dort lässt sich das Ausgabeformat je Quelltyp festlegen und mit der Spitzenleuchtdichte des Bildschirms bzw. der VSVDB-Übersteuerung für ein besseres Tonemapping kombinieren."
 
 #: system/settings/settings.xml
 msgctxt "#14400"
