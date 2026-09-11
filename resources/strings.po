@@ -7373,6 +7373,22 @@ msgctxt "#14427"
 msgid "Player-Led"
 msgstr "Player-Led (DV-LL)"
 
+msgctxt "#14430"
+msgid "Use display as clock (hardware vsync)"
+msgstr "Bildschirm als Taktgeber verwenden (Hardware-VSync)"
+
+msgctxt "#14431"
+msgid "Drive the video reference clock from the Amlogic display's real hardware vsync (FBIO_WAITFORVSYNC_64) instead of estimating from the system clock. Gives display-locked A/V sync with whole-frame audio corrections at matched refresh rates. Enabled by default; disable to fall back to legacy system-clock timing. Automatically falls back to software timing during HDMI mode switches or vsync stalls."
+msgstr "Die Videoreferenzuhr vom echten Hardware-VSync des Amlogic-Bildschirms (FBIO_WAITFORVSYNC_64) ableiten, anstatt sie anhand der Systemuhr zu schätzen. Ergibt eine an den Bildschirm gekoppelte A/V-Synchronisation mit Audiokorrekturen in ganzen Einzelbildern bei passender Bildwiederholrate. Standardmäßig aktiviert; deaktivieren, um auf die bisherige Taktung über die Systemuhr zurückzufallen. Bei HDMI-Moduswechseln oder VSync-Aussetzern wird automatisch auf Softwaretaktung zurückgeschaltet."
+
+msgctxt "#14432"
+msgid "Latch software timing on sustained vsync stall"
+msgstr "Bei anhaltendem VSync-Aussetzer dauerhaft auf Softwaretaktung bleiben"
+
+msgctxt "#14433"
+msgid "If the hardware vsync stalls for longer than any plausible HDMI mode switch (e.g. chronically wedged sink), stop re-probing and stay on software timing for the rest of playback instead of paying the periodic re-probe hiccup. Resets on stop. Leave off unless you see repeated vsync-stall warnings in the log."
+msgstr "Wenn der Hardware-VSync länger aussetzt, als es ein HDMI-Moduswechsel plausibel erklären kann (z. B. bei einem dauerhaft blockierten Empfangsgerät), wird nicht mehr erneut geprüft und für den Rest der Wiedergabe auf Softwaretaktung geblieben, anstatt die wiederkehrenden Aussetzer durch die erneute Prüfung in Kauf zu nehmen. Wird beim Stoppen zurückgesetzt. Nur aktivieren, wenn im Protokoll wiederholt Warnungen über VSync-Aussetzer erscheinen."
+
 msgctxt "#15011"
 msgid "{0:d} Items failed to export"
 msgstr "{0:d} Einträge konnten nicht exportiert werden"
@@ -20583,6 +20599,404 @@ msgstr "Nach dem Ändern des Bildschirms ist möglicherweise ein Neustart erford
 msgctxt "#40804"
 msgid "{0:.1f} dB"
 msgstr "{0:.1f} dB"
+
+#. Label of setting "CMv4.0 metadata"
+#: system/settings/settings.xml
+msgctxt "#60320"
+msgid "CMv4.0 metadata"
+msgstr "CMv4.0-Metadaten"
+
+#. Description of setting with label #60320 "CMv4.0 metadata"
+#: system/settings/settings.xml
+msgctxt "#60321"
+msgid "Add Dolby Vision CMv4.0 metadata to CMv2.9 titles, or take it away from CMv4.0 ones. \"Smart\" appends per-frame unless the frame's content peak exceeds the display's peak brightness by the threshold, in which case CMv2.9 is kept so its L2 trims apply. \"Smart\" is not available on player-led Dolby Vision output: switching the CM version mid-stream makes the display re-acquire Dolby Vision, so \"Smart\" behaves as plain \"Always\" there. It works per-frame for TV-led Dolby Vision output and for VS10 HDR10/SDR output. \"Auto\" decides once per title instead of per frame, from the title's own mastering brightness and the trigger below, so it never switches the CM version mid-playback. \"Strip to CMv2.9\" is the opposite operation: it removes CMv4.0 from titles that carry it, for older Dolby Vision displays that fail to fall back from CMv4.0 and show a black screen on it. Stripping only applies to TV-led Dolby Vision output, where the display itself reads the metadata."
+msgstr "Dolby-Vision-CMv4.0-Metadaten zu CMv2.9-Titeln hinzufügen oder sie aus CMv4.0-Titeln entfernen. „Smart“ fügt sie einzelbildweise hinzu, außer wenn die Spitzenhelligkeit des Bildinhalts die Spitzenhelligkeit des Bildschirms um den festgelegten Schwellenwert übersteigt – dann wird CMv2.9 beibehalten, damit dessen L2-Trims wirksam werden. „Smart“ ist bei Player-Led-Dolby-Vision-Ausgabe nicht verfügbar: Ein Wechsel der CM-Version während der Wiedergabe führt dazu, dass der Bildschirm Dolby Vision neu synchronisiert; dort verhält sich „Smart“ deshalb wie „Immer“. Einzelbildweise funktioniert es bei TV-Led-Dolby-Vision-Ausgabe sowie bei VS10-HDR10-/SDR-Ausgabe. „Auto“ entscheidet einmal pro Titel statt pro Einzelbild – anhand der Mastering-Helligkeit des Titels und des unten eingestellten Auslösers – und wechselt die CM-Version daher nie während der Wiedergabe. „Auf CMv2.9 reduzieren“ ist der umgekehrte Vorgang: CMv4.0 wird aus Titeln entfernt, die es enthalten. Das hilft bei älteren Dolby-Vision-Bildschirmen, die nicht von CMv4.0 zurückfallen können und stattdessen ein schwarzes Bild zeigen. Das Entfernen wirkt nur bei TV-Led-Dolby-Vision-Ausgabe, bei der der Bildschirm die Metadaten selbst auswertet."
+
+msgctxt "#60322"
+msgid "Off"
+msgstr "Aus"
+
+msgctxt "#60323"
+msgid "CMv2.9 without L2 trims"
+msgstr "CMv2.9 ohne L2-Trims"
+
+msgctxt "#60324"
+msgid "Always"
+msgstr "Immer"
+
+msgctxt "#60325"
+msgid "Smart"
+msgstr "Smart"
+
+msgctxt "#60326"
+msgid "Auto"
+msgstr "Auto"
+
+msgctxt "#60327"
+msgid "Strip to CMv2.9"
+msgstr "Auf CMv2.9 reduzieren"
+
+#. Label of setting "CMv4.0 smart bypass threshold (%)"
+#: system/settings/settings.xml
+msgctxt "#60328"
+msgid "CMv4.0 smart bypass threshold (%)"
+msgstr "Schwellenwert für Smart-Umgehung von CMv4.0 (%)"
+
+#. Description of setting with label #60328
+#: system/settings/settings.xml
+msgctxt "#60329"
+msgid "Percentage above the display's peak brightness at which CMv4.0 append is bypassed (so the CMv2.9 L2 trims apply). At 0% any content above display peak bypasses; at 20% content must exceed display peak by 20% (e.g. 1200 nits on a 1000-nit display). Only used when the append mode is Smart."
+msgstr "Prozentwert oberhalb der Spitzenhelligkeit des Bildschirms, ab dem das Hinzufügen von CMv4.0 umgangen wird (sodass die L2-Trims von CMv2.9 wirksam werden). Bei 0 % wird jeder Inhalt oberhalb der Spitzenhelligkeit des Bildschirms umgangen, bei 20 % muss der Inhalt diese um 20 % übersteigen (z. B. 1200 Nits bei einem Bildschirm mit 1000 Nits). Wird nur verwendet, wenn der Hinzufügemodus auf „Smart“ steht."
+
+#. Label of setting "Dolby Vision display peak luminance (nits)"
+#: system/settings/settings.xml
+msgctxt "#60330"
+msgid "Display peak luminance (nits)"
+msgstr "Spitzenleuchtdichte des Bildschirms (Nits)"
+
+#. Description of setting with label #60330
+#: system/settings/settings.xml
+msgctxt "#60331"
+msgid "Your display's Dolby Vision peak brightness in nits. 0 = auto: the Smart CMv4.0 bypass decision reads the display's own EDID (VSVDB) peak, and nothing is forced onto the Dolby Vision engine. Setting a value here is an explicit override: it replaces the auto-detected peak for the Smart CMv4.0 bypass decision, is injected into the display's VSVDB when 'Force peak onto display' below is enabled, and becomes the peak the Dolby Vision engine tone-maps to for VS10 HDR10 output."
+msgstr "Die Dolby-Vision-Spitzenhelligkeit des Bildschirms in Nits. 0 = automatisch: Für die Entscheidung über die Smart-Umgehung von CMv4.0 wird die im EDID (VSVDB) des Bildschirms hinterlegte Spitzenhelligkeit ausgelesen und der Dolby-Vision-Engine nichts vorgegeben. Ein hier gesetzter Wert ist eine ausdrückliche Übersteuerung: Er ersetzt die automatisch erkannte Spitzenhelligkeit bei der Smart-Umgehung von CMv4.0, wird in das VSVDB des Bildschirms eingefügt, wenn unten „Spitzenhelligkeit dem Bildschirm vorgeben (VSVDB)“ aktiviert ist, und ist die Spitzenhelligkeit, auf die die Dolby-Vision-Engine bei VS10-HDR10-Ausgabe tonemappt."
+
+#. Label of Dolby Vision VS10 SDR8 output setting
+#: system/settings/settings.xml
+msgctxt "#60051"
+msgid "DV VS10 for SDR8 video"
+msgstr "DV VS10 für SDR8-Video"
+
+#. Description of setting with label #60051
+#: system/settings/settings.xml
+msgctxt "#60052"
+msgid "Select output format when playing 8-bit SDR content. Off = passthrough. SDR BT.2020 content always bypasses VS10 to preserve the original color gamut."
+msgstr "Ausgabeformat für die Wiedergabe von 8-Bit-SDR-Inhalten auswählen. „Aus“ = Passthrough. SDR-Inhalte in BT.2020 umgehen VS10 immer, um den ursprünglichen Farbraum zu erhalten."
+
+#. Label of Dolby Vision VS10 SDR10 output setting
+#: system/settings/settings.xml
+msgctxt "#60053"
+msgid "DV VS10 for SDR10 video"
+msgstr "DV VS10 für SDR10-Video"
+
+#. Description of setting with label #60053
+#: system/settings/settings.xml
+msgctxt "#60054"
+msgid "Select output format when playing 10-bit SDR content. Off = passthrough. SDR BT.2020 content always bypasses VS10 to preserve the original color gamut."
+msgstr "Ausgabeformat für die Wiedergabe von 10-Bit-SDR-Inhalten auswählen. „Aus“ = Passthrough. SDR-Inhalte in BT.2020 umgehen VS10 immer, um den ursprünglichen Farbraum zu erhalten."
+
+#. Label of Dolby Vision VS10 HDR10 output setting
+#: system/settings/settings.xml
+msgctxt "#60055"
+msgid "DV VS10 for HDR10 video"
+msgstr "DV VS10 für HDR10-Video"
+
+#. Description of setting with label #60055
+#: system/settings/settings.xml
+msgctxt "#60056"
+msgid "Select output format when playing HDR10 content. Off = native HDR10 passthrough."
+msgstr "Ausgabeformat für die Wiedergabe von HDR10-Inhalten auswählen. „Aus“ = natives HDR10-Passthrough."
+
+#. Label of Dolby Vision VS10 HDR10+ output setting
+#: system/settings/settings.xml
+msgctxt "#60057"
+msgid "DV VS10 for HDR10+ video"
+msgstr "DV VS10 für HDR10+-Video"
+
+#. Description of setting with label #60057
+#: system/settings/settings.xml
+msgctxt "#60058"
+msgid "Select output format when playing HDR10+ content. Only static HDR10 metadata is used - dynamic HDR10+ metadata is not passed to the DV engine."
+msgstr "Ausgabeformat für die Wiedergabe von HDR10+-Inhalten auswählen. Es werden nur statische HDR10-Metadaten verwendet – dynamische HDR10+-Metadaten werden nicht an die DV-Engine übergeben."
+
+#. Label of Dolby Vision VS10 HLG output setting
+#: system/settings/settings.xml
+msgctxt "#60059"
+msgid "DV VS10 for HLG video"
+msgstr "DV VS10 für HLG-Video"
+
+#. Description of setting with label #60059
+#: system/settings/settings.xml
+msgctxt "#60060"
+msgid "Select output format when playing HLG content. Off = native HLG passthrough."
+msgstr "Ausgabeformat für die Wiedergabe von HLG-Inhalten auswählen. „Aus“ = natives HLG-Passthrough."
+
+#. Label of Dolby Vision VS10 DV output setting
+#: system/settings/settings.xml
+msgctxt "#60061"
+msgid "DV VS10 for DV video"
+msgstr "DV VS10 für DV-Video"
+
+#. Description of setting with label #60061
+#: system/settings/settings.xml
+msgctxt "#60062"
+msgid "Output format for Dolby Vision sources. HDR10: convert to HDR10, reconstructing the full image (including the profile 7 FEL enhancement layer) and tone-mapping it - use this to play Dolby Vision on an HDR10 display that does not support Dolby Vision. SDR: convert to SDR. Off: output native Dolby Vision (shown only on a Dolby Vision display)."
+msgstr "Ausgabeformat für Dolby-Vision-Quellen. HDR10: nach HDR10 konvertieren, dabei das vollständige Bild rekonstruieren (einschließlich der FEL-Erweiterungsebene von Profil 7) und tonemappen – zu verwenden, um Dolby Vision auf einem HDR10-Bildschirm ohne Dolby-Vision-Unterstützung wiederzugeben. SDR: nach SDR konvertieren. Aus: natives Dolby Vision ausgeben (nur auf einem Dolby-Vision-Bildschirm darstellbar)."
+
+#. Dolby Vision VS10 output option: Off / passthrough
+#: system/settings/settings.xml
+msgctxt "#60063"
+msgid "Off"
+msgstr "Aus"
+
+#. Dolby Vision VS10 output option: SDR
+#: system/settings/settings.xml
+msgctxt "#60064"
+msgid "SDR"
+msgstr "SDR"
+
+#. Dolby Vision VS10 output option: HDR10
+#: system/settings/settings.xml
+msgctxt "#60065"
+msgid "HDR10"
+msgstr "HDR10"
+
+#. Dolby Vision VS10 output option: Dolby Vision
+#: system/settings/settings.xml
+msgctxt "#60066"
+msgid "DV"
+msgstr "DV"
+
+#. Label of Dolby Vision VS10 HDR10 OSD peak brightness setting
+#: system/settings/settings.xml
+msgctxt "#60069"
+msgid "HDR10 OSD peak brightness (nits)"
+msgstr "Spitzenhelligkeit des OSD bei HDR10 (Nits)"
+
+#. Description of setting with label #60069
+#: system/settings/settings.xml
+msgctxt "#60070"
+msgid "Set the maximum luminance for OSD graphics (GUI, subtitles) in nits when VS10 HDR10 output is active. Overrides the general DV OSD brightness for HDR10 output specifically. Default 316 matches the compositor's built-in value for HDR10."
+msgstr "Maximale Leuchtdichte für OSD-Grafiken (GUI, Untertitel) in Nits festlegen, wenn die VS10-HDR10-Ausgabe aktiv ist. Übersteuert speziell für die HDR10-Ausgabe die allgemeine DV-OSD-Helligkeit. Der Standardwert 316 entspricht dem im Compositor hinterlegten Wert für HDR10."
+
+#. Label of Dolby Vision "convert HDR10+ to DV 8.1" setting
+#: system/settings/settings.xml
+msgctxt "#60101"
+msgid "Convert HDR10+ video to DV profile 8.1 during playback"
+msgstr "HDR10+-Video während der Wiedergabe in DV-Profil 8.1 konvertieren"
+
+#. Description of setting with label #60101
+#: system/settings/settings.xml
+msgctxt "#60102"
+msgid "Converts HDR10+ dynamic metadata to DV profile 8.1 in real time, allowing the DV engine to apply scene-by-scene tonemapping for HDR10+ content."
+msgstr "Konvertiert dynamische HDR10+-Metadaten in Echtzeit in das DV-Profil 8.1, sodass die DV-Engine szenenweises Tonemapping auf HDR10+-Inhalte anwenden kann."
+
+#. Label of Dolby Vision "force peak onto display (VSVDB inject)" setting
+#: system/settings/settings.xml
+msgctxt "#60340"
+msgid "Force peak onto display (VSVDB)"
+msgstr "Spitzenhelligkeit dem Bildschirm vorgeben (VSVDB)"
+
+#. Description of setting with label #60340
+#: system/settings/settings.xml
+msgctxt "#60341"
+msgid "Inject the peak luminance set above into the display's Dolby Vision VSVDB (EDID), so the DV engine actually tone-maps for that brightness instead of the value the TV advertises. Useful when the TV over- or under-reports its real peak. Only the max-luminance field is changed; all other VSVDB data is kept. Snapped to the nearest Dolby PQ step. Requires a display with a v2 VSVDB and a peak value above (0 = auto does nothing). On player-led (low-latency) Dolby Vision output the DV engine takes its target peak from the VSVDB, and the peak is additionally capped to each title's own mastering peak - so a value set here can be lowered, but never raised, for content graded below it."
+msgstr "Die oben eingestellte Spitzenleuchtdichte in das Dolby-Vision-VSVDB (EDID) des Bildschirms einfügen, damit die DV-Engine tatsächlich auf diese Helligkeit tonemappt und nicht auf den vom Fernseher gemeldeten Wert. Nützlich, wenn der Fernseher seine tatsächliche Spitzenhelligkeit zu hoch oder zu niedrig angibt. Es wird nur das Feld für die maximale Leuchtdichte geändert, alle übrigen VSVDB-Daten bleiben erhalten. Der Wert wird auf die nächstgelegene Dolby-PQ-Stufe gerundet. Erfordert einen Bildschirm mit VSVDB v2 und einen oben eingetragenen Wert (0 = automatisch bewirkt nichts). Bei Player-Led-Ausgabe (Low Latency) entnimmt die DV-Engine ihre Zielspitzenhelligkeit dem VSVDB; zusätzlich wird sie auf die Mastering-Spitzenhelligkeit des jeweiligen Titels begrenzt – ein hier gesetzter Wert kann für dunkler gemasterte Inhalte also gesenkt, aber nie angehoben werden."
+
+#. Label of Dolby Vision VSVDB colour-space override setting
+#: system/settings/settings.xml
+msgctxt "#60342"
+msgid "Colour space (VSVDB)"
+msgstr "Farbraum (VSVDB)"
+
+#. Description of setting with label #60342
+#: system/settings/settings.xml
+msgctxt "#60343"
+msgid "Override the colour primaries advertised in the injected Dolby Vision VSVDB, so the DV engine tone-maps for a specific gamut. 'Display' keeps the panel's own advertised primaries and only changes the peak luminance above. The other options force standard primaries; the display's version and capability bits are preserved. Requires a v2 VSVDB display."
+msgstr "Die im eingefügten Dolby-Vision-VSVDB angegebenen Farbprimärvalenzen übersteuern, damit die DV-Engine auf einen bestimmten Farbraum tonemappt. „Bildschirm“ behält die vom Panel gemeldeten Primärvalenzen bei und ändert nur die oben eingestellte Spitzenleuchtdichte. Die übrigen Optionen erzwingen Standardprimärvalenzen; Version und Fähigkeitsbits des Bildschirms bleiben erhalten. Erfordert einen Bildschirm mit VSVDB v2."
+
+#. VSVDB colour space option: keep the display's advertised primaries
+#: system/settings/settings.xml
+msgctxt "#60344"
+msgid "Display (keep advertised)"
+msgstr "Bildschirm (gemeldete beibehalten)"
+
+#. VSVDB colour space option: DCI-P3
+#: system/settings/settings.xml
+msgctxt "#60345"
+msgid "DCI-P3"
+msgstr "DCI-P3"
+
+#. VSVDB colour space option: BT.2020
+#: system/settings/settings.xml
+msgctxt "#60346"
+msgid "BT.2020"
+msgstr "BT.2020"
+
+#. VSVDB colour space option: BT.709
+#: system/settings/settings.xml
+msgctxt "#60347"
+msgid "BT.709"
+msgstr "BT.709"
+
+#. Label of Dolby Vision L5 active-area (letterbox) mode setting
+#: system/settings/settings.xml
+msgctxt "#60348"
+msgid "Level 5 active area (letterbox)"
+msgstr "Level-5-Aktivbereich (Letterbox)"
+
+#. Description of setting with label #60348
+#: system/settings/settings.xml
+msgctxt "#60349"
+msgid "Controls the Dolby Vision Level 5 active-area (letterbox/pillarbox) offsets written into the RPU. 'Source' leaves the stream's own L5 as authored. 'Zero' forces the whole frame active (fixes displays that mis-crop DV). 'Auto-detect' background-scans the file for black bars and injects the offsets when the source carries no L5, so letterbox bars mask to true black instead of being raised to grey by the DV trims."
+msgstr "Steuert die in die RPU geschriebenen Level-5-Offsets für den Aktivbereich (Letterbox/Pillarbox) von Dolby Vision. „Quelle“ belässt das L5 des Streams so, wie es erstellt wurde. „Null“ erzwingt das gesamte Einzelbild als Aktivbereich (behebt Probleme mit Bildschirmen, die DV falsch beschneiden). „Automatisch erkennen“ durchsucht die Datei im Hintergrund nach schwarzen Balken und fügt die Offsets ein, wenn die Quelle kein L5 enthält, damit Letterbox-Balken in echtem Schwarz maskiert werden, statt durch die DV-Trims auf Grau angehoben zu werden."
+
+#. Dolby Vision L5 mode option: use the source RPU's own L5 offsets
+#: system/settings/settings.xml
+msgctxt "#60350"
+msgid "Source"
+msgstr "Quelle"
+
+#. Dolby Vision L5 mode option: force zero offsets (full frame active)
+#: system/settings/settings.xml
+msgctxt "#60351"
+msgid "Zero (full frame)"
+msgstr "Null (gesamtes Bild)"
+
+#. Dolby Vision L5 mode option: auto-detect the active area from the video
+#: system/settings/settings.xml
+msgctxt "#60352"
+msgid "Auto-detect"
+msgstr "Automatisch erkennen"
+
+#. Label of Dolby Vision L5 "show OSD/subtitles over letterbox bars" setting
+#: system/settings/settings.xml
+msgctxt "#60353"
+msgid "Show OSD/subtitles over letterbox bars"
+msgstr "OSD/Untertitel über Letterbox-Balken anzeigen"
+
+#. Description of setting with label #60353
+#: system/settings/settings.xml
+msgctxt "#60354"
+msgid "When the active-area (letterbox) offsets are being applied - Source or Auto-detect above - the Dolby Vision engine masks the black bars, which can also hide OSD or subtitles drawn in the bar region. Enable this to temporarily lift the mask (set Level 5 to zero) whenever the OSD, a dialog, or subtitles are on screen, so overlays in the bars stay visible. No effect in Zero mode."
+msgstr "Wenn die Offsets für den Aktivbereich (Letterbox) angewendet werden – also bei „Quelle“ oder „Automatisch erkennen“ –, maskiert die Dolby-Vision-Engine die schwarzen Balken, wodurch auch OSD oder Untertitel im Bereich der Balken verdeckt werden können. Diese Option aktivieren, um die Maskierung vorübergehend aufzuheben (Level 5 auf Null setzen), sobald das OSD, ein Dialog oder Untertitel auf dem Bildschirm sind, damit Überlagerungen in den Balken sichtbar bleiben. Im Modus „Null“ ohne Wirkung."
+
+#. Setting to override the Dolby Vision tone-mapping target minimum luminance (reference black)
+#: system/settings/settings.xml
+msgctxt "#60355"
+msgid "Dolby Vision target minimum luminance (reference black)"
+msgstr "Minimale Zielleuchtdichte für Dolby Vision (Referenzschwarz)"
+
+#. Description of setting with label #60355
+#: system/settings/settings.xml
+msgctxt "#60356"
+msgid "Minimum luminance the Dolby Vision engine tone-maps to, in units of 0.0001 nit. 0 (recommended) uses the built-in 0.0001 nit: reference black stays black and near-black detail stays visible. Any higher value lifts black and flattens every shade below it into one grey level - 50 (0.005 nit) already clips everything below about video level 80. Only raise it for a display that cannot reach true black. Applies to Dolby Vision output as well as to VS10 conversions to HDR10 / SDR."
+msgstr "Minimale Leuchtdichte, auf die die Dolby-Vision-Engine tonemappt, in Einheiten von 0,0001 Nits. 0 (empfohlen) verwendet den integrierten Wert von 0,0001 Nits: Referenzschwarz bleibt schwarz und Details nahe Schwarz bleiben sichtbar. Jeder höhere Wert hebt Schwarz an und fasst alle darunterliegenden Abstufungen zu einem einzigen Grauwert zusammen – 50 (0,005 Nits) beschneidet bereits alles unterhalb von etwa Videopegel 80. Nur für Bildschirme erhöhen, die kein echtes Schwarz erreichen. Gilt für die Dolby-Vision-Ausgabe ebenso wie für VS10-Konvertierungen nach HDR10/SDR."
+
+#. Toast heading when a VS10 output mode is refused for software-decoded video
+#: xbmc/utils/AMLUtils.cpp
+msgctxt "#60357"
+msgid "VS10 not available"
+msgstr "VS10 nicht verfügbar"
+
+#. Toast body when a VS10 output mode is refused for software-decoded video
+#: xbmc/utils/AMLUtils.cpp
+msgctxt "#60358"
+msgid "Software-decoded video has no hardware video layer for the Dolby Vision engine to process."
+msgstr "Softwaredecodiertes Video hat keine Hardware-Videoebene, die die Dolby-Vision-Engine verarbeiten könnte."
+
+#: system/settings/settings.xml
+msgctxt "#60359"
+msgid "Let CoreELEC convert Dolby Vision for non-DV displays"
+msgstr "Dolby-Vision-Konvertierung für Bildschirme ohne DV von CoreELEC durchführen lassen"
+
+#: system/settings/settings.xml
+msgctxt "#60360"
+msgid "A Dolby Vision title shown on a display that cannot accept Dolby Vision has to be converted. This build normally does that with its VS10 engine, forcing an explicit HDR10 output (SDR if the display takes neither). Turn this on to hand the conversion to CoreELEC's own path instead, which signals the Dolby Vision core in low-latency mode and lets it map to the best format the display reports. Affects displays without Dolby Vision only, and only while the Dolby Vision core is engaged for the title - with 'Dolby Vision source output' left at Bypass a profile 7 or 8 title still plays as ordinary HDR10 and this changes nothing. Off = VS10, this build's default. Offered so the two can be compared; which looks better is worth reporting."
+msgstr "Ein Dolby-Vision-Titel muss konvertiert werden, wenn er auf einem Bildschirm gezeigt wird, der Dolby Vision nicht annehmen kann. Dieser Build erledigt das normalerweise mit seiner VS10-Engine und erzwingt eine ausdrückliche HDR10-Ausgabe (SDR, wenn der Bildschirm auch das nicht annimmt). Wird diese Option aktiviert, übernimmt stattdessen der eigene Weg von CoreELEC die Konvertierung: Er spricht den Dolby-Vision-Kern im Low-Latency-Modus an und lässt ihn auf das beste vom Bildschirm gemeldete Format abbilden. Betrifft nur Bildschirme ohne Dolby Vision und nur, solange der Dolby-Vision-Kern für den Titel aktiv ist – steht „Dolby Vision source output“ auf „Bypass“, wird ein Titel mit Profil 7 oder 8 weiterhin als gewöhnliches HDR10 wiedergegeben und diese Einstellung ändert nichts. Aus = VS10, die Voreinstellung dieses Builds. Die Option besteht, damit beide Wege verglichen werden können; welcher besser aussieht, ist eine Rückmeldung wert."
+
+#empty string with id 60361
+#: system/settings/settings.xml
+msgctxt "#60361"
+msgid "Stop playback on a broken or truncated file"
+msgstr "Wiedergabe bei beschädigter oder unvollständiger Datei stoppen"
+
+#. Setting help for stopping playback on a broken source
+#: system/settings/settings.xml
+msgctxt "#60362"
+msgid "Stops playback and warns when a source stalls with no prospect of recovering - typical of corrupt, partially-downloaded or still-growing files. A seek that scans a large amount of the file without completing, or audio and video both stalling for more than five seconds during normal playback, is treated as a broken source. A stall where nothing is being read at all is treated as slow or sleeping storage instead and is left alone. Disabled by default."
+msgstr "Stoppt die Wiedergabe und warnt, wenn eine Quelle ohne Aussicht auf Erholung hängt – typisch für beschädigte, unvollständig heruntergeladene oder noch wachsende Dateien. Ein Suchlauf, der einen großen Teil der Datei durchsucht, ohne abgeschlossen zu werden, oder ein gleichzeitiges Stocken von Ton und Bild über mehr als fünf Sekunden während der normalen Wiedergabe gilt als beschädigte Quelle. Ein Stillstand, bei dem überhaupt nichts gelesen wird, wird dagegen als langsamer oder schlafender Speicher gewertet und unangetastet gelassen. Standardmäßig deaktiviert."
+
+#. Notification heading shown when a broken source stops playback
+msgctxt "#60363"
+msgid "Broken or truncated file"
+msgstr "Beschädigte oder unvollständige Datei"
+
+#. Notification body shown when a broken source stops playback
+msgctxt "#60364"
+msgid "Playback stopped - the source stalled or a seek did not complete"
+msgstr "Wiedergabe gestoppt – die Quelle hängt oder ein Suchlauf wurde nicht abgeschlossen"
+
+#. Label of the setting choosing which HDR format to open when a file offers both
+msgctxt "#60365"
+msgid "Preferred format when a file carries two video streams"
+msgstr "Bevorzugtes Format, wenn eine Datei zwei Videostreams enthält"
+
+#. Help of the setting choosing which HDR format to open when a file offers both
+msgctxt "#60366"
+msgid "Some releases carry the same picture twice - once as Dolby Vision and once as HDR10+ - as two separate video streams. This chooses which of them plays. It has no effect on ordinary files, on a Dolby Vision profile 7 disc (where the two streams are one picture, not a choice), or when you have already picked a video stream for an item by hand."
+msgstr "Manche Veröffentlichungen enthalten dasselbe Bild zweimal – einmal als Dolby Vision und einmal als HDR10+ – in Form von zwei getrennten Videostreams. Hier wird ausgewählt, welcher davon wiedergegeben wird. Auf gewöhnliche Dateien hat dies keine Auswirkung, ebenso wenig auf eine Dolby-Vision-Disc mit Profil 7 (dort ergeben beide Streams zusammen ein Bild, es gibt also keine Wahl) oder wenn für ein Element bereits von Hand ein Videostream ausgewählt wurde."
+
+#. Option: prefer the Dolby Vision stream
+msgctxt "#60367"
+msgid "Dolby Vision"
+msgstr "Dolby Vision"
+
+#. Option: prefer the HDR10+ stream
+msgctxt "#60368"
+msgid "HDR10+"
+msgstr "HDR10+"
+
+#. Label of the setting enabling the HDR10+ decode probe during library scans
+msgctxt "#60369"
+msgid "Detect HDR10+ in HDR10 files"
+msgstr "HDR10+ in HDR10-Dateien erkennen"
+
+#. Help of the setting enabling the HDR10+ decode probe during library scans
+msgctxt "#60370"
+msgid "Decodes a frame of every HDR10 file added to the library to find out whether it also carries HDR10+ dynamic metadata. Accurate, but it makes scanning a large HDR library noticeably slower. Turn this off to scan faster, at the cost of HDR10+ files being listed as plain HDR10. Dolby Vision files are always examined, as the profile cannot be determined any other way."
+msgstr "Decodiert von jeder zur Bibliothek hinzugefügten HDR10-Datei ein Einzelbild, um festzustellen, ob sie zusätzlich dynamische HDR10+-Metadaten enthält. Das ist genau, verlangsamt das Durchsuchen einer großen HDR-Bibliothek aber spürbar. Deaktivieren, um schneller zu durchsuchen – dafür werden HDR10+-Dateien als einfaches HDR10 gelistet. Dolby-Vision-Dateien werden immer untersucht, da sich das Profil anders nicht bestimmen lässt."
+
+#. Label of the setting that reports 3D display capability to a Blu-ray 3D disc
+msgctxt "#60371"
+msgid "Simulate 3D display"
+msgstr "3D-fähigen Bildschirm simulieren"
+
+#. Help of the setting that reports 3D display capability to a Blu-ray 3D disc
+msgctxt "#60372"
+msgid "Tells a Blu-ray 3D disc that the connected display can show 3D, whether or not it can. Many 3D discs ask before deciding what to play, and some refuse to start at all on a display that answers no - the disc's app parks the title on a single still frame and nothing further happens, with no menu, no picture and no sound. Turning this on lets those discs run their normal path; the film then plays in ordinary 2D, because only the base view of a 3D title is presented. Also useful when the display really can show 3D but its capability is lost on the way to the player, through an AV receiver or scaler that rewrites EDID. Affects Blu-ray 3D discs only and changes nothing for any other disc."
+msgstr "Teilt einer Blu-ray-3D-Disc mit, dass der angeschlossene Bildschirm 3D darstellen kann – unabhängig davon, ob er es tatsächlich kann. Viele 3D-Discs fragen das ab, bevor sie entscheiden, was sie wiedergeben, und manche starten auf einem Bildschirm, der dies verneint, überhaupt nicht: Die Anwendung der Disc bleibt bei einem einzelnen Standbild stehen und es geschieht nichts weiter – kein Menü, kein Bild und kein Ton. Mit dieser Option durchlaufen solche Discs ihren normalen Weg; der Film wird dann in gewöhnlichem 2D wiedergegeben, da nur die Basisansicht eines 3D-Titels dargestellt wird. Auch nützlich, wenn der Bildschirm tatsächlich 3D darstellen kann, diese Fähigkeit aber auf dem Weg zum Player verloren geht, etwa durch einen AV-Receiver oder Scaler, der das EDID verändert. Betrifft nur Blu-ray-3D-Discs und ändert bei allen anderen Discs nichts."
+
+#. Label of setting "CMv4.0 auto trigger"
+#: system/settings/settings.xml
+msgctxt "#60373"
+msgid "CMv4.0 auto trigger"
+msgstr "CMv4.0-Auto-Auslöser"
+
+#. Description of setting with label #60373 "CMv4.0 auto trigger"
+#: system/settings/settings.xml
+msgctxt "#60374"
+msgid "Only used when [CMv4.0 metadata] is set to [Auto]. Chooses what the title's own mastering brightness is compared against to decide, once per title, whether CMv4.0 is appended. [Display peak] appends when the display's peak brightness is at or above the title's mastering brightness, i.e. when the display can already show the whole grade. The fixed values append when the title was mastered at or below that brightness. In every case CMv4.0 is also appended when the title carries no L2 trim, since there is then nothing to preserve. With [Display peak] and no display peak available, nothing is compared and only no-trim titles are appended. Unlike [Smart], which re-decides every frame, [Auto] decides once and never changes the metadata version mid-playback."
+msgstr "Wird nur verwendet, wenn [CMv4.0-Metadaten] auf [Auto] steht. Legt fest, womit die Mastering-Helligkeit des Titels verglichen wird, um einmal pro Titel zu entscheiden, ob CMv4.0 angehängt wird. [Spitzenhelligkeit des Bildschirms] hängt an, wenn die Spitzenhelligkeit des Bildschirms mindestens der Mastering-Helligkeit des Titels entspricht, der Bildschirm die gesamte Abstufung also bereits darstellen kann. Die festen Werte hängen an, wenn der Titel mit höchstens dieser Helligkeit gemastert wurde. In jedem Fall wird CMv4.0 auch dann angehängt, wenn der Titel kein L2-Trim enthält, da dann nichts zu erhalten ist. Mit [Spitzenhelligkeit des Bildschirms] und ohne verfügbare Spitzenhelligkeit des Bildschirms wird nichts verglichen und es werden nur Titel ohne Trim angehängt. Anders als [Smart], das bei jedem Einzelbild neu entscheidet, entscheidet [Auto] einmalig und wechselt die Metadatenversion nie während der Wiedergabe."
+
+msgctxt "#60375"
+msgid "Display peak"
+msgstr "Spitzenhelligkeit des Bildschirms"
+
+msgctxt "#60376"
+msgid "1000 nits"
+msgstr "1000 Nits"
+
+msgctxt "#60377"
+msgid "2000 nits"
+msgstr "2000 Nits"
+
+msgctxt "#60378"
+msgid "4000 nits"
+msgstr "4000 Nits"
+
+msgctxt "#60379"
+msgid "10000 nits"
+msgstr "10000 Nits"
 
 #~ msgctxt "#14088"
 #~ msgid "Play DVDs automatically"
