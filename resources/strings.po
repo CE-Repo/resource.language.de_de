@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-08-13 18:09+0000\n"
+"PO-Revision-Date: 2026-11-11 18:53+0000\n"
 "Last-Translator: Kai Sommerfeld <ksooo@users.noreply.kodi.weblate.cloud>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -760,7 +760,7 @@ msgstr "Stimmen"
 
 msgctxt "#206"
 msgid "Cast"
-msgstr "Darsteller"
+msgstr "Besetzung"
 
 msgctxt "#207"
 msgid "Plot"
@@ -945,7 +945,7 @@ msgstr "Stereo Upmix"
 
 msgctxt "#253"
 msgid "Number of channels"
-msgstr "Anzahl Sender"
+msgstr "Anzahl Audiokanäle"
 
 msgctxt "#254"
 msgid "DTS capable receiver"
@@ -1297,7 +1297,7 @@ msgstr "Start"
 
 msgctxt "#336"
 msgid "Framerate conversion"
-msgstr "Bildwiederholrate konvertieren"
+msgstr "Bildratenumwandlung"
 
 msgctxt "#337"
 msgid "Output configuration"
@@ -1325,7 +1325,7 @@ msgstr "Filme"
 
 msgctxt "#343"
 msgid "Adjust framerate"
-msgstr "Bildwiederholrate anpassen"
+msgstr "Bildrate anpassen"
 
 msgctxt "#344"
 msgid "Actors"
@@ -1535,7 +1535,7 @@ msgstr "Regenschauer"
 #. Weather token
 msgctxt "#390"
 msgid "Flurries"
-msgstr "Windböen"
+msgstr "Schneeschauer"
 
 #. Weather token
 msgctxt "#391"
@@ -1891,7 +1891,7 @@ msgstr "Skin und Sprache"
 
 msgctxt "#480"
 msgid "Appearance"
-msgstr "Auftritt"
+msgstr "Erscheinungsbild"
 
 msgctxt "#481"
 msgid "Audio options"
@@ -2590,7 +2590,7 @@ msgstr "Ausführliche Protokollierung der [B]SMB[/B]-Bibliothek"
 
 msgctxt "#670"
 msgid "Verbose logging for the [B]libcURL[/B] library (HTTP(S), DAV)"
-msgstr "Ausführliche Protokollierung [B]libcURL[/B]-Bibliothek (HTTP(S), DAV)"
+msgstr "Ausführliche Protokollierung der [B]libcURL[/B]-Bibliothek (HTTP(S), DAV)"
 
 msgctxt "#672"
 msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
@@ -2960,7 +2960,7 @@ msgstr "Portbereich"
 
 msgctxt "#794"
 msgid "Allow remote control by programs on other systems"
-msgstr "Fernsteuerung durch auf anderen Systemen befindlichen Programme zulassen"
+msgstr "Fernsteuerung durch auf anderen Systemen befindliche Programme zulassen"
 
 msgctxt "#795"
 msgid "Initial repeat delay (ms)"
@@ -3015,7 +3015,7 @@ msgstr "Beliebiger Tag"
 #. special days of week representation for a timer rule
 msgctxt "#808"
 msgid "Every day"
-msgstr "jeder Tag"
+msgstr "Täglich"
 
 #. special channel representation value for a timer rule
 msgctxt "#809"
@@ -3773,7 +3773,7 @@ msgstr "Klarer Himmel"
 #. Weather token
 msgctxt "#1384"
 msgid "Broken"
-msgstr "Defekt"
+msgstr "Aufgelockert"
 
 #. Weather token
 msgctxt "#1385"
@@ -3833,7 +3833,7 @@ msgstr "Stürmisch"
 #. Weather token
 msgctxt "#1396"
 msgid "Drifting"
-msgstr "Rutschig"
+msgstr "Treibend"
 
 #. Weather token
 msgctxt "#1397"
@@ -3873,7 +3873,7 @@ msgstr "Sonne"
 #. Weather token
 msgctxt "#1404"
 msgid "Heavy"
-msgstr "Bedeckt"
+msgstr "Stark"
 
 #. Weather token
 msgctxt "#1405"
@@ -4053,7 +4053,7 @@ msgstr "und"
 #. Weather token
 msgctxt "#1440"
 msgid "Sleet"
-msgstr "Frostgraupel"
+msgstr "Schneeregen"
 
 #. Weather token
 msgctxt "#1441"
@@ -4542,7 +4542,7 @@ msgstr "Untertitelsuche"
 
 msgctxt "#10157"
 msgid "OSD CMS settings"
-msgstr "CMS-Einstellungs-OSD"
+msgstr "CMS-OSD-Einstellungen"
 
 msgctxt "#10159"
 msgid "Subtitle OSD settings"
@@ -5822,7 +5822,7 @@ msgstr "Rendermethode"
 
 msgctxt "#13355"
 msgid "Low quality pixel shader"
-msgstr "Pixel Shader (niedrige Qualität)"
+msgstr "Pixelshader (niedrige Qualität)"
 
 msgctxt "#13356"
 msgid "Hardware overlays"
@@ -5830,7 +5830,7 @@ msgstr "Hardware-Overlays"
 
 msgctxt "#13357"
 msgid "High quality pixel shader"
-msgstr "Pixel Shader (hohe Qualität)"
+msgstr "Pixelshader (hohe Qualität)"
 
 msgctxt "#13358"
 msgid "Play item"
@@ -5852,6 +5852,16 @@ msgstr "Spracheingabe aktivieren"
 msgctxt "#13362"
 msgid "Continue watching"
 msgstr "Wiedergabe fortsetzen"
+
+#. Label for context menu item on a video source to refresh the library information of all items in it
+msgctxt "#13363"
+msgid "Refresh all content"
+msgstr "Inhalt auffrischen"
+
+#. Label for context menu item on a video source to stop refreshing the library information of all items in it
+msgctxt "#13364"
+msgid "Stop refreshing"
+msgstr "Auffrischen abbrechen"
 
 msgctxt "#13375"
 msgid "Enable device"
@@ -6062,7 +6072,7 @@ msgstr "Wiedergabeliste auswählen"
 
 msgctxt "#13425"
 msgid "Allow hardware acceleration - VDPAU"
-msgstr "Hardware-Beschleunigung erlauben - VDPAU"
+msgstr "Hardwarebeschleunigung erlauben - VDPAU"
 
 msgctxt "#13426"
 msgid "Allow hardware acceleration - VAAPI"
@@ -6070,11 +6080,11 @@ msgstr "Hardwarebeschleunigung erlauben - VAAPI"
 
 msgctxt "#13427"
 msgid "Allow hardware acceleration - DXVA2"
-msgstr "Hardware-Beschleunigung erlauben - DXVA2"
+msgstr "Hardwarebeschleunigung erlauben - DXVA2"
 
 msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
-msgstr "Hardware-Beschleunigung erlauben - VTBDecoder"
+msgstr "Hardwarebeschleunigung erlauben - VTBDecoder"
 
 msgctxt "#13430"
 msgid "Allow using DRM PRIME decoder"
@@ -6086,7 +6096,7 @@ msgstr "Pixel Shader"
 
 msgctxt "#13432"
 msgid "Allow hardware acceleration - VideoToolbox"
-msgstr "Hardware-Beschleunigung erlauben - VideoToolbox"
+msgstr "Hardwarebeschleunigung erlauben - VideoToolbox"
 
 msgctxt "#13433"
 msgid "Play next video automatically"
@@ -6111,15 +6121,15 @@ msgstr "VDPAU-Videomixer bevorzugen"
 
 msgctxt "#13438"
 msgid "Allow hardware acceleration - amcodec"
-msgstr "Hardware-Beschleunigung erlauben - AMCodec"
+msgstr "Hardwarebeschleunigung erlauben - AMCodec"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
-msgstr "Hardware-Beschleunigung erlauben - MediaCodec"
+msgstr "Hardwarebeschleunigung erlauben - MediaCodec"
 
 msgctxt "#13440"
 msgid "Allow hardware acceleration - MediaCodec (Surface)"
-msgstr "Hardware-Beschleunigung erlauben - MediaCodec (Surface)"
+msgstr "Hardwarebeschleunigung erlauben - MediaCodec (Surface)"
 
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
@@ -6275,17 +6285,17 @@ msgstr "Legt die Präzision für den Skalierungszwischenpuffer fest, der im GPU 
 #. Value of setting with label #13472 "HQ upscaler intermediate format"
 msgctxt "#13474"
 msgid "8 bit per channel"
-msgstr "8 Bits pro Kanal"
+msgstr "8 Bit pro Kanal"
 
 #. Value of setting with label #13472 "HQ upscaler intermediate format"
 msgctxt "#13475"
 msgid "10 bit per channel"
-msgstr "10 Bits pro Kanal"
+msgstr "10 Bit pro Kanal"
 
 #. Value of setting with label #13472 "HQ upscaler intermediate format"
 msgctxt "#13476"
 msgid "16 bit per channel"
-msgstr "16 Bits pro Kanal"
+msgstr "16 Bit pro Kanal"
 
 #. Value of setting with label #36100 "Dither depth"
 msgctxt "#13477"
@@ -6635,11 +6645,11 @@ msgstr "{0:d} kbps"
 
 msgctxt "#14049"
 msgid "{0:d} kb"
-msgstr "{0:d} kb"
+msgstr "{0:d} KB"
 
 msgctxt "#14050"
 msgid "{0:d}.0 dB"
-msgstr "{0:d}.0 dB"
+msgstr "{0:d},0 dB"
 
 msgctxt "#14051"
 msgid "Time format"
@@ -7208,23 +7218,43 @@ msgstr "RDS-Radio"
 
 #: system/settings/settings.xml
 msgctxt "#14310"
+msgid "Tone map Dolby Vision/HDR to SDR"
+msgstr "Tonemapping von Dolby Vision/HDR nach SDR"
+
+#: system/settings/settings.xml
+msgctxt "#14311"
+msgid "Intended for Dolby Vision enabled displays. Dolby Vision/HDR content will be tone mapped by Dolby Vision VS-Engine."
+msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der Dolby-Vision-/HDR-Inhalte übernimmt die Dolby-Vision-VS-Engine."
+
+#: system/settings/settings.xml
+msgctxt "#14312"
+msgid "Tone map Dolby Vision to HDR"
+msgstr "Tonemapping von Dolby Vision nach HDR"
+
+#: system/settings/settings.xml
+msgctxt "#14313"
+msgid "Intended for Dolby Vision enabled displays. Dolby Vision content will be tone mapped by Dolby Vision VS-Engine."
+msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der Dolby-Vision-Inhalte übernimmt die Dolby-Vision-VS-Engine."
+
+#: system/settings/settings.xml
+msgctxt "#14314"
 msgid "Tone map SDR to Dolby Vision"
 msgstr "Tonemapping von SDR nach Dolby Vision"
 
 #: system/settings/settings.xml
-msgctxt "#14311"
-msgid "Intended for Dolby Vision enabled displays. SDR content will be tone mapped by Dolby Vision VS-Engine. Legacy all-or-nothing switch - prefer the per-source 'DV VS10 for SDR8/SDR10 video' settings below, which let you pick the output format per source type and pair with the display peak / VSVDB override for better tone mapping."
-msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der SDR-Inhalte übernimmt die Dolby-Vision-VS-Engine. Veralteter Alles-oder-nichts-Schalter – besser die quellenspezifischen Einstellungen „DV VS10 für SDR8-Video“ und „DV VS10 für SDR10-Video“ weiter unten verwenden: Dort lässt sich das Ausgabeformat je Quelltyp festlegen und mit der Spitzenleuchtdichte des Bildschirms bzw. der VSVDB-Übersteuerung für ein besseres Tonemapping kombinieren."
+msgctxt "#14315"
+msgid "Intended for Dolby Vision enabled displays. SDR content will be tone mapped by Dolby Vision VS-Engine."
+msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der SDR-Inhalte übernimmt die Dolby-Vision-VS-Engine."
 
 #: system/settings/settings.xml
-msgctxt "#14312"
+msgctxt "#14316"
 msgid "Tone map HDR to Dolby Vision"
 msgstr "Tonemapping von HDR nach Dolby Vision"
 
 #: system/settings/settings.xml
-msgctxt "#14313"
-msgid "Intended for Dolby Vision enabled displays. HDR content will be tone mapped by Dolby Vision VS-Engine. Legacy all-or-nothing switch - prefer the per-source 'DV VS10 for HDR10/HDR10+ video' settings below, which let you pick the output format per source type and pair with the display peak / VSVDB override for better tone mapping."
-msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der HDR-Inhalte übernimmt die Dolby-Vision-VS-Engine. Veralteter Alles-oder-nichts-Schalter – besser die quellenspezifischen Einstellungen „DV VS10 für HDR10-Video“ und „DV VS10 für HDR10+-Video“ weiter unten verwenden: Dort lässt sich das Ausgabeformat je Quelltyp festlegen und mit der Spitzenleuchtdichte des Bildschirms bzw. der VSVDB-Übersteuerung für ein besseres Tonemapping kombinieren."
+msgctxt "#14317"
+msgid "Intended for Dolby Vision enabled displays. HDR content will be tone mapped by Dolby Vision VS-Engine."
+msgstr "Für Dolby-Vision-fähige Displays vorgesehen. Das Tonemapping der HDR-Inhalte übernimmt die Dolby-Vision-VS-Engine."
 
 #: system/settings/settings.xml
 msgctxt "#14400"
@@ -7253,8 +7283,8 @@ msgstr "Tonemapping von SDR nach HDR"
 
 #: system/settings/settings.xml
 msgctxt "#14405"
-msgid "Intended for HDR enabled displays - not recommended. Turn this On to have HDR mode always on. GUI and SDR content will be tone mapped. Requires reboot."
-msgstr "Für HDR-fähige Displays vorgesehen – nicht empfohlen. Aktivieren, um den HDR-Modus dauerhaft einzuschalten. Auf GUI- und SDR-Inhalte wird Tonemapping angewendet. Ein Neustart ist erforderlich."
+msgid "Intended for HDR enabled displays - not recommended. Turn this On to have HDR mode always on. GUI and SDR content will be tone mapped."
+msgstr "Für HDR-fähige Displays vorgesehen – nicht empfohlen. Aktivieren, um den HDR-Modus dauerhaft einzuschalten. Auf GUI- und SDR-Inhalte wird Tonemapping angewendet."
 
 #: system/settings/settings.xml
 msgctxt "#14406"
@@ -7263,8 +7293,8 @@ msgstr "Tonemapping von HDR nach SDR"
 
 #: system/settings/settings.xml
 msgctxt "#14407"
-msgid "Intended for SDR displays. Turn this On to have HDR content tone mapped to SDR. This improves color saturation and contrast of HDR content on SDR displays. Requires reboot."
-msgstr "Für SDR-Displays vorgesehen. Aktivieren, um HDR-Inhalte per Tonemapping nach SDR umzusetzen. Dies verbessert Farbsättigung und Kontrast von HDR-Inhalten auf SDR-Displays. Ein Neustart ist erforderlich."
+msgid "Intended for SDR displays. Turn this On to have HDR content tone mapped to SDR. This improves color saturation and contrast of HDR content on SDR displays."
+msgstr "Für SDR-Displays vorgesehen. Aktivieren, um HDR-Inhalte per Tonemapping nach SDR umzusetzen. Dies verbessert Farbsättigung und Kontrast von HDR-Inhalten auf SDR-Displays."
 
 #: system/settings/settings.xml
 msgctxt "#14408"
@@ -7372,22 +7402,6 @@ msgstr "TV-Led (DV-Std)"
 msgctxt "#14427"
 msgid "Player-Led"
 msgstr "Player-Led (DV-LL)"
-
-msgctxt "#14430"
-msgid "Use display as clock (hardware vsync)"
-msgstr "Bildschirm als Taktgeber verwenden (Hardware-VSync)"
-
-msgctxt "#14431"
-msgid "Drive the video reference clock from the Amlogic display's real hardware vsync (FBIO_WAITFORVSYNC_64) instead of estimating from the system clock. Gives display-locked A/V sync with whole-frame audio corrections at matched refresh rates. Enabled by default; disable to fall back to legacy system-clock timing. Automatically falls back to software timing during HDMI mode switches or vsync stalls."
-msgstr "Die Videoreferenzuhr vom echten Hardware-VSync des Amlogic-Bildschirms (FBIO_WAITFORVSYNC_64) ableiten, anstatt sie anhand der Systemuhr zu schätzen. Ergibt eine an den Bildschirm gekoppelte A/V-Synchronisation mit Audiokorrekturen in ganzen Einzelbildern bei passender Bildwiederholrate. Standardmäßig aktiviert; deaktivieren, um auf die bisherige Taktung über die Systemuhr zurückzufallen. Bei HDMI-Moduswechseln oder VSync-Aussetzern wird automatisch auf Softwaretaktung zurückgeschaltet."
-
-msgctxt "#14432"
-msgid "Latch software timing on sustained vsync stall"
-msgstr "Bei anhaltendem VSync-Aussetzer dauerhaft auf Softwaretaktung bleiben"
-
-msgctxt "#14433"
-msgid "If the hardware vsync stalls for longer than any plausible HDMI mode switch (e.g. chronically wedged sink), stop re-probing and stay on software timing for the rest of playback instead of paying the periodic re-probe hiccup. Resets on stop. Leave off unless you see repeated vsync-stall warnings in the log."
-msgstr "Wenn der Hardware-VSync länger aussetzt, als es ein HDMI-Moduswechsel plausibel erklären kann (z. B. bei einem dauerhaft blockierten Empfangsgerät), wird nicht mehr erneut geprüft und für den Rest der Wiedergabe auf Softwaretaktung geblieben, anstatt die wiederkehrenden Aussetzer durch die erneute Prüfung in Kauf zu nehmen. Wird beim Stoppen zurückgesetzt. Nur aktivieren, wenn im Protokoll wiederholt Warnungen über VSync-Aussetzer erscheinen."
 
 msgctxt "#15011"
 msgid "{0:d} Items failed to export"
@@ -7593,7 +7607,7 @@ msgstr "Pfad:"
 #. Game settings category name
 msgctxt "#15312"
 msgid "Achievements"
-msgstr "Erfolge"
+msgstr "Errungenschaften"
 
 #. Group label for Achievements category in game settings
 msgctxt "#15313"
@@ -7629,7 +7643,7 @@ msgstr "Spieler"
 
 msgctxt "#16004"
 msgid "Play media from disc"
-msgstr "Inhalt der Disk wiedergaben"
+msgstr "Inhalt der Disk wiedergeben"
 
 msgctxt "#16008"
 msgid "Enter new title"
@@ -7837,6 +7851,11 @@ msgctxt "#16297"
 msgid "Smooth"
 msgstr "Glätten"
 
+#. Name of the video filter category that holds the filters without a shader
+msgctxt "#16298"
+msgid "Built-in"
+msgstr "Integriert"
+
 msgctxt "#16300"
 msgid "Video scaling method"
 msgstr "Videoskalierungsmethode"
@@ -7983,7 +8002,7 @@ msgstr "Videonachbearbeitung"
 
 msgctxt "#17500"
 msgid "Display sleep timeout"
-msgstr "Dauer bis zum Stand-by des Bildschirms"
+msgstr "Dauer bis zum Standby des Bildschirms"
 
 msgctxt "#17997"
 msgid "{0:d} MByte"
@@ -8153,7 +8172,7 @@ msgstr "Jetzt"
 #. generic 'next' label used in different places in pvr context
 msgctxt "#19031"
 msgid "Next"
-msgstr "Als nächstes"
+msgstr "Als Nächstes"
 
 #. 'timeline' label used in pvr guide window
 msgctxt "#19032"
@@ -8299,7 +8318,7 @@ msgstr "Timer hinzufügen"
 
 msgctxt "#19062"
 msgid "Sort by: Channel"
-msgstr "Sortiert nach: Sender"
+msgstr "Sortieren nach: Sender"
 
 #. Label for epg grid window "jump to grid start" (oldest available programme) context menu entry and epg grid controls dialog help text
 msgctxt "#19063"
@@ -8527,7 +8546,7 @@ msgstr "um"
 #. label for PVR settings "tv fallback framerate" (in Hz) selector
 msgctxt "#19108"
 msgid "Fallback framerate"
-msgstr "Ersatzbildwiederholrate"
+msgstr "Ersatzbildrate"
 
 #. message box text stating that a timer could not be saved
 msgctxt "#19109"
@@ -8938,9 +8957,9 @@ msgstr "Sendersuche wird von keinem der PVR-Backends unterstützt."
 #. error message box text stating that a given pvr channel could not be played
 msgctxt "#19193"
 msgid "The channel scan can't be started."
-msgstr "Kanalsuche kann nicht gestartet werden."
+msgstr "Sendersuche kann nicht gestartet werden."
 
-#. unused?
+#. Question after an explanation of what will happen, such as #35702
 msgctxt "#19194"
 msgid "Continue?"
 msgstr "Fortsetzen?"
@@ -9331,7 +9350,7 @@ msgstr "TV-Programmübersicht"
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19274"
 msgid "Radio guide"
-msgstr "Radio-Programmübersicht"
+msgstr "Radioprogrammübersicht"
 
 #. timer status textual representation
 msgctxt "#19275"
@@ -9841,7 +9860,7 @@ msgstr "Varieté"
 #. label for "show/game show" epg subgenre value
 msgctxt "#19535"
 msgid "Talk show"
-msgstr "Talk Show"
+msgstr "Talkshow"
 
 #. label for "sports" epg genre value
 msgctxt "#19548"
@@ -9991,7 +10010,7 @@ msgstr "Religion"
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19600"
 msgid "Popular culture / Traditional arts"
-msgstr "Beliebte Kultur / Traditionelle Künste"
+msgstr "Populärkultur / Traditionelle Künste"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19601"
@@ -10365,7 +10384,7 @@ msgstr "Musikbereich sperren"
 
 msgctxt "#20039"
 msgid "Lock videos window"
-msgstr "Videosbereich sperren"
+msgstr "Videobereich sperren"
 
 msgctxt "#20040"
 msgid "Lock pictures window"
@@ -10373,7 +10392,7 @@ msgstr "Bilderbereich sperren"
 
 msgctxt "#20041"
 msgid "Lock programs & scripts windows"
-msgstr "Programme- und Skriptbereich sperren"
+msgstr "Programm- und Skriptbereich sperren"
 
 msgctxt "#20042"
 msgid "Lock file manager"
@@ -10984,7 +11003,7 @@ msgstr "Online-Informationen bevorzugen"
 #. Description of setting with label #20220 "Prefer online information"
 msgctxt "#20221"
 msgid "With this enabled, any information that is downloaded for albums and artists will override anything you have set in your song tags, such as genres, year, song artists etc. Useful if you have MusicBrainz identifiers in your song tags."
-msgstr "Wenn aktiviert, werden heruntergeladene Informationen von Alben und Interpreten, wie Genre, Jahr, Titelinterpret usw., denen der lokalen Tags bevorzugt. Dies ist nützlich, wenn die Titel über ein Tag mit MusicBrainz-Kennung verfügt."
+msgstr "Wenn aktiviert, werden heruntergeladene Informationen von Alben und Interpreten, wie Genre, Jahr, Titelinterpret usw., gegenüber denen der lokalen Tags bevorzugt. Dies ist nützlich, wenn die Titel über ein Tag mit MusicBrainz-Kennung verfügen."
 
 msgctxt "#20222"
 msgid "Look for external subtitles"
@@ -11013,43 +11032,43 @@ msgstr "Beim Sortieren nach Interpret Sortiernamen verwenden"
 
 msgctxt "#20240"
 msgid "Android music"
-msgstr "Android Musik"
+msgstr "Android-Musik"
 
 msgctxt "#20241"
 msgid "Android videos"
-msgstr "Android Videos"
+msgstr "Android-Videos"
 
 msgctxt "#20242"
 msgid "Android pictures"
-msgstr "Android Bilder"
+msgstr "Android-Bilder"
 
 msgctxt "#20243"
 msgid "Android photos"
-msgstr "Android Photos"
+msgstr "Android-Fotos"
 
 msgctxt "#20244"
 msgid "Android apps"
-msgstr "Android Apps"
+msgstr "Android-Apps"
 
 msgctxt "#20245"
 msgid "Windows music library"
-msgstr "Windows Musikbibliothek"
+msgstr "Windows-Musikbibliothek"
 
 msgctxt "#20246"
 msgid "Windows videos library"
-msgstr "Windows Videobibliothek"
+msgstr "Windows-Videobibliothek"
 
 msgctxt "#20247"
 msgid "Windows pictures library"
-msgstr "Windows Bildbibliothek"
+msgstr "Windows-Bilderbibliothek"
 
 msgctxt "#20248"
 msgid "Windows photos library"
-msgstr "Windows Fotobibliothek"
+msgstr "Windows-Fotobibliothek"
 
 msgctxt "#20249"
 msgid "Windows documents"
-msgstr "Windows Dokumente"
+msgstr "Windows-Dokumente"
 
 msgctxt "#20250"
 msgid "Party on! (videos)"
@@ -11172,7 +11191,7 @@ msgstr "Kalibrierung zurücksetzen"
 #. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
 msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
-msgstr "Soll die Kalibrierung für die Auflösung „{0:s}“ auf Standardwerte zurück gesetzt werden?"
+msgstr "Soll die Kalibrierung für die Auflösung „{0:s}“ auf Standardwerte zurückgesetzt werden?"
 
 #. Window screen calibration: the current calibration value
 msgctxt "#20327"
@@ -11992,7 +12011,7 @@ msgstr "1080i-Auflösung aktivieren"
 
 msgctxt "#21381"
 msgid "Enter name of new playlist"
-msgstr "Bitte einen Namen für die neue Wiedergabelliste eingeben"
+msgstr "Bitte einen Namen für die neue Wiedergabeliste eingeben"
 
 msgctxt "#21382"
 msgid "Show \"Add source\" buttons"
@@ -12040,7 +12059,7 @@ msgstr "Niedriger Stromverbrauch"
 
 msgctxt "#21393"
 msgid "High standby"
-msgstr "Hohes Stand-by"
+msgstr "Hohes Standby"
 
 msgctxt "#21394"
 msgid "Low standby"
@@ -12252,7 +12271,7 @@ msgstr "Videocodec"
 
 msgctxt "#21446"
 msgid "Audio codec"
-msgstr "Audiocodec"
+msgstr "Audio-Codec"
 
 msgctxt "#21447"
 msgid "Audio language"
@@ -12538,7 +12557,7 @@ msgstr "Belichtungszeit"
 
 msgctxt "#21831"
 msgid "Exposure bias"
-msgstr "Belichtungsausrichtung"
+msgstr "Belichtungskorrektur"
 
 msgctxt "#21832"
 msgid "Exposure mode"
@@ -12570,7 +12589,7 @@ msgstr "Digitalzoom"
 
 msgctxt "#21839"
 msgid "CCD width"
-msgstr "CCD-Weite"
+msgstr "CCD-Breite"
 
 msgctxt "#21840"
 msgid "GPS latitude"
@@ -12599,7 +12618,7 @@ msgstr "In Bibliothek aufnehmen"
 
 msgctxt "#21857"
 msgid "Sub-location"
-msgstr "Unterverzeichnis"
+msgstr "Ortsteil"
 
 msgctxt "#21858"
 msgid "Image type"
@@ -12799,7 +12818,7 @@ msgstr "Beschleunigt um: {0:2.3f} s"
 
 msgctxt "#22006"
 msgid "Subtitle offset"
-msgstr "Untertitelabstand"
+msgstr "Untertitelversatz"
 
 msgctxt "#22007"
 msgid "OpenGL vendor:"
@@ -12843,7 +12862,7 @@ msgstr "Nach Titel"
 
 msgctxt "#22017"
 msgid "By group"
-msgstr "Nach Interpret"
+msgstr "Nach Gruppe"
 
 msgctxt "#22019"
 msgid "Recordings by title"
@@ -12855,7 +12874,7 @@ msgstr "Programmübersicht"
 
 msgctxt "#22021"
 msgid "Minimise black bars"
-msgstr "Schwarze Balken verringern"
+msgstr "Schwarze Ränder verringern"
 
 msgctxt "#22022"
 msgid "Show video files in listings"
@@ -12989,7 +13008,7 @@ msgstr "Medienquellen"
 #. Name of an add-on type
 msgctxt "#24006"
 msgid "GUI sounds"
-msgstr "Klangschemas"
+msgstr "Klangschemata"
 
 msgctxt "#24007"
 msgid "Movie information"
@@ -13301,7 +13320,7 @@ msgstr "Addon-Abhängigkeiten werden installiert ..."
 
 msgctxt "#24080"
 msgid "Try to reconnect?"
-msgstr "Versuchen erneut zu verbinden?"
+msgstr "Versuchen, erneut zu verbinden?"
 
 #. The label in the add-ons manager for helper add-ons
 msgctxt "#24081"
@@ -13848,11 +13867,6 @@ msgctxt "#25014"
 msgid "Manual"
 msgstr "Manuell"
 
-#. Used to ask user if they want to use a playlist already assigned to an episode
-msgctxt "#25015"
-msgid "Selected playlist is already in use. Associate with this episode instead?"
-msgstr "Die ausgewählte Wiedergabeliste wird bereits verwendet. Stattdessen mit dieser Episode verknüpfen?"
-
 #. Inform user that no valid movie playlist has been found on disc
 msgctxt "#25016"
 msgid "No valid movie playlist has been found."
@@ -13878,6 +13892,18 @@ msgstr "Kb/s"
 msgctxt "#25020"
 msgid "Mb/s"
 msgstr "Mb/s"
+
+msgctxt "#25021"
+msgid "used by {0:s}"
+msgstr "verwendet von {0:s}"
+
+msgctxt "#25022"
+msgid "used by movie"
+msgstr "verwendet von Film"
+
+msgctxt "#25023"
+msgid "used by extra"
+msgstr "verwendet von Extra"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -14868,7 +14894,7 @@ msgstr "Zeroconf konnte nicht gestartet werden"
 
 msgctxt "#34301"
 msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
-msgstr "Ist der Apple-Bonjour-Dienst installiert? Für mehr Informationen Logdatei einsehen."
+msgstr "Ist der Apple-Bonjour-Dienst installiert? Für mehr Informationen Protokoll einsehen."
 
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
@@ -15057,7 +15083,7 @@ msgstr "Aktiviert die Controller-Vibrationsmotoren bei Benachrichtigungen."
 #. Help text for controller window
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
-msgstr "Tastatur oder Fernbedienung verwenden, um ein Controllerprofil zu wählen. Nach Aufforderung die Taste des eigenen Controllers drücken, der am Besten zu der angezeigten Taste passt. Bei Fehleingabe kann der Vorgang wiederholt werden."
+msgstr "Tastatur oder Fernbedienung verwenden, um ein Controllerprofil zu wählen. Nach Aufforderung die Taste des eigenen Controllers drücken, der am besten zu der angezeigten Taste passt. Bei Fehleingabe kann der Vorgang wiederholt werden."
 
 #. Title of controller configuration window
 msgctxt "#35058"
@@ -15077,7 +15103,7 @@ msgstr "Controllerprofil zurücksetzen"
 #. Prompt to reset a controller profile for all devices
 msgctxt "#35061"
 msgid "Would you like to reset this controller profile for all attached devices?"
-msgstr "Soll dieses Controllerprofil für alle angeschlossenen Geräte zurücksetzt werden?"
+msgstr "Soll dieses Controllerprofil für alle angeschlossenen Geräte zurückgesetzt werden?"
 
 #. Notice that all controller profiles are installed
 msgctxt "#35062"
@@ -15102,7 +15128,7 @@ msgstr "Rennlenkrad"
 #. Label for paddle buttons that appear on a racing wheel for games. Used in the controller mapping dialog.
 msgctxt "#35072"
 msgid "Paddles"
-msgstr "Pedale"
+msgstr "Paddles"
 
 #. Label for buttons that appear on a joystick for games. Used in the controller mapping dialog.
 msgctxt "#35073"
@@ -15112,12 +15138,12 @@ msgstr "Joysticks"
 #. Label for buttons that appear on the face of the controller. Used in the controller mapping dialog.
 msgctxt "#35074"
 msgid "Face buttons"
-msgstr "Obere Tasten"
+msgstr "Aktionstasten"
 
 #. Label for buttons that appear on the shoulders of the controller. Used in the controller mapping dialog.
 msgctxt "#35075"
 msgid "Shoulder buttons"
-msgstr "Seitliche Tasten"
+msgstr "Schultertasten"
 
 #. Label for triggers on the controller. Used in the controller mapping dialog.
 msgctxt "#35076"
@@ -15285,7 +15311,7 @@ msgstr "Tastatur aktivieren"
 #. Description of setting with label #35152 "Enable keyboard"
 msgctxt "#35153"
 msgid "This allows the keyboard to emulate up to 8 game controllers. If disabled, the keyboard can still be used to control emulators like DOSBox which require a full keyboard."
-msgstr "Erlaubt der Tastatur, bis zu 8 Controller zu emulieren. Wenn deaktiviert, kann die Tastatur trotzdem in Emulatoren verwendet werden, die eine komplette Tastatur benötigen, z. B. DOSBox ."
+msgstr "Erlaubt der Tastatur, bis zu 8 Controller zu emulieren. Wenn deaktiviert, kann die Tastatur trotzdem in Emulatoren verwendet werden, die eine komplette Tastatur benötigen, z. B. DOSBox."
 
 #. Setting name for number of keyboard players
 msgctxt "#35154"
@@ -15396,7 +15422,11 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Gameplay"
 
-# empty string with id 35202
+#. Help text for setting "Sync playback to display" of label #13510
+msgctxt "#35202"
+msgid "Run the game in step with the display when their rates are close, and resample its sound to match. This avoids repeated frames and lowers input lag."
+msgstr "Lässt das Spiel im Takt des Bildschirms laufen, wenn beide Bildraten nahe beieinander liegen, und passt den Ton entsprechend an. Das vermeidet doppelte Frames und verringert die Eingabeverzögerung."
+
 msgctxt "#35203"
 msgid "Enable rewind (if supported)"
 msgstr "Rücklauf aktivieren (falls unterstützt)"
@@ -15577,7 +15607,27 @@ msgctxt "#35239"
 msgid "Integer (square pixels)"
 msgstr "Ganzzahlig (Quadratische Pixel)"
 
-# empty strings from id 35240 to 35248
+#. Error dialog text when an emulator can't find a file it needs, such as a BIOS file. {0:s} - emulator name, {1:s} - file name
+msgctxt "#35240"
+msgid "The emulator \"{0:s}\" couldn't find {1:s}."
+msgstr "Der Emulator „{0:s}“ kann {1:s} nicht finden."
+
+#. Error dialog text when an emulator can't find files it needs and doesn't say which. {0:s} - emulator name
+msgctxt "#35241"
+msgid "The emulator \"{0:s}\" couldn't find files it needs, such as BIOS files."
+msgstr "Der Emulator „{0:s}“ konnte benötigte Dateien nicht finden, zum Beispiel BIOS-Dateien."
+
+#. Label of setting "Games -> General -> Maximum speed change"
+msgctxt "#35242"
+msgid "Maximum speed change"
+msgstr "Maximale Geschwindigkeitsänderung"
+
+#. Help text for setting "Maximum speed change" of label #35242
+msgctxt "#35243"
+msgid "How far a game's own rate may be from the display's and still run in step with it. Its speed and sound change by up to this much."
+msgstr "Wie weit die Bildrate eines Spiels von der des Bildschirms abweichen darf, damit es noch im Takt mit ihm läuft. Geschwindigkeit und Ton des Spiels ändern sich um höchstens diesen Wert."
+
+# empty strings from id 35244 to 35248
 #. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
 msgid "Save / Load"
@@ -15626,7 +15676,7 @@ msgstr "Gespeichert"
 #. Title of the dialog to select a savestate for the current game
 msgctxt "#35260"
 msgid "Select savestate"
-msgstr "Gespeicherten Zustand auswählen"
+msgstr "Gespeicherten Spielstand auswählen"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
@@ -15680,11 +15730,6 @@ msgctxt "#35270"
 msgid "Your account is not verified. Please check your email to complete your sign up."
 msgstr "Konto wurde nicht bestätigt. Bitte E-Mails prüfen, um die Anmeldung abzuschließen."
 
-#. Error message shown when an OpenGL game is played, as OpenGL is not currently supported
-msgctxt "#35271"
-msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
-msgstr "Dieses Spiel benötigt OpenGL-Unterstützung für das 3D-Rendering. Die OpenGL-Unterstützung ist noch in Entwicklung."
-
 #. Label for the "Disc menu" button to open the Disc Manager when playing a game
 msgctxt "#35272"
 msgid "Disc menu"
@@ -15733,7 +15778,7 @@ msgstr "Disk auswählen"
 #. Heading of the notification shown when the player earns an achievement
 msgctxt "#35281"
 msgid "Achievement Unlocked"
-msgstr "Erfolg freigeschaltet"
+msgstr "Errungenschaft freigeschaltet"
 
 #. Heading of the notification shown when every achievement of a game has been earned in hardcore mode
 msgctxt "#35282"
@@ -15743,17 +15788,17 @@ msgstr "Spiel gemeistert"
 #. Heading of the notification shown when every achievement of a game has been earned
 msgctxt "#35283"
 msgid "Game completed"
-msgstr "Spiel abgeschlossen"
+msgstr "Spiel vollendet"
 
 #. Notification shown when a game with achievement support is loaded. {0:d} is the number earned, {1:d} the total
 msgctxt "#35284"
 msgid "{0:d} of {1:d} achievements unlocked"
-msgstr "{0:d} von {1:d} Erfolgen freigeschaltet"
+msgstr "{0:d} von {1:d} Errungenschaften freigeschaltet"
 
 #. Message shown when the achievements dialog is opened without being logged in to RetroAchievements
 msgctxt "#35285"
 msgid "Log in to RetroAchievements in Settings to use this feature."
-msgstr "Zur Nutzung dieser Funktion in den Einstellungen bei RetroAchievements anmelden."
+msgstr "Bei RetroAchievements in den Einstellungen anmelden, um diese Funktion zu nutzen."
 
 #. Message shown when the achievements dialog is opened for a game that RetroAchievements has no achievement set for
 msgctxt "#35286"
@@ -15763,7 +15808,7 @@ msgstr "Dieses Spiel unterstützt RetroAchievements nicht"
 #. Label for the button that opens the achievements dialog, and heading of that dialog
 msgctxt "#35287"
 msgid "Achievements"
-msgstr "Erfolge"
+msgstr "Errungenschaften"
 
 #. Progress through a game's achievements, weighted by point value. {0:d} is a percentage
 msgctxt "#35288"
@@ -15783,7 +15828,7 @@ msgstr "Häufig"
 #. Rarity category of an achievement earned by 10% to 50% of players
 msgctxt "#35291"
 msgid "Uncommon"
-msgstr "Weniger häufig"
+msgstr "Ungewöhnlich"
 
 #. Rarity category of an achievement earned by 2% to 10% of players
 msgctxt "#35292"
@@ -15793,12 +15838,12 @@ msgstr "Selten"
 #. Rarity category of an achievement earned by fewer than 2% of players
 msgctxt "#35293"
 msgid "Ultra rare"
-msgstr "Sehr selten"
+msgstr "Ultraselten"
 
 #. Point value of an achievement, abbreviated to fit the list. {0:d} is the number of points
 msgctxt "#35294"
 msgid "{0:d} pts"
-msgstr "{0:d} Pkt."
+msgstr "{0:d} Punkte"
 
 #. Notification shown after signing in to RetroAchievements. {0:s} is the account name
 msgctxt "#35295"
@@ -15808,7 +15853,7 @@ msgstr "Angemeldet als {0:s}"
 #. Notification shown when RetroAchievements becomes unreachable during play
 msgctxt "#35296"
 msgid "Unlocks will be submitted when the connection returns."
-msgstr "Freischaltungen werden übermittelt, sobald die Verbindung wieder besteht."
+msgstr "Freischaltungen werden übermittelt, sobald die Verbindung wiederhergestellt ist."
 
 #. Notification shown when RetroAchievements becomes reachable again
 msgctxt "#35297"
@@ -15818,12 +15863,27 @@ msgstr "Ausstehende Freischaltungen wurden übermittelt."
 #. Error message shown when trying to load a compressed savestate in an unsupported version of Kodi
 msgctxt "#35298"
 msgid "This savestate is compressed and can't be loaded by this version of Kodi."
-msgstr "Dieser Spielstand ist komprimiert und kann von dieser Kodi-Version nicht geladen werden."
+msgstr "Dieser Spielstand ist komprimiert und kann nicht von dieser Version von Kodi geladen werden."
 
 #. Shown when the achievements dialog is opened before the game has been identified
 msgctxt "#35299"
 msgid "Still looking this game up..."
-msgstr "Dieses Spiel wird noch gesucht ..."
+msgstr "Spiel wird noch gesucht ..."
+
+#. Shown when hardware rendering fails. {0:s} is the requested API/version, such as "OpenGL 4.3"; {1:s} is the available API, such as "OpenGL".
+msgctxt "#35300"
+msgid "Kodi couldn't initialize {0:s} rendering for this game. This display supports {1:s}."
+msgstr "Kodi konnte {0:s}-Rendering für dieses Spiel nicht initialisieren. Dieser Bildschirm unterstützt {1:s}."
+
+#. Shown when a game needs the graphics card directly but the display can't provide it
+msgctxt "#35301"
+msgid "Kodi couldn't initialize {0:s} rendering for this game on this display."
+msgstr "Kodi konnte {0:s} Rendering für dieses Spiel auf diesem Bildschirm nicht initialisieren."
+
+#. Help text for the hardcore mode setting
+msgctxt "#35302"
+msgid "Earn achievements worth double points. Rewind, loading save states, slow motion and cheats are unavailable while this is on, and turning it on restarts the game."
+msgstr "Errungenschaften erspielen, die doppelt so viele Punkte wert sind. Solange der Modus aktiv ist, sind Rückspulen, das Laden von Spielständen, Zeitlupe und Cheats nicht verfügbar. Beim Aktivieren wird das Spiel neu gestartet."
 
 #. Label of the setting that enables RetroAchievements encore mode
 msgctxt "#35303"
@@ -15832,13 +15892,85 @@ msgstr "Encore-Modus"
 
 #. Help text for the encore mode setting
 msgctxt "#35304"
-msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
-msgstr "Bereits freigeschaltete Erfolge können erneut ausgelöst werden.[CR][CR]Wird beim nächsten Laden des Spiels wirksam."
+msgid "Allow achievements you have already earned to be triggered again."
+msgstr "Erlaubt, bereits erspielte Errungenschaften erneut auszulösen."
+
+#. Notification shown when hardcore mode refuses something, {0:s} is the feature
+msgctxt "#35305"
+msgid "{0:s} is not available"
+msgstr "Nicht verfügbar: {0:s}"
+
+#. Notification shown when resuming a save state turns hardcore mode off
+msgctxt "#35306"
+msgid "Hardcore mode turned off. Achievements will be earned in casual mode."
+msgstr "Hardcore-Modus wurde deaktiviert. Errungenschaften werden im Casual-Modus freigeschaltet."
 
 #. Notification shown when all achievements of a subset are earned, {0:s} is the subset
 msgctxt "#35307"
 msgid "Subset completed"
-msgstr "Teilsatz abgeschlossen"
+msgstr "Zusatzset vollendet"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35308"
+msgid "Loading save states"
+msgstr "Laden von Spielständen"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35309"
+msgid "Rewind"
+msgstr "Rückspulen"
+
+#. Label of the Manual button in the game OSD, which shows the game's instruction booklet
+msgctxt "#35310"
+msgid "Manual"
+msgstr "Manuell"
+
+# empty strings from id 35311 to 35319
+#. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
+#. of the cheats group in settings
+msgctxt "#35320"
+msgid "Cheats"
+msgstr "Cheats"
+
+#. Label of the setting that points at the folder holding cheat files
+msgctxt "#35321"
+msgid "Cheats folder"
+msgstr "Cheats-Ordner"
+
+#. Help text for the cheats folder setting
+msgctxt "#35322"
+msgid "Set a custom folder containing libretro cheats, or install cheats in the Add-on Manager."
+msgstr "Einen Ordner für libretro-Cheats festlegen oder Cheats mit dem Addon-Manager installieren."
+
+#. Shown when no cheat pack matches the current game
+msgctxt "#35323"
+msgid "No cheats found for this game"
+msgstr "Keine Cheats für dieses Spiel gefunden"
+
+#. Cheat-pack button and heading of the pack-selection dialog
+msgctxt "#35324"
+msgid "Cheat pack..."
+msgstr "Cheat-Pack ..."
+
+#. Multiple packs contain the current game's exact cheat filename
+msgctxt "#35325"
+msgid "Multiple cheat packs match this game. Choose one to load its cheats."
+msgstr "Mehrere Cheat-Packs passen für dieses Spiel. Ein Pack auswählen zum Laden der Cheats."
+
+#. Enabled-cheat count, singular
+msgctxt "#35326"
+msgid "1 cheat enabled"
+msgstr "1 Cheat aktiviert"
+
+#. Enabled-cheat count, including zero
+msgctxt "#35327"
+msgid "{0:d} cheats enabled"
+msgstr "{0:d} Cheats aktiviert"
+
+#. Shown when a matching pack has no usable cheats
+msgctxt "#35328"
+msgid "0 cheats available"
+msgstr "0 Cheats verfügbar"
 
 #. Label of the game OSD button that opens the leaderboards
 msgctxt "#35331"
@@ -15848,7 +15980,7 @@ msgstr "Bestenlisten"
 #. Shown in the leaderboards dialog: scores cannot be submitted yet
 msgctxt "#35332"
 msgid "Leaderboards are read-only until this emulator is approved for hardcore mode"
-msgstr "Bestenlisten sind schreibgeschützt, bis dieser Emulator für den Hardcore-Modus freigegeben ist"
+msgstr "Bestenlisten sind nur lesbar, bis dieser Emulator für den Hardcore-Modus freigegeben ist"
 
 #. Shown when the player is not signed in
 msgctxt "#35333"
@@ -15863,7 +15995,7 @@ msgstr "Dieses Spiel hat keine Bestenlisten"
 #. How a time-based leaderboard ranks, lowest first
 msgctxt "#35335"
 msgid "Fastest time"
-msgstr "Schnellste Zeit"
+msgstr "Kürzeste Zeit"
 
 #. How a time-based leaderboard ranks, highest first
 msgctxt "#35336"
@@ -15873,12 +16005,12 @@ msgstr "Längste Zeit"
 #. How a scored leaderboard ranks, lowest first
 msgctxt "#35337"
 msgid "Lowest score"
-msgstr "Niedrigste Punktzahl"
+msgstr "Niedrigstes Ergebnis"
 
 #. How a scored leaderboard ranks, highest first
 msgctxt "#35338"
 msgid "Highest score"
-msgstr "Höchste Punktzahl"
+msgstr "Höchstes Ergebnis"
 
 #. How many players have submitted to a leaderboard, {0:d} is the number of entries
 msgctxt "#35339"
@@ -15888,7 +16020,7 @@ msgstr "{0:d} Einträge"
 #. Where the player stands on a leaderboard, {0:d} is their rank
 msgctxt "#35340"
 msgid "Your rank: {0:d}"
-msgstr "Eigene Platzierung: {0:d}"
+msgstr "Platzierung: {0:d}"
 
 #. Shown when the player has never submitted to a leaderboard
 msgctxt "#35341"
@@ -15913,7 +16045,7 @@ msgstr "Platz"
 #. Column heading for a leaderboard value
 msgctxt "#35345"
 msgid "Score"
-msgstr "Punktzahl"
+msgstr "Ergebnis"
 
 #. A leaderboard entry submitted one day ago
 msgctxt "#35346"
@@ -15938,17 +16070,17 @@ msgstr "Vor {0:d} Jahren"
 #. Heading for the player's own standing on a leaderboard
 msgctxt "#35350"
 msgid "Your best"
-msgstr "Eigene Bestleistung"
+msgstr "Bestes Ergebnis"
 
 #. A leaderboard entry submitted last month
 msgctxt "#35352"
 msgid "Last month"
-msgstr "Letzten Monat"
+msgstr "Vor einem Monat"
 
 #. A leaderboard entry submitted last year
 msgctxt "#35353"
 msgid "Last year"
-msgstr "Letztes Jahr"
+msgstr "Vor einem Jahr"
 
 #. Notification heading when a leaderboard attempt begins
 msgctxt "#35354"
@@ -15968,12 +16100,12 @@ msgstr "Bestenlisten-Versuch übermittelt"
 #. Where a submitted leaderboard score placed, {0:d} is the rank and {1:d} the number of entries
 msgctxt "#35357"
 msgid "Your rank: {0:d} of {1:d}"
-msgstr "Eigene Platzierung: {0:d} von {1:d}"
+msgstr "Platzierung: {0:d} von {1:d}"
 
 #. Shown when a submitted score did not beat the player's existing best, {0:s} is that best
 msgctxt "#35358"
 msgid "Your best is still {0:s}"
-msgstr "Die eigene Bestleistung bleibt {0:s}"
+msgstr "Bestes Ergebnis bleibt {0:s}"
 
 #. Setting to show the achievement being attempted over the game
 msgctxt "#35364"
@@ -15988,7 +16120,7 @@ msgstr "Anzeige"
 #. Help text for the challenge indicator setting
 msgctxt "#35366"
 msgid "Show a challenge indicator in the corner of the screen while an achievement attempt is active."
-msgstr "Während eines laufenden Erfolgsversuchs eine Herausforderungsanzeige in der Bildschirmecke einblenden."
+msgstr "Während eines laufenden Versuchs, eine Errungenschaft freizuschalten, eine Herausforderungsanzeige in der Bildschirmecke einblenden."
 
 #. Shown in the achievements dialog to someone without a RetroAchievements account
 msgctxt "#35367"
@@ -15998,12 +16130,12 @@ msgstr "Scannen, um ein kostenloses RetroAchievements-Konto zu erstellen"
 #. Says what an account is for, under the sign-up QR code
 msgctxt "#35368"
 msgid "Earn achievements, track your progress and compare with other players."
-msgstr "Erfolge freischalten, den eigenen Fortschritt verfolgen und sich mit anderen Spielern vergleichen."
+msgstr "Errungenschaften erspielen, den Fortschritt verfolgen und mit anderen Spielern vergleichen."
 
 #. Shown in place of a leaderboard's standings when nobody has entered it
 msgctxt "#35369"
 msgid "Nobody has submitted an entry to this leaderboard yet"
-msgstr "Zu dieser Bestenliste wurde noch kein Eintrag übermittelt"
+msgstr "Für diese Bestenliste wurde noch kein Eintrag übermittelt"
 
 #. Shown when the list of a game's leaderboards could not be fetched
 msgctxt "#35370"
@@ -16074,12 +16206,75 @@ msgstr "Verbindung zum Backend wird hergestellt."
 #. emulator a game or a folder of games is opened with
 msgctxt "#35510"
 msgid "Default emulator"
-msgstr "Standard-Emulator"
+msgstr "Standardemulator"
 
 #. Marks the emulator already set as the default in the list of emulators
 msgctxt "#35511"
 msgid "Current"
 msgstr "Aktuell"
+
+# empty strings from id 35512 to 35699
+#. Label of the setting that enables RetroAchievements hardcore mode
+msgctxt "#35700"
+msgid "Hardcore mode"
+msgstr "Hardcore-Modus"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35701"
+msgid "Slow motion"
+msgstr "Zeitlupe"
+
+#. Confirmation shown before turning hardcore mode on during a game, followed by #19194
+msgctxt "#35702"
+msgid "Starting a hardcore session restarts the game. Any unsaved progress will be lost."
+msgstr "Beim Start einer Hardcore-Sitzung wird das Spiel neu gestartet. Nicht gespeicherter Fortschritt geht verloren."
+
+#. Shown as a game with achievements starts in hardcore mode, {0:d} earned of {1:d}
+msgctxt "#35703"
+msgid "Hardcore mode: {0:d} of {1:d} achievements unlocked"
+msgstr "Hardcore-Modus: {0:d} von {1:d} Errungenschaften freigeschaltet"
+
+# empty strings from id 35704 to 35709
+#. Marks a locked achievement that can be missed for good
+msgctxt "#35710"
+msgid "Missable"
+msgstr "Verpassbar"
+
+#. Button that picks which of a game's achievement sets is shown
+msgctxt "#35711"
+msgid "Achievement set"
+msgstr "Errungenschaftsset"
+
+#. An achievement set whose progression and win achievements are all earned
+msgctxt "#35712"
+msgid "Beaten"
+msgstr "Durchgespielt"
+
+#. How close an achievement set is to being beaten, {0:d} earned of {1:d} needed
+msgctxt "#35713"
+msgid "{0:d} of {1:d} to beat"
+msgstr "{0:d} von {1:d} zum Durchspielen"
+
+#. An achievement set the player turned off
+msgctxt "#35714"
+msgid "Turned off"
+msgstr "Deaktiviert"
+
+#. The game's own achievement set, as opposed to its subsets
+msgctxt "#35715"
+msgid "Main Set"
+msgstr "Hauptset"
+
+# empty strings from id 35716 to 35717
+#. Marks an achievement being attempted in the list of a game's achievements
+msgctxt "#35718"
+msgid "Attempt active"
+msgstr "Versuch läuft"
+
+#. Shown when Encore mode is switched on or off during a game, and under its help text in the game's settings
+msgctxt "#35719"
+msgid "Applies the next time you load the game."
+msgstr "Wird beim nächsten Laden des Spiels wirksam."
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -16320,7 +16515,7 @@ msgstr "Wenn keine Medienwiedergabe"
 #: system/peripherals.xml
 msgctxt "#36057"
 msgid "Send volume commands over CEC"
-msgstr "Lautstärkebefehle über CEC senden"
+msgstr "Lautstärkekommandos via CEC senden"
 
 #. Item list value of setting with label #36057 "Send volume commands over CEC": send them to an amplifier, or to a TV that reports CEC 2.0
 #: system/peripherals.xml
@@ -16355,10 +16550,10 @@ msgid "Use system HDR/SDR brightness balance"
 msgstr "Systemeinstellung für HDR-/SDR-Helligkeitsbalance verwenden"
 
 # empty strings from id 36063 to 36095
-#. Label of setting "System / Display / GUI peak luminance in HDR PQ mode"
+#. Label of setting "System / Display / GUI peak luminance"
 msgctxt "#36097"
-msgid "GUI peak luminance in HDR PQ mode"
-msgstr "Maximale Leuchtdichte der GUI im HDR-PQ-Modus"
+msgid "GUI peak luminance"
+msgstr "Maximale Leuchtdichte der GUI"
 
 # empty strings from id 36063 to 36095
 #. Label of setting "System / Display / Use 10 bit for SDR"
@@ -16589,7 +16784,7 @@ msgstr "Beim Start nach neuen Mediendateien suchen."
 #. Description of setting with label #22001 "Hide progress of library updates"
 msgctxt "#36147"
 msgid "Hide the library scanning progress bar during scans."
-msgstr "Fortschrittsbalken während des Bibliotheksscan ausblenden."
+msgstr "Fortschrittsbalken während des Bibliotheksscans ausblenden."
 
 #. Description of setting with label #334 "Clean library..."
 msgctxt "#36148"
@@ -16674,7 +16869,7 @@ msgstr "Erlaubt die Anpassung der Bildwiederholrate des Bildschirms an die Bildw
 #. Description of setting with label #13550 "Delay after change of refresh rate"
 msgctxt "#36165"
 msgid "Delay of reset event after a change of refresh rate"
-msgstr "Verzögerung nach Änderung der Bildwiederholrate"
+msgstr "Verzögerung nach Änderung der Bildrate"
 
 #. Description of setting with label #13510 "Sync playback to display"
 msgctxt "#36166"
@@ -16734,7 +16929,7 @@ msgstr "Kategorie mit Einstellungen zur Verarbeitung von Videodateilisten."
 #. Description of setting with label #22079 "Default select action"
 msgctxt "#36177"
 msgid "Toggle between [Choose], [Play] (default), [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will play videos as defined by the setting 'Default play action'.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
-msgstr "Wahl zwischen [Auswählen], [Wiedergeben] (Standard), [Informationen anzeigen] und [In Wiedergabeliste einreihen].[CR][Auswählen] wird ein Kontextmenü zum Wählen einer Aktion öffnen, z.B. Informationen anzeigen.[CR][Wiedergeben] wird Videos so behandeln, wie mit der Einstellung ‚Standardwiedergabeaktion‘ festgelegt.[CR][Informationen anzeigen] wird den Videoinformationsdialog öffnen.[CR][In Wiedergabeliste einreihen] wird das Video am Ende der Videowiedergabeliste hinzufügen."
+msgstr "Wahl zwischen [Auswählen], [Wiedergeben] (Standard), [Informationen anzeigen] und [In Wiedergabeliste einreihen].[CR][Auswählen] wird ein Kontextmenü zum Wählen einer Aktion öffnen, z. B. Informationen anzeigen.[CR][Wiedergeben] wird Videos so behandeln, wie mit der Einstellung ‚Standardwiedergabeaktion‘ festgelegt.[CR][Informationen anzeigen] wird den Videoinformationsdialog öffnen.[CR][In Wiedergabeliste einreihen] wird das Video am Ende der Videowiedergabeliste hinzufügen."
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 msgctxt "#36178"
@@ -16872,7 +17067,7 @@ msgstr "Öffnet den Sendermanager, der das Bearbeiten von Sendersortierung, Send
 
 msgctxt "#36208"
 msgid "Instruct the backend to search for channels (if supported)."
-msgstr "Weist das Backend an, nach Sender zu suchen. Funktion wird nicht von allen Backends unterstützt."
+msgstr "Weist das Backend an, nach Sendern zu suchen. Funktion wird nicht von allen Backends unterstützt."
 
 msgctxt "#36209"
 msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
@@ -16934,7 +17129,7 @@ msgstr "Kein Programmübersichtsimport während aktiver Wiedergabe, um die CPU-L
 #. Description of setting with label #13438 "Allow Hardware Accelleration with DRM PRIME"
 msgctxt "#36223"
 msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
-msgstr "Aktiviert PRIME-Hardwaredekodierung von Videos."
+msgstr "Aktiviert PRIME-Hardwaredecodierung von Videos. Wird verwendet, wenn ‚ffmpeg PRIME hwaccel‘ verfügbar ist."
 
 msgctxt "#36224"
 msgid "Hide \"No information available\" labels when no guide data is available for a channel."
@@ -17260,7 +17455,7 @@ msgstr "Beim Sortieren von Titeln nach Interpret, den Sortiernamen, z. B. „Pa
 #. Description of setting with label #752 "Opacity"
 msgctxt "#36295"
 msgid "Set the subtitle opacity."
-msgstr "Durchlässigkeit für Untertitel festlegen."
+msgstr "Deckkraft für Untertitel festlegen."
 
 msgctxt "#36296"
 msgid "This category contains settings for reminders."
@@ -17363,7 +17558,7 @@ msgstr "Kategorie mit Einstellungen für den Wetterdienst."
 #. Description of settings category with label #0 "Locations"
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
-msgstr "Bis zu 3 Orten auswählen, für die das Wetter angezeigt werden kann."
+msgstr "Bis zu 3 Orte auswählen, für die das Wetter angezeigt werden kann."
 
 #. Description of setting with label #24029 "Service for weather information"
 msgctxt "#36318"
@@ -17468,7 +17663,7 @@ msgstr "Bestimmt die maximale Anzahl Clients, die sich verbinden dürfen."
 #. Description of setting with label #794 "Allow remote control from programs on other systems"
 msgctxt "#36338"
 msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
-msgstr "Steuerung durch Anwendungen auf diesem Gerät via JSON-RPC über WebSocket, JSON-RPC über TCP oder das EventServer-Protokoll ohne Authentifizierung erlauben. Erlaubt jedem mit Zugang zum Netzwerk, diese Anwendung komplett zu steuern und somit auch dieses Gerät. Niemals die entsprechenden Zugangspunkte im Internet zugänglich machen."
+msgstr "Steuerung durch Anwendungen im Netzwerk via JSON-RPC über WebSocket, JSON-RPC über TCP oder das EventServer-Protokoll ohne Authentifizierung erlauben. Erlaubt jedem mit Zugang zum Netzwerk, diese Anwendung komplett zu steuern und somit auch dieses Gerät. Niemals die entsprechenden Zugangspunkte im Internet zugänglich machen."
 
 #. Description of setting with label #795 "Initial repeat delay (ms)"
 msgctxt "#36339"
@@ -17513,7 +17708,7 @@ msgstr "Kategorie mit Einstellungen für den Umgang mit dem SMB-Client-(Samba)-D
 #. Description of setting with label #1207 "WINS server"
 msgctxt "#36347"
 msgid "If a WINS server is running on the network, enter its IP address here. Otherwise, leave blank."
-msgstr "Eingabe der IP-Adresse des WINS-Server, falls ein solcher Server im Netzwerk läuft. Sonst leer lassen."
+msgstr "Eingabe der IP-Adresse des WINS-Servers, falls ein solcher Server im Netzwerk läuft. Sonst leer lassen."
 
 #. Description of setting with label #1202 "Workgroup"
 msgctxt "#36348"
@@ -17528,7 +17723,7 @@ msgstr "Abschnitt mit Systemeinstellungen für das Gerät, auf dem diese Anwendu
 #. Description of setting with label #13026 "Try to wake remote servers on access"
 msgctxt "#36350"
 msgid "Automatically send Wake-on-LAN to server(s) right before trying to access shared files or services."
-msgstr "Automatisch ein Wake-On-LAN-Kommando an Server senden, kurz bevor auf Dateien oder Dienste auf diesem Servern zugegriffen werden soll."
+msgstr "Automatisch ein Wake-on-LAN-Kommando an Server senden, kurz bevor auf Dateien oder Dienste auf diesen Servern zugegriffen werden soll."
 
 #. Description of setting with label #21373 "Display Mode"
 msgctxt "#36351"
@@ -17596,7 +17791,7 @@ msgstr "Verstärkung von AC3-Spuren, die auf 2 Kanäle reduziert wurden."
 #. Description of setting with label #252 "Stereo upmix"
 msgctxt "#36364"
 msgid "Select to enable upmixing of 2 channel audio to the number of audio channels specified by the channel configuration."
-msgstr "Umwandlung von 2-Kanalton in die Anzahl an Audiokanälen, die entsprechend der Kanalkonfiguration festgelegt sind."
+msgstr "Umwandlung von 2-Kanalton in die Anzahl an Audiokanälen, die entsprechend der Kanalkonfiguration festgelegt ist."
 
 #. Description of setting with label #364 "Dolby Digital (AC3) capable receiver"
 msgctxt "#36365"
@@ -17680,7 +17875,7 @@ msgstr "Falls für den Internetzugang ein Proxyserver nötig ist, wird dieser hi
 #. Description of setting with label #1180 "Proxy type"
 msgctxt "#36381"
 msgid "Configure which proxy type is used."
-msgstr "Konfiguration der zu nutzenden Proxytypen."
+msgstr "Konfiguration des zu nutzenden Proxytyps."
 
 #. Description of setting with label #706 "Server"
 msgctxt "#36382"
@@ -17908,7 +18103,7 @@ msgstr "Aufnehmen"
 #. Description of setting with label #667 "Enable Dolby Digital transcoding"
 msgctxt "#36429"
 msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. When E-AC3 passthrough is also enabled, Dolby Digital Plus (E-AC3) is used for higher quality. If your system supports PCM multichannel audio via HDMI, leave this disabled."
-msgstr "Auswählen, wenn der Audioausgang Mehrkanalaudio nur als Dolby Digital 5.1 (AC-3) unterstützt, beispielsweise bei einem S/PDIF -Ausgang. Wenn Passthrough für E-AC3 ebenfalls aktiviert ist, wird dann das qualitativ höherwertigere Dolby Digital Plus (E-AC3) verwendet. Deaktiviert lassen, falls das System PCM-Mehrkanalaudio über HDMI unterstützt."
+msgstr "Auswählen, wenn der Audioausgang Mehrkanalaudio nur als Dolby Digital 5.1 (AC-3) unterstützt, beispielsweise bei einem S/PDIF-Ausgang. Wenn Passthrough für E-AC3 ebenfalls aktiviert ist, wird dann das qualitativ höherwertigere Dolby Digital Plus (E-AC3) verwendet. Deaktiviert lassen, falls das System PCM-Mehrkanalaudio über HDMI unterstützt."
 
 #. Description for setting category #14101: "Video Acceleration"
 msgctxt "#36430"
@@ -17960,7 +18155,7 @@ msgstr "Beliebige Repositorys"
 #. Description of setting with label #19352 "Play next programme automatically"
 msgctxt "#36439"
 msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
-msgstr "Automatische Wiedergabe der nächsten Sendung bei der Wiedergabe von vergangenen Sendungen (Catchup) oder Video-on-Demand-Sendern (VOD) aktivieren. Bitte beachten, dass Catchup und VOD nur funktioniert, wenn vom Senderanbieter unterstützt."
+msgstr "Automatische Wiedergabe der nächsten Sendung bei der Wiedergabe von vergangenen Sendungen (Catchup) oder Video-on-Demand-Sendern (VOD) aktivieren. Bitte beachten, dass Catchup und VOD nur funktionieren, wenn vom Senderanbieter unterstützt."
 
 #. Description of setting with label #14085 "Video disc insert action"
 msgctxt "#36440"
@@ -18000,17 +18195,23 @@ msgstr "Sortiert"
 #. Name of the setting of the stream order in the stream selection screen and the OSD for video files
 msgctxt "#36447"
 msgid "Video file stream display order"
-msgstr "Anzeigereihenfolge der Streams von Videodateien"
+msgstr "Anzeigereihenfolge für Videodateistreams"
 
 #. Description of setting with label #36447 "Video file stream display order"
 msgctxt "#36448"
 msgid "Video files only: display order in the stream selection dialogs. [Media] stream order in the media, [Sorted] sorted using the stream attributes[CR]"
-msgstr "Nur Videodateien: Anzeigereihenfolge in den Dialogen zur Streamauswahl. [Medien] Reihenfolge der Streams im Medium, [Sortiert] anhand der Streameigenschaften sortiert[CR]"
+msgstr "Nur für Videodateien: Anzeigereihenfolge in den Streamauswahldialogen. [Medium] Streamreihenfolge wie im Medium, [Sortiert] sortiert unter Verwendung der Streamattribute[CR]"
 
 #. Description of setting with label #14129 "Whitelist"
 msgctxt "#36449"
 msgid "Select this option to allow using whole-number repeat rate (playing 24 FPS video on a 120 Hz monitor or playing 30 FPS video on a 120 Hz monitor)."
 msgstr "Auswählen, um ganzzahlige Bildwiederholung zu erlauben (Wiedergabe von 24-FPS-Videos auf einem 120-Hz-Bildschirm oder von 30-FPS-Videos auf einem 120-Hz-Bildschirm)."
+
+#. Description of setting with label #13438 "Allow hardware acceleration (amcodec)"
+#: system/settings/settings.xml
+msgctxt "#36450"
+msgid "Enable hardware video decode using Amlogic decoder."
+msgstr "Aktiviert Amlogic-Hardwaredecodierung von Videos."
 
 #. Description of settings with label #14112 "Enable event logging"
 msgctxt "#36460"
@@ -18191,10 +18392,10 @@ msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
 msgstr "Legt die visuelle Tiefe der Untertitel für stereoskopische 3D-Videos fest. Je höher der Wert, desto näher wirken die Untertitel."
 
-#. Description of setting with label #36097 "System / Display / GUI peak luminance in HDR PQ mode"
+#. Description of setting with label #36097 "System / Display / GUI peak luminance"
 msgctxt "#36547"
-msgid "Sets the peak luminance level for GUI elements while the display is in HDR PQ mode. This affects all OSD, subtitles and graphics that are SDR in origin."
-msgstr "Einstellen der maximalen Leuchtdichte für GUI-Elemente, wenn der Bildschirm im HDR-PQ-Modus ist. Dies betrifft alle OSDs, Untertitel und Grafiken, die ursprünglich SDR sind."
+msgid "Sets the peak luminance level for GUI elements while the display is in HDR PQ or HLG mode, applied via GUI compositing."
+msgstr "Einstellen der maximalen Leuchtdichte für GUI-Elemente, wenn der Bildschirm im HDR-PQ- oder HLG-Modus ist. Wird über die GUI-Komposition angewendet."
 
 #. Description of setting with label #37021 "Set GUI resolution limit"
 msgctxt "#36548"
@@ -18214,7 +18415,7 @@ msgstr "Stärke des stereoskopischen 3D-Effekts"
 #. Description of setting with label #36550 "Stereoscopic 3D effect strength"
 msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
-msgstr "Definiert die Stärke des stereoskopischen 3D-Effekts in der GUI. Dies wird durch die Steuerung der Tiefenwahrnehmung für die GUI erreicht. Je höher der Wert ist, um so mehr Elemente werden aus dem Bild herausragen. [Zero] Deaktiviert den stereoskopischen 3D Effekt der GUI. [CR]Für ein gutes visuelles Erlebnis sollte der Wert bei kleinen Bildschirmen höher und bei großen Bildschirmen niedriger gewählt werden. Hinweis: Wird nicht von allen Skins unterstützt."
+msgstr "Definiert die Stärke des stereoskopischen 3D-Effekts in der GUI. Dies wird durch die Steuerung der Tiefenwahrnehmung für die GUI erreicht. Je höher der Wert ist, umso mehr Elemente werden aus dem Bild herausragen. [Null] Deaktiviert den stereoskopischen 3D-Effekt der GUI.[CR]Für ein gutes visuelles Erlebnis sollte der Wert bei kleinen Bildschirmen höher und bei großen Bildschirmen niedriger gewählt werden. Hinweis: Wird nicht von allen Skins unterstützt."
 
 #. Description of setting "System -> Video output -> NoOfBuffers" with label #36043
 msgctxt "#36552"
@@ -18294,7 +18495,7 @@ msgstr "Weißpunkt"
 #. Description of setting "System -> Video output -> Whitepoint" with label #36568
 msgctxt "#36569"
 msgid "Changing video whitepoint to D93 is mainly useful for older Japanese NTSC material which looks too red when played back on a D65 display. Adjust video brightness setting down to avoid clipping to display native whitepoint."
-msgstr "Den Weißpunkt auf D93 anzupassen, ist hauptsächlich für älteres japanische NTSC-Material nützlich, das auf einem D65-Display zu rot erscheint. Die Helligkeit für Video herunterregeln, um zu vermeiden, dass der Dynamikumfang auf den nativen Weißpunkt des Displays begrenzt wird."
+msgstr "Den Weißpunkt auf D93 anzupassen, ist hauptsächlich für älteres japanisches NTSC-Material nützlich, das auf einem D65-Display zu rot erscheint. Die Helligkeit für Video herunterregeln, um zu vermeiden, dass der Dynamikumfang auf den nativen Weißpunkt des Displays begrenzt wird."
 
 msgctxt "#36570"
 msgid "Primaries"
@@ -18516,7 +18717,7 @@ msgstr "Aus Sicherheitsgründen ist die Installation von Addons aus unbekannten 
 #. Text in confirm dialog when enabling setting "System -> Add-ons -> Unknown sources"
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
-msgstr "Addons aus unbekannten Quellen wird Zugriff auf alle Dateien des Gerätes ermöglicht. Wenn aktiviert, ist der Anwender für den etwaigen Verlust von Daten, Beschädigungen am Gerät, sowie ungewolltem Verhalten selbst verantwortlich. Wirklich fortfahren?"
+msgstr "Addons aus unbekannten Quellen wird Zugriff auf alle Dateien des Gerätes ermöglicht. Wenn aktiviert, ist der Anwender für den etwaigen Verlust von Daten, Beschädigungen am Gerät sowie ungewolltes Verhalten selbst verantwortlich. Wirklich fortfahren?"
 
 #. Label of a setting, allow the user to specify high quality downscaling of pictures
 msgctxt "#36619"
@@ -18571,7 +18772,7 @@ msgstr "Minimale Protokollversion"
 #. Description of setting with label #36628 "Minimum protocol version"
 msgctxt "#36629"
 msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some systems. Only SMBv2.1 and SMBv3 support Large MTU (chunk size > 64 KB)."
-msgstr "Einstellen der maximalen SMB-Protokollversion für das Aushandeln von Verbindungen. Für die Nutzung mancher Systeme kann es nötig sein, SMBv2 zu erzwingen, um SMBv1-Nutzung zu verhindern. Nur SMBv2.1 und SMBv3 unterstützen Large MTU (große maximale Übertragungseinheit, Datenblockgröße > 64 KB)."
+msgstr "Einstellen der minimalen SMB-Protokollversion für das Aushandeln von Verbindungen. Für die Nutzung mancher Systeme kann es nötig sein, SMBv2 zu erzwingen, um SMBv1-Nutzung zu verhindern. Nur SMBv2.1 und SMBv3 unterstützen Large MTU (große maximale Übertragungseinheit, Datenblockgröße > 64 KB)."
 
 #. Label of a setting, sets additional config required for some proprietary SMBv1 implementations (mostly routers)
 msgctxt "#36630"
@@ -18581,7 +18782,7 @@ msgstr "Veraltetes Sicherheitskonzept verwenden"
 #. Description of setting with label #36630 "Use legacy security"
 msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
-msgstr "Schwaches SMBv1 verwenden für Kompatibilität mit USB-Sharing-Funktionen bestimmter WLAN-Router and NAS-Geräte."
+msgstr "Schwaches SMBv1 verwenden für Kompatibilität mit USB-Sharing-Funktionen bestimmter WLAN-Router und NAS-Geräte."
 
 #. Text in confirm dialog when enabling setting "Services -> Control -> Allow remote control via HTTP"
 msgctxt "#36632"
@@ -18591,12 +18792,12 @@ msgstr "Jeder mit Zugang zur Weboberfläche kann die Anwendung komplett steuern 
 #. Text in confirm dialog when enabling setting "Services -> Control -> Allow remote control from applications on other systems"
 msgctxt "#36633"
 msgid "These services offer neither authentication nor encryption. Anyone who can connect to them will be able to completely control this application and, therefore, this device, so they should never be exposed to the Internet. Proceed?"
-msgstr "Diese Dienste bieten weder Authentifizierung noch Verschlüsselung an. Jeder mit Zugang zur Weboberfläche kann die Anwendung komplett steuern und somit auch dieses Gerät. Deshalb niemals die entsprechenden Zugangspunkte im Internet zugänglich machen. Fortfahren?"
+msgstr "Diese Dienste bieten weder Authentifizierung noch Verschlüsselung an. Jeder mit Zugang zu diesen Diensten kann die Anwendung komplett steuern und somit auch dieses Gerät. Deshalb niemals die entsprechenden Zugangspunkte im Internet zugänglich machen. Fortfahren?"
 
 #. Text in confirm dialog when disabling setting "Services -> Control -> Require authentication"
 msgctxt "#36634"
 msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
-msgstr "Jeder mit Zugang zur Weboberfläche kann die Anwendung komplett steuern und somit auch dieses Gerät. Es sollte ein Passwort zu Absicherung vergeben werden. Soll Authentifizierung wirklich deaktiviert werden?"
+msgstr "Jeder mit Zugang zur Weboberfläche kann die Anwendung komplett steuern und somit auch dieses Gerät. Es sollte ein Passwort zur Absicherung vergeben werden. Soll Authentifizierung wirklich deaktiviert werden?"
 
 #. Text in error dialog when trying to enter an invalid web server configuration
 msgctxt "#36635"
@@ -18956,7 +19157,7 @@ msgstr "Speichergröße"
 #. Description of setting #37105 "Memory Size"
 msgctxt "#37106"
 msgid "The size of the memory buffer in Mbytes. Setting zero (0) forces buffering to disk, which is not recommend on flash storage devices (eMMC, SD cards, SSD)."
-msgstr "Größe des Speicherpuffers in MByte. Ein Wert von Null (0) erzwingt puffern auf Disk, was für Flash-Speichermedien (eMMC, SD-Karten, SSD) nicht zu empfehlen ist."
+msgstr "Größe des Speicherpuffers in MByte. Ein Wert von Null (0) erzwingt das Puffern auf Disk, was für Flash-Speichermedien (eMMC, SD-Karten, SSD) nicht zu empfehlen ist."
 
 #. Setting #37107 "Read Factor"
 msgctxt "#37107"
@@ -18981,22 +19182,22 @@ msgstr "Kein Puffer"
 #. Value of setting - TRUE INTERNET
 msgctxt "#37111"
 msgid "Only buffer true internet streams: HTTP, HTTPS, etc."
-msgstr "Nur echte Internetstreams puffern: HTTP, HTTPS, etc."
+msgstr "Nur echte Internetstreams puffern: HTTP, HTTPS, usw."
 
 #. Value of setting - INTERNET
 msgctxt "#37112"
 msgid "Buffer all internet filesystems, including: FTP, WebDAV, etc."
-msgstr "Alle Internetdateisysteme puffern: FTP, WebDAV, etc."
+msgstr "Alle Internetdateisysteme puffern: FTP, WebDAV, usw."
 
 #. Value of setting - NETWORK
 msgctxt "#37113"
 msgid "Buffer all network filesystems, including: SMB, NFS, etc."
-msgstr "Alle Netzwerkdateisysteme puffern: SMB, NFS, etc."
+msgstr "Alle Netzwerkdateisysteme puffern: SMB, NFS, usw."
 
 #. Value of setting - ALL
 msgctxt "#37114"
 msgid "Buffer all filesystems, including local files"
-msgstr "Alle Dateisysteme puffern, inklusive lokale Dateien"
+msgstr "Alle Dateisysteme puffern, inklusive lokaler Dateien"
 
 #. Value of setting #37105 "Memory Size"
 msgctxt "#37115"
@@ -19097,7 +19298,7 @@ msgstr "Aktualisierungsrate der Benutzeroberfläche während Wiedergabe begrenze
 #. Description for the setting with label #38013 "Limit GUI updates when playing video"
 msgctxt "#38014"
 msgid "Limits the speed (fps) used to update the GUI while playing videos. This can reduce CPU load and fix playback issues while the GUI is shown."
-msgstr "Begrenzt die Geschwindigkeit (fps) mit der die Benutzeroberfläche bei Wiedergabe von Videos aktualisiert wird. Dies kann die CPU-Last reduzieren und auftretende Wiedergabeprobleme bei aktivierter Benutzeroberfläche beheben."
+msgstr "Begrenzt die Geschwindigkeit (fps), mit der die Benutzeroberfläche bei Wiedergabe von Videos aktualisiert wird. Dies kann die CPU-Last reduzieren und auftretende Wiedergabeprobleme bei aktivierter Benutzeroberfläche beheben."
 
 #. Label of a settings value to indicate the "disabled" state of an otherwise limiting setting (like fps limit, bandwidth limit, etc.)
 msgctxt "#38015"
@@ -19112,7 +19313,7 @@ msgstr "{0:d} fps"
 #. Description of setting #14111 "Blu-ray region code"
 msgctxt "#38017"
 msgid "Region A - Americas, East Asia and Southeast Asia. Region B - Africa, Middle East, Southwest Asia, Europe, Australia, New Zealand. Region C - Central Asia, mainland China, Mongolia, South Asia, Belarus, Russia, Ukraine, Kazakhstan."
-msgstr "Region A: Nord-, Mittel- und Südamerika, Ostasien and Südostasien. Region B: Afrika, Mittlerer Osten, Südwestasien, Europa, Australien, Neuseeland. Region C: Zentralasien, China (Festland), Mongolei, Südasien, Belarus, Russland, Ukraine, Kasachstan."
+msgstr "Region A: Nord-, Mittel- und Südamerika, Ostasien und Südostasien. Region B: Afrika, Mittlerer Osten, Südwestasien, Europa, Australien, Neuseeland. Region C: Zentralasien, China (Festland), Mongolei, Südasien, Belarus, Russland, Ukraine, Kasachstan."
 
 #. Used for the viewstate selection
 msgctxt "#38018"
@@ -19893,7 +20094,7 @@ msgstr "Alle Bilddateien, die sich neben Mediendateien befinden, werden beim Sca
 
 msgctxt "#39129"
 msgid "Use all remote artwork fetched by scrapers"
-msgstr "Alle von Scrapern abgerufene Online-Artwork verwenden"
+msgstr "Alle von Scrapern abgerufenen Online-Artworkdaten verwenden"
 
 #. Description of setting with label #39129 "Use all remote artwork fetched by scrapers"
 msgctxt "#39130"
@@ -19934,7 +20135,7 @@ msgstr "Artworkstufe"
 #. Description of setting with label #39137 "Artwork level"
 msgctxt "#39138"
 msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
-msgstr "Anzahl automatisch ausgewählter Artwork - [Maximal] alle lokale und nicht-lokale Art; [Einfach] Platz auf eingeschränkten Geräten oder bei Verwendung von einfachen Skins sparen; [Benutzerdefiniert] vom Anwender konfiguriert für detaillierte Steuerung; [Keine] keine Art"
+msgstr "Anzahl automatisch ausgewählter Artworkdaten - [Maximal] alle lokalen und nicht-lokalen Artworkdaten; [Einfach] Platz auf eingeschränkten Geräten oder bei Verwendung von einfachen Skins sparen; [Benutzerdefiniert] vom Anwender konfiguriert für detaillierte Steuerung; [Keine] keine Artworkdaten"
 
 #. Value of setting with label #39137 "Artwork level"
 msgctxt "#39140"
@@ -19999,7 +20200,7 @@ msgstr "Untertitelstile überschreiben"
 #. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
 msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr "Einige Untertitelformate, wie SSA/ASS/ WebTVTT, können Metadaten enthalten (z. B. Schriftstile, Farben, Größe, Ausrichtungen, Positionen). Diese Daten können mit benutzerdefinierten Werten überschrieben werden. Bitte beachten, dass einige Konstellationen Nebeneffekte haben können."
+msgstr "Einige Untertitelformate, wie SSA/ASS/WebVTT, können Metadaten enthalten (z. B. Schriftstile, Farben, Größe, Ausrichtungen, Positionen). Diese Daten können mit benutzerdefinierten Werten überschrieben werden. Bitte beachten, dass einige Konstellationen Nebeneffekte haben können."
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39156"
@@ -20203,7 +20404,7 @@ msgstr "Diese Option für beste Bildqualität aktivieren. Deaktivieren verringer
 #. Title of Dolby Vision RPU conversion setting
 msgctxt "#39196"
 msgid "Dolby Vision compatibility mode"
-msgstr "Dolby Vision-Kompatibilitätsmodus"
+msgstr "Dolby-Vision-Kompatibilitätsmodus"
 
 #. Help text for setting "Convert Dolby Vision for compatibility" of label #39196
 msgctxt "#39197"
@@ -20273,17 +20474,17 @@ msgstr "Dolby Vision: Level-5-Metadaten überschreiben mit Null"
 #. Help text for setting "Dolby Vision: Override level 5 metadata to zero" of label #39209
 msgctxt "#39210"
 msgid "If enabled, Dolby Vision files will have level 5 (active area) metadata overridden to zero offsets. Enable if your display has issues with incorrectly cropped image in Dolby Vision playback."
-msgstr "Wenn aktiviert, werden Level-5-Metadaten (aktiver Bereich) in Dolby Vision-Dateien mit Null-Offsets überschrieben. Aktivieren, wenn auf dem Bildschirm Probleme mit inkorrekt abgeschnittenem Bild bei der Wiedergabe von Dolby Vision auftreten."
+msgstr "Wenn aktiviert, werden Level-5-Metadaten (aktiver Bereich) in Dolby-Vision-Dateien mit Null-Offsets überschrieben. Aktivieren, wenn auf dem Bildschirm Probleme mit inkorrekt abgeschnittenem Bild bei der Wiedergabe von Dolby Vision auftreten."
 
 #. Title of the setting that skips subtitles whose language matches the audio language
 msgctxt "#39211"
 msgid "Don't show subtitles matching the audio language"
-msgstr "Untertitel in der Sprache der Tonspur nicht anzeigen"
+msgstr "Untertitel für die Audiosprache nicht anzeigen"
 
 #. Help text for setting "Don't show subtitles matching the audio language" of label #39211
 msgctxt "#39212"
-msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
-msgstr "Keine Untertitel aktivieren, die in derselben Sprache wie die wiedergegebene Tonspur sind. Erzwungene Untertitel sind davon nicht betroffen."
+msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles in that language are turned on instead, where the video has them."
+msgstr "Untertitel für die Sprache des gerade wiedergegebenen Tons nicht aktivieren. Stattdessen werden erzwungene Untertitel in dieser Sprache aktiviert, sofern das Video welche enthält."
 
 #. Title of the setting that chooses which audio stream a library list describes
 msgctxt "#39213"
@@ -20293,7 +20494,7 @@ msgstr "Anzuzeigende Sprachdetails"
 #. Help text for setting "Language details to display" of label #39213
 msgctxt "#39214"
 msgid "Which audio stream the language, codec and channel count shown against an item describe.[CR][Player][Default] The language that will normally be played.[CR][Media default] The default language for the media. If not set, then the best audio stream is shown.[CR][Best] The best audio stream as determined by codec quality and channel count."
-msgstr "Legt fest, auf welche Tonspur sich die bei einem Eintrag angezeigten Angaben zu Sprache, Codec und Kanalanzahl beziehen.[CR][Player][Standard] Die Sprache, die normalerweise wiedergegeben wird.[CR][Medienstandard] Die Standardsprache des Mediums. Ist keine festgelegt, wird die beste Tonspur angezeigt.[CR][Beste] Die beste Tonspur, ermittelt anhand von Codec-Qualität und Kanalanzahl."
+msgstr "Legt fest, auf welche Tonspur sich die zu einem Element angezeigte Sprache, der Codec und die Kanalanzahl beziehen.[CR][Player][Standard] Die Sprache, die normalerweise wiedergegeben wird.[CR][Medienstandard] Die Standardsprache des Mediums. Ist keine festgelegt, wird die beste Tonspur angezeigt.[CR][Beste Tonspur] Die anhand von Codec-Qualität und Kanalanzahl beste Tonspur."
 
 #. Value of the setting "Language details to display" - describe the stream that will be played
 msgctxt "#39215"
@@ -20308,9 +20509,19 @@ msgstr "Medienstandard"
 #. Value of the setting "Language details to display" - describe the technically best stream
 msgctxt "#39217"
 msgid "Best"
-msgstr "Beste"
+msgstr "Beste Tonspur"
 
-# empty strings from id 39218 to 39899
+#. Title of the setting that chooses if the Dolby Vision extensions is used
+msgctxt "#39218"
+msgid "Use Dolby Vision extensions"
+msgstr "Dolby-Vision-Erweiterungen verwenden"
+
+#. Help text for setting "Dolby Vision extensions" of label #39218
+msgctxt "#39219"
+msgid "Use the system Dolby Vision extensions to correctly display Dolby Vision profile 5, 7 (excludes FEL reconstruction), 8 and 10 video."
+msgstr "Dolby-Vision-Erweiterungen des Systems verwenden, um Videos mit Dolby-Vision-Profil 5, 7 (exklusive FEL-Wiederherstellung), sowie 8 und 10 korrekt darzustellen."
+
+# empty strings from id 39220 to 39899
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A and B"
 #. STR_LIST_AND_TWO
 msgctxt "#39900"
@@ -20344,7 +20555,7 @@ msgid "{0} or {1}"
 msgstr "{0} oder {1}"
 
 #. List formatting: pattern used to join the already-combined partial list to the final item in a list of three or more items, e.g. "A, B" + "C" -> "A, B, or C"
-#. Note: the "or"-type list uses only TWO and END patterns; the START and MIDDLE joins for lists of three or more still use the AND-type comma pattern 
+#. Note: the "or"-type list uses only TWO and END patterns; the START and MIDDLE joins for lists of three or more still use the AND-type comma pattern
 #. (STR_LIST_AND_START / STR_LIST_AND_MIDDLE), with only the very last join switching to "or"
 #. STR_LIST_OR_END
 msgctxt "#39911"
@@ -20435,7 +20646,7 @@ msgstr "Extra hinzufügen"
 #. Add video version dialog text.
 msgctxt "#40016"
 msgid "The selected video already is the \"{0:s}\" version of the movie."
-msgstr "Das ausgewählte Video is bereits Version „{0:s}“ des Films."
+msgstr "Das ausgewählte Video ist bereits Version „{0:s}“ des Films."
 
 #. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
@@ -20570,22 +20781,47 @@ msgstr "Andere Version des Films „{0:s}“ gefunden in Wiedergabeliste {1:s} v
 #. Ungroup video version dialog title
 msgctxt "#40043"
 msgid "Ungroup video version"
-msgstr "Gruppierung der Videoversion aufheben"
+msgstr "Videoversion trennen"
 
 #. Manage versions, ungroup: ungrouping the default version of a movie is not allowed.
 msgctxt "#40044"
 msgid "The default version of a movie cannot be ungrouped. Set a different default version and try again."
-msgstr "Die Gruppierung der Standardversion eines Films kann nicht aufgehoben werden. Bitte eine andere Version als Standard setzen und dann nochmal versuchen."
+msgstr "Die Standardversion eines Films kann nicht getrennt werden. Bitte eine andere Version als Standard setzen und dann nochmal versuchen."
 
 #. Ungroup video version dialog text
 msgctxt "#40045"
 msgid "Are you sure to ungroup version \"{0:s}\"?[CR]It will be turned into a library movie entry."
-msgstr "Soll die Gruppierung von Version „{0:s}“ wirklich aufgehoben werden?[CR]Sie wird in einen eigenen Filmeintrag der Bibliothek umgewandelt."
+msgstr "Soll Version „{0:s}“ wirklich getrennt werden?[CR]Sie wird danach als eigenständiger Film in der Bibliothek geführt."
 
 #. Button name for video version ungroup function of the manage versions dialog
 msgctxt "#40046"
 msgid "Ungroup"
-msgstr "Gruppierung aufheben"
+msgstr "Trennen"
+
+#. Shown when the playlist chosen for a movie version already belongs to another version of it
+msgctxt "#40047"
+msgid "This playlist already belongs to another version of this movie."
+msgstr "Diese Wiedergabeliste gehört bereits zu einer anderen Version dieses Films."
+
+#. Asked before a playlist already assigned to another episode is taken away from it
+msgctxt "#40048"
+msgid "The selected playlist is already assigned to another episode. Reassign it?"
+msgstr "Die ausgewählte Wiedergabeliste ist bereits einer anderen Episode zugewiesen. Soll die Zuweisung geändert werden?"
+
+#. Asked before a playlist already assigned to another movie version is taken away from it
+msgctxt "#40049"
+msgid "The selected playlist is already assigned to another movie version. Reassign it?"
+msgstr "Die ausgewählte Wiedergabeliste ist bereits einer anderen Filmversion zugewiesen. Soll die Zuweisung geändert werden?"
+
+#. Asked before an episode joins a playlist that several episodes already share
+msgctxt "#40050"
+msgid "The selected playlist is shared by several episodes. Use it for this item as well?"
+msgstr "Die ausgewählte Wiedergabeliste wird von mehreren Episoden gemeinsam genutzt. Soll sie auch für dieses Element verwendet werden?"
+
+#. Shown when a playlist cannot be given up because a movie version still uses its file
+msgctxt "#40051"
+msgid "This playlist is still in use by another movie version and could not be reassigned."
+msgstr "Diese Wiedergabeliste wird noch von einer anderen Filmversion verwendet. Die Zuweisung konnte nicht geändert werden."
 
 #. Ignore different video versions settting
 msgctxt "#40202"
@@ -20631,7 +20867,7 @@ msgstr "Lautstärkepegel mit Netzwerk-UPnP-Playern synchronisieren"
 #. Help string for UPnP remote player volume level sync setting
 msgctxt "#40213"
 msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
-msgstr "Wenn ausgewählt, wird der Lautstärkepegel des Netzwerk-Players mit dem Pegel dieser Applikation synchronisiert.[CR]Warnung: Der Lautstärkepegel des Systems kann anders sein als der Pegel der Applikation, da sie unabhängig voneinander gesteuert werden.[CR]Das kann dazu führen, dass der Netzwerk-Player auf 100% Lautstärkepegel gesetzt wird, wenn der Pegel der Applikation 100% ist, aber der Systemlautstärkepegel kann geringer sein."
+msgstr "Wenn ausgewählt, wird der Lautstärkepegel des Netzwerk-Players mit dem Pegel dieser Anwendung synchronisiert.[CR]Warnung: Der Lautstärkepegel des Systems kann anders sein als der Pegel der Anwendung, da sie unabhängig voneinander gesteuert werden.[CR]Das kann dazu führen, dass der Netzwerk-Player auf 100 % Lautstärkepegel gesetzt wird, wenn der Pegel der Anwendung 100 % ist, aber der Systemlautstärkepegel kann geringer sein."
 
 #. Title of the dialog for version rename action from Versions Manager
 msgctxt "#40215"
@@ -20687,7 +20923,7 @@ msgstr "Grafiken abrufen"
 #. Help for retrieve art during/after scrape setting
 msgctxt "#40226"
 msgid "Determines whether art is retrieved synchronously during scrape or in the background afterwards.[CR][During scrape] Art is retrieved synchronously during scrape. This significantly extends time taken to scrape.[CR][After scrape][Default] Art is retrieved in the background after scrape. Actor thumbnails may take a while to appear."
-msgstr "Legt fest, ob Grafiken während des Auslesens von Daten (Scraping) synchron abgerufen werden, oder anschließend im Hintergrund.[CR][Während des Auslesens] Grafiken werden während des Scrapings synchron abgerufen. Dies verlängert die Auslesedauer erheblich.[CR][Nach dem Auslesen][Standard] Grafiken werden nach dem Scraping, im Hintergrund synchronisiert. Es kann eine Weile dauern, bis die Vorschaubilder der Darsteller angezeigt werden."
+msgstr "Legt fest, ob Grafiken während des Auslesens von Daten (Scraping) synchron abgerufen werden, oder anschließend im Hintergrund.[CR][Während des Auslesens] Grafiken werden während des Scrapings synchron abgerufen. Dies verlängert die Auslesedauer erheblich.[CR][Nach dem Auslesen][Standard] Grafiken werden nach dem Scraping im Hintergrund abgerufen. Es kann eine Weile dauern, bis die Vorschaubilder der Darsteller angezeigt werden."
 
 #. Option for the retrieve art during/after scrape setting
 msgctxt "#40227"
@@ -20845,495 +21081,6 @@ msgstr "Nach dem Ändern des Bildschirms ist möglicherweise ein Neustart erford
 msgctxt "#40804"
 msgid "{0:.1f} dB"
 msgstr "{0:.1f} dB"
-
-#. Label of setting "CMv4.0 metadata"
-#: system/settings/settings.xml
-msgctxt "#60320"
-msgid "CMv4.0 metadata"
-msgstr "CMv4.0-Metadaten"
-
-#. Description of setting with label #60320 "CMv4.0 metadata"
-#: system/settings/settings.xml
-msgctxt "#60321"
-msgid "Add Dolby Vision CMv4.0 metadata to CMv2.9 titles, or take it away from CMv4.0 ones. \"Smart\" appends per-frame unless the frame's content peak exceeds the display's peak brightness by the threshold, in which case CMv2.9 is kept so its L2 trims apply. \"Smart\" is not available on player-led Dolby Vision output: switching the CM version mid-stream makes the display re-acquire Dolby Vision, so \"Smart\" behaves as plain \"Always\" there. It works per-frame for TV-led Dolby Vision output and for VS10 HDR10/SDR output. \"Auto\" decides once per title instead of per frame, from the title's own mastering brightness and the trigger below, so it never switches the CM version mid-playback. \"Strip to CMv2.9\" is the opposite operation: it removes CMv4.0 from titles that carry it, for older Dolby Vision displays that fail to fall back from CMv4.0 and show a black screen on it. Stripping only applies to TV-led Dolby Vision output, where the display itself reads the metadata."
-msgstr "Dolby-Vision-CMv4.0-Metadaten zu CMv2.9-Titeln hinzufügen oder sie aus CMv4.0-Titeln entfernen. „Smart“ fügt sie einzelbildweise hinzu, außer wenn die Spitzenhelligkeit des Bildinhalts die Spitzenhelligkeit des Bildschirms um den festgelegten Schwellenwert übersteigt – dann wird CMv2.9 beibehalten, damit dessen L2-Trims wirksam werden. „Smart“ ist bei Player-Led-Dolby-Vision-Ausgabe nicht verfügbar: Ein Wechsel der CM-Version während der Wiedergabe führt dazu, dass der Bildschirm Dolby Vision neu synchronisiert; dort verhält sich „Smart“ deshalb wie „Immer“. Einzelbildweise funktioniert es bei TV-Led-Dolby-Vision-Ausgabe sowie bei VS10-HDR10-/SDR-Ausgabe. „Auto“ entscheidet einmal pro Titel statt pro Einzelbild – anhand der Mastering-Helligkeit des Titels und des unten eingestellten Auslösers – und wechselt die CM-Version daher nie während der Wiedergabe. „Auf CMv2.9 reduzieren“ ist der umgekehrte Vorgang: CMv4.0 wird aus Titeln entfernt, die es enthalten. Das hilft bei älteren Dolby-Vision-Bildschirmen, die nicht von CMv4.0 zurückfallen können und stattdessen ein schwarzes Bild zeigen. Das Entfernen wirkt nur bei TV-Led-Dolby-Vision-Ausgabe, bei der der Bildschirm die Metadaten selbst auswertet."
-
-msgctxt "#60322"
-msgid "Off"
-msgstr "Aus"
-
-msgctxt "#60323"
-msgid "CMv2.9 without L2 trims"
-msgstr "CMv2.9 ohne L2-Trims"
-
-msgctxt "#60324"
-msgid "Always"
-msgstr "Immer"
-
-msgctxt "#60325"
-msgid "Smart"
-msgstr "Smart"
-
-msgctxt "#60326"
-msgid "Auto"
-msgstr "Auto"
-
-msgctxt "#60327"
-msgid "Strip to CMv2.9"
-msgstr "Auf CMv2.9 reduzieren"
-
-#. Label of setting "CMv4.0 smart bypass threshold (%)"
-#: system/settings/settings.xml
-msgctxt "#60328"
-msgid "CMv4.0 smart bypass threshold (%)"
-msgstr "Schwellenwert für Smart-Umgehung von CMv4.0 (%)"
-
-#. Description of setting with label #60328
-#: system/settings/settings.xml
-msgctxt "#60329"
-msgid "Percentage above the display's peak brightness at which CMv4.0 append is bypassed (so the CMv2.9 L2 trims apply). At 0% any content above display peak bypasses; at 20% content must exceed display peak by 20% (e.g. 1200 nits on a 1000-nit display). Only used when the append mode is Smart."
-msgstr "Prozentwert oberhalb der Spitzenhelligkeit des Bildschirms, ab dem das Hinzufügen von CMv4.0 umgangen wird (sodass die L2-Trims von CMv2.9 wirksam werden). Bei 0 % wird jeder Inhalt oberhalb der Spitzenhelligkeit des Bildschirms umgangen, bei 20 % muss der Inhalt diese um 20 % übersteigen (z. B. 1200 Nits bei einem Bildschirm mit 1000 Nits). Wird nur verwendet, wenn der Hinzufügemodus auf „Smart“ steht."
-
-#. Label of setting "Dolby Vision display peak luminance (nits)"
-#: system/settings/settings.xml
-msgctxt "#60330"
-msgid "Display peak luminance (nits)"
-msgstr "Spitzenleuchtdichte des Bildschirms (Nits)"
-
-#. Description of setting with label #60330
-#: system/settings/settings.xml
-msgctxt "#60331"
-msgid "Your display's Dolby Vision peak brightness in nits. 0 = auto: the Smart CMv4.0 bypass decision reads the display's own EDID (VSVDB) peak, and nothing is forced onto the Dolby Vision engine. Setting a value here is an explicit override: it replaces the auto-detected peak for the Smart CMv4.0 bypass decision, and is injected into the display's VSVDB when 'Force peak onto display' below is enabled. On VS10 HDR10 output it is also sent to the television as the HDR10 mastering peak, so the television tone-maps for it; the Dolby Vision engine in this box always maps HDR10 output to its own fixed 1000-nit target, which no setting changes."
-msgstr "Die Dolby-Vision-Spitzenhelligkeit des Bildschirms in Nits. 0 = automatisch: Für die Entscheidung über die Smart-Umgehung von CMv4.0 wird die im EDID (VSVDB) des Bildschirms hinterlegte Spitzenhelligkeit ausgelesen und der Dolby-Vision-Engine nichts vorgegeben. Ein hier gesetzter Wert ist eine ausdrückliche Übersteuerung: Er ersetzt die automatisch erkannte Spitzenhelligkeit bei der Smart-Umgehung von CMv4.0 und wird in das VSVDB des Bildschirms eingefügt, wenn unten „Spitzenhelligkeit dem Bildschirm vorgeben (VSVDB)“ aktiviert ist. Bei VS10-HDR10-Ausgabe wird er zusätzlich als HDR10-Mastering-Spitzenhelligkeit an den Fernseher übertragen, damit dieser sein Tonemapping darauf ausrichtet; die Dolby-Vision-Engine dieser Box bildet die HDR10-Ausgabe dagegen immer auf ihr festes Ziel von 1000 Nits ab, was durch keine Einstellung geändert wird."
-
-#. Label of Dolby Vision VS10 SDR8 output setting
-#: system/settings/settings.xml
-msgctxt "#60051"
-msgid "DV VS10 for SDR8 video"
-msgstr "DV VS10 für SDR8-Video"
-
-#. Description of setting with label #60051
-#: system/settings/settings.xml
-msgctxt "#60052"
-msgid "Select output format when playing 8-bit SDR content. Off = passthrough. SDR BT.2020 content always bypasses VS10 to preserve the original color gamut."
-msgstr "Ausgabeformat für die Wiedergabe von 8-Bit-SDR-Inhalten auswählen. „Aus“ = Passthrough. SDR-Inhalte in BT.2020 umgehen VS10 immer, um den ursprünglichen Farbraum zu erhalten."
-
-#. Label of Dolby Vision VS10 SDR10 output setting
-#: system/settings/settings.xml
-msgctxt "#60053"
-msgid "DV VS10 for SDR10 video"
-msgstr "DV VS10 für SDR10-Video"
-
-#. Description of setting with label #60053
-#: system/settings/settings.xml
-msgctxt "#60054"
-msgid "Select output format when playing 10-bit SDR content. Off = passthrough. SDR BT.2020 content always bypasses VS10 to preserve the original color gamut."
-msgstr "Ausgabeformat für die Wiedergabe von 10-Bit-SDR-Inhalten auswählen. „Aus“ = Passthrough. SDR-Inhalte in BT.2020 umgehen VS10 immer, um den ursprünglichen Farbraum zu erhalten."
-
-#. Label of Dolby Vision VS10 HDR10 output setting
-#: system/settings/settings.xml
-msgctxt "#60055"
-msgid "DV VS10 for HDR10 video"
-msgstr "DV VS10 für HDR10-Video"
-
-#. Description of setting with label #60055
-#: system/settings/settings.xml
-msgctxt "#60056"
-msgid "Select output format when playing HDR10 content. Off = native HDR10 passthrough."
-msgstr "Ausgabeformat für die Wiedergabe von HDR10-Inhalten auswählen. „Aus“ = natives HDR10-Passthrough."
-
-#. Label of Dolby Vision VS10 HDR10+ output setting
-#: system/settings/settings.xml
-msgctxt "#60057"
-msgid "DV VS10 for HDR10+ video"
-msgstr "DV VS10 für HDR10+-Video"
-
-#. Description of setting with label #60057
-#: system/settings/settings.xml
-msgctxt "#60058"
-msgid "Select output format when playing HDR10+ content. Only static HDR10 metadata is used - dynamic HDR10+ metadata is not passed to the DV engine."
-msgstr "Ausgabeformat für die Wiedergabe von HDR10+-Inhalten auswählen. Es werden nur statische HDR10-Metadaten verwendet – dynamische HDR10+-Metadaten werden nicht an die DV-Engine übergeben."
-
-#. Label of Dolby Vision VS10 HLG output setting
-#: system/settings/settings.xml
-msgctxt "#60059"
-msgid "DV VS10 for HLG video"
-msgstr "DV VS10 für HLG-Video"
-
-#. Description of setting with label #60059
-#: system/settings/settings.xml
-msgctxt "#60060"
-msgid "Select output format when playing HLG content. Off = native HLG passthrough."
-msgstr "Ausgabeformat für die Wiedergabe von HLG-Inhalten auswählen. „Aus“ = natives HLG-Passthrough."
-
-#. Label of Dolby Vision VS10 DV output setting
-#: system/settings/settings.xml
-msgctxt "#60061"
-msgid "DV VS10 for DV video"
-msgstr "DV VS10 für DV-Video"
-
-#. Description of setting with label #60061
-#: system/settings/settings.xml
-msgctxt "#60062"
-msgid "Output format for Dolby Vision sources. HDR10: convert to HDR10, reconstructing the full image (including the profile 7 FEL enhancement layer) and tone-mapping it - use this to play Dolby Vision on an HDR10 display that does not support Dolby Vision. SDR: convert to SDR. Off: output native Dolby Vision (shown only on a Dolby Vision display)."
-msgstr "Ausgabeformat für Dolby-Vision-Quellen. HDR10: nach HDR10 konvertieren, dabei das vollständige Bild rekonstruieren (einschließlich der FEL-Erweiterungsebene von Profil 7) und per Tonemapping anpassen – zu verwenden, um Dolby Vision auf einem HDR10-Bildschirm ohne Dolby-Vision-Unterstützung wiederzugeben. SDR: nach SDR konvertieren. Aus: natives Dolby Vision ausgeben (nur auf einem Dolby-Vision-Bildschirm darstellbar)."
-
-#. Dolby Vision VS10 output option: Off / passthrough
-#: system/settings/settings.xml
-msgctxt "#60063"
-msgid "Off"
-msgstr "Aus"
-
-#. Dolby Vision VS10 output option: SDR
-#: system/settings/settings.xml
-msgctxt "#60064"
-msgid "SDR"
-msgstr "SDR"
-
-#. Dolby Vision VS10 output option: HDR10
-#: system/settings/settings.xml
-msgctxt "#60065"
-msgid "HDR10"
-msgstr "HDR10"
-
-#. Dolby Vision VS10 output option: Dolby Vision
-#: system/settings/settings.xml
-msgctxt "#60066"
-msgid "DV"
-msgstr "DV"
-
-#. Label of Dolby Vision VS10 HDR10 OSD peak brightness setting
-#: system/settings/settings.xml
-msgctxt "#60069"
-msgid "HDR10 OSD peak brightness (nits)"
-msgstr "Spitzenhelligkeit des OSD bei HDR10 (Nits)"
-
-#. Description of setting with label #60069
-#: system/settings/settings.xml
-msgctxt "#60070"
-msgid "Set the maximum luminance for OSD graphics (GUI, subtitles) in nits when VS10 HDR10 output is active. Overrides the general DV OSD brightness for HDR10 output specifically. Default 316 matches the compositor's built-in value for HDR10."
-msgstr "Maximale Leuchtdichte für OSD-Grafiken (GUI, Untertitel) in Nits festlegen, wenn die VS10-HDR10-Ausgabe aktiv ist. Übersteuert speziell für die HDR10-Ausgabe die allgemeine DV-OSD-Helligkeit. Der Standardwert 316 entspricht dem im Compositor hinterlegten Wert für HDR10."
-
-#. Label of Dolby Vision "convert HDR10+ to DV 8.1" setting
-#: system/settings/settings.xml
-msgctxt "#60101"
-msgid "Convert HDR10+ video to DV profile 8.1 during playback"
-msgstr "HDR10+-Video während der Wiedergabe in DV-Profil 8.1 konvertieren"
-
-#. Description of setting with label #60101
-#: system/settings/settings.xml
-msgctxt "#60102"
-msgid "Converts HDR10+ dynamic metadata to DV profile 8.1 in real time, allowing the DV engine to apply scene-by-scene tonemapping for HDR10+ content."
-msgstr "Konvertiert dynamische HDR10+-Metadaten in Echtzeit in das DV-Profil 8.1, sodass die DV-Engine szenenweises Tonemapping auf HDR10+-Inhalte anwenden kann."
-
-#. Label of Dolby Vision "force peak onto display (VSVDB inject)" setting
-#: system/settings/settings.xml
-msgctxt "#60340"
-msgid "Force peak onto display (VSVDB)"
-msgstr "Spitzenhelligkeit dem Bildschirm vorgeben (VSVDB)"
-
-#. Description of setting with label #60340
-#: system/settings/settings.xml
-msgctxt "#60341"
-msgid "Inject the peak luminance set above into the display's Dolby Vision VSVDB (EDID), so the DV engine tone-maps for that brightness instead of the value the TV advertises. Only has an effect on player-led (low-latency) Dolby Vision output, where the Dolby engine in this box takes its target from the VSVDB; on TV-led output the television maps with its own configuration. Useful when the TV over- or under-reports its real peak. Only the fields set here are changed (the peak, and optionally the colour space and black level below); all other VSVDB data is kept. Snapped to the nearest Dolby PQ step. Requires a display with a v2 VSVDB and a peak value above (0 = auto does nothing). On player-led (low-latency) Dolby Vision output the DV engine takes its target peak from the VSVDB, and the peak is additionally capped to each title's own mastering peak - so a value set here can be lowered, but never raised, for content graded below it."
-msgstr "Die oben eingestellte Spitzenleuchtdichte in das Dolby-Vision-VSVDB (EDID) des Bildschirms einfügen, damit die DV-Engine ihr Tonemapping auf diese Helligkeit ausrichtet und nicht auf den vom Fernseher gemeldeten Wert. Wirkt sich nur auf die Player-Led-Ausgabe (Low Latency) aus, bei der die Dolby-Engine dieser Box ihr Ziel dem VSVDB entnimmt; bei TV-Led-Ausgabe bildet der Fernseher mit seiner eigenen Konfiguration ab. Nützlich, wenn der Fernseher seine tatsächliche Spitzenhelligkeit zu hoch oder zu niedrig angibt. Es werden nur die hier gesetzten Felder geändert (die Spitzenhelligkeit sowie wahlweise Farbraum und Schwarzwert darunter), alle übrigen VSVDB-Daten bleiben erhalten. Der Wert wird auf die nächstgelegene Dolby-PQ-Stufe gerundet. Erfordert einen Bildschirm mit VSVDB v2 und einen oben eingetragenen Wert (0 = automatisch bewirkt nichts). Bei Player-Led-Ausgabe (Low Latency) entnimmt die DV-Engine ihre Zielspitzenhelligkeit dem VSVDB; zusätzlich wird sie auf die Mastering-Spitzenhelligkeit des jeweiligen Titels begrenzt – ein hier gesetzter Wert kann für dunkler gemasterte Inhalte also gesenkt, aber nie angehoben werden."
-
-#. Label of Dolby Vision VSVDB colour-space override setting
-#: system/settings/settings.xml
-msgctxt "#60342"
-msgid "Colour space (VSVDB)"
-msgstr "Farbraum (VSVDB)"
-
-#. Description of setting with label #60342
-#: system/settings/settings.xml
-msgctxt "#60343"
-msgid "Override the colour primaries advertised in the injected Dolby Vision VSVDB, so the DV engine tone-maps for a specific gamut. 'Display' keeps the panel's own advertised primaries and only changes the peak luminance above. The other options force standard primaries; the display's version and capability bits are preserved. Requires a v2 VSVDB display."
-msgstr "Die im eingefügten Dolby-Vision-VSVDB angegebenen Farbprimärvalenzen übersteuern, damit die DV-Engine ihr Tonemapping auf einen bestimmten Farbraum ausrichtet. „Bildschirm“ behält die vom Panel gemeldeten Primärvalenzen bei und ändert nur die oben eingestellte Spitzenleuchtdichte. Die übrigen Optionen erzwingen Standardprimärvalenzen; Version und Fähigkeitsbits des Bildschirms bleiben erhalten. Erfordert einen Bildschirm mit VSVDB v2."
-
-#. VSVDB colour space option: keep the display's advertised primaries
-#: system/settings/settings.xml
-msgctxt "#60344"
-msgid "Display (keep advertised)"
-msgstr "Bildschirm (gemeldete beibehalten)"
-
-#. VSVDB colour space option: DCI-P3
-#: system/settings/settings.xml
-msgctxt "#60345"
-msgid "DCI-P3"
-msgstr "DCI-P3"
-
-#. VSVDB colour space option: BT.2020
-#: system/settings/settings.xml
-msgctxt "#60346"
-msgid "BT.2020"
-msgstr "BT.2020"
-
-#. VSVDB colour space option: BT.709
-#: system/settings/settings.xml
-msgctxt "#60347"
-msgid "BT.709"
-msgstr "BT.709"
-
-#. Label of Dolby Vision L5 active-area (letterbox) mode setting
-#: system/settings/settings.xml
-msgctxt "#60348"
-msgid "Level 5 active area (letterbox)"
-msgstr "Level-5-Aktivbereich (Letterbox)"
-
-#. Description of setting with label #60348
-#: system/settings/settings.xml
-msgctxt "#60349"
-msgid "Controls the Dolby Vision Level 5 active-area (letterbox/pillarbox) offsets written into the RPU. 'Source' leaves the stream's own L5 as authored. 'Zero' forces the whole frame active (fixes displays that mis-crop DV). 'Auto-detect' background-scans the file for black bars and injects the offsets when the source carries no L5, so letterbox bars mask to true black instead of being raised to grey by the DV trims."
-msgstr "Steuert die in die RPU geschriebenen Level-5-Offsets für den Aktivbereich (Letterbox/Pillarbox) von Dolby Vision. „Quelle“ belässt das L5 des Streams so, wie es erstellt wurde. „Null“ erzwingt das gesamte Einzelbild als Aktivbereich (behebt Probleme mit Bildschirmen, die DV falsch beschneiden). „Automatisch erkennen“ durchsucht die Datei im Hintergrund nach schwarzen Balken und fügt die Offsets ein, wenn die Quelle kein L5 enthält, damit Letterbox-Balken in echtem Schwarz maskiert werden, statt durch die DV-Trims auf Grau angehoben zu werden."
-
-#. Dolby Vision L5 mode option: use the source RPU's own L5 offsets
-#: system/settings/settings.xml
-msgctxt "#60350"
-msgid "Source"
-msgstr "Quelle"
-
-#. Dolby Vision L5 mode option: force zero offsets (full frame active)
-#: system/settings/settings.xml
-msgctxt "#60351"
-msgid "Zero (full frame)"
-msgstr "Null (gesamtes Bild)"
-
-#. Dolby Vision L5 mode option: auto-detect the active area from the video
-#: system/settings/settings.xml
-msgctxt "#60352"
-msgid "Auto-detect"
-msgstr "Automatisch erkennen"
-
-#. Label of Dolby Vision L5 "show OSD/subtitles over letterbox bars" setting
-#: system/settings/settings.xml
-msgctxt "#60353"
-msgid "Show OSD/subtitles over letterbox bars"
-msgstr "OSD/Untertitel über Letterbox-Balken anzeigen"
-
-#. Description of setting with label #60353
-#: system/settings/settings.xml
-msgctxt "#60354"
-msgid "When the active-area (letterbox) offsets are being applied - Source or Auto-detect above - the Dolby Vision engine masks the black bars, which can also hide OSD or subtitles drawn in the bar region. Enable this to temporarily lift the mask (set Level 5 to zero) whenever the OSD, a dialog, or subtitles are on screen, so overlays in the bars stay visible. No effect in Zero mode."
-msgstr "Wenn die Offsets für den Aktivbereich (Letterbox) angewendet werden – also bei „Quelle“ oder „Automatisch erkennen“ –, maskiert die Dolby-Vision-Engine die schwarzen Balken, wodurch auch OSD oder Untertitel im Bereich der Balken verdeckt werden können. Diese Option aktivieren, um die Maskierung vorübergehend aufzuheben (Level 5 auf Null setzen), sobald das OSD, ein Dialog oder Untertitel auf dem Bildschirm sind, damit Überlagerungen in den Balken sichtbar bleiben. Im Modus „Null“ ohne Wirkung."
-
-#. Setting to override the Dolby Vision tone-mapping target minimum luminance (reference black)
-#: system/settings/settings.xml
-msgctxt "#60355"
-msgid "Dolby Vision target minimum luminance (reference black)"
-msgstr "Minimale Zielleuchtdichte für Dolby Vision (Referenzschwarz)"
-
-#. Description of setting with label #60355
-#: system/settings/settings.xml
-msgctxt "#60356"
-msgid "Retired. The Dolby Vision engine in dovi.ko never reads this value, so it has no effect on the picture on any output. For player-led Dolby Vision, use 'Black level (VSVDB)' instead."
-msgstr "Nicht mehr in Verwendung. Die Dolby-Vision-Engine in dovi.ko liest diesen Wert nie aus; er hat daher bei keiner Ausgabe eine Auswirkung auf das Bild. Für Player-Led-Dolby-Vision stattdessen „Schwarzwert (VSVDB)“ verwenden."
-
-#. Toast heading when a VS10 output mode is refused for software-decoded video
-#: xbmc/utils/AMLUtils.cpp
-msgctxt "#60357"
-msgid "VS10 not available"
-msgstr "VS10 nicht verfügbar"
-
-#. Toast body when a VS10 output mode is refused for software-decoded video
-#: xbmc/utils/AMLUtils.cpp
-msgctxt "#60358"
-msgid "Software-decoded video has no hardware video layer for the Dolby Vision engine to process."
-msgstr "Softwaredecodiertes Video hat keine Hardware-Videoebene, die die Dolby-Vision-Engine verarbeiten könnte."
-
-#: system/settings/settings.xml
-msgctxt "#60359"
-msgid "Let CoreELEC convert Dolby Vision for non-DV displays"
-msgstr "Dolby-Vision-Konvertierung für Bildschirme ohne DV von CoreELEC durchführen lassen"
-
-#: system/settings/settings.xml
-msgctxt "#60360"
-msgid "A Dolby Vision title shown on a display that cannot accept Dolby Vision has to be converted. This build normally does that with its VS10 engine, forcing an explicit HDR10 output (SDR if the display takes neither). Turn this on to hand the conversion to CoreELEC's own path instead, which signals the Dolby Vision core in low-latency mode and lets it map to the best format the display reports. Affects displays without Dolby Vision only, and only while the Dolby Vision core is engaged for the title - with 'Dolby Vision source output' left at Bypass a profile 7 or 8 title still plays as ordinary HDR10 and this changes nothing. Off = VS10, this build's default. Offered so the two can be compared; which looks better is worth reporting."
-msgstr "Ein Dolby-Vision-Titel muss konvertiert werden, wenn er auf einem Bildschirm gezeigt wird, der Dolby Vision nicht annehmen kann. Dieser Build erledigt das normalerweise mit seiner VS10-Engine und erzwingt eine ausdrückliche HDR10-Ausgabe (SDR, wenn der Bildschirm auch das nicht annimmt). Wird diese Option aktiviert, übernimmt stattdessen der eigene Weg von CoreELEC die Konvertierung: Er spricht den Dolby-Vision-Kern im Low-Latency-Modus an und lässt ihn auf das beste vom Bildschirm gemeldete Format abbilden. Betrifft nur Bildschirme ohne Dolby Vision und nur, solange der Dolby-Vision-Kern für den Titel aktiv ist – steht „Dolby Vision source output“ auf „Bypass“, wird ein Titel mit Profil 7 oder 8 weiterhin als gewöhnliches HDR10 wiedergegeben und diese Einstellung ändert nichts. Aus = VS10, die Voreinstellung dieses Builds. Die Option besteht, damit beide Wege verglichen werden können; welcher besser aussieht, ist eine Rückmeldung wert."
-
-#empty string with id 60361
-#: system/settings/settings.xml
-msgctxt "#60361"
-msgid "Stop playback on a broken or truncated file"
-msgstr "Wiedergabe bei beschädigter oder unvollständiger Datei stoppen"
-
-#. Setting help for stopping playback on a broken source
-#: system/settings/settings.xml
-msgctxt "#60362"
-msgid "Stops playback and warns when a source stalls with no prospect of recovering - typical of corrupt, partially-downloaded or still-growing files. A seek that scans a large amount of the file without completing, or audio and video both stalling for more than five seconds during normal playback, is treated as a broken source. A stall where nothing is being read at all is treated as slow or sleeping storage instead and is left alone. Disabled by default."
-msgstr "Stoppt die Wiedergabe und warnt, wenn eine Quelle ohne Aussicht auf Erholung hängt – typisch für beschädigte, unvollständig heruntergeladene oder noch wachsende Dateien. Ein Suchlauf, der einen großen Teil der Datei durchsucht, ohne abgeschlossen zu werden, oder ein gleichzeitiges Stocken von Ton und Bild über mehr als fünf Sekunden während der normalen Wiedergabe gilt als beschädigte Quelle. Ein Stillstand, bei dem überhaupt nichts gelesen wird, wird dagegen als langsamer oder schlafender Speicher gewertet und unangetastet gelassen. Standardmäßig deaktiviert."
-
-#. Notification heading shown when a broken source stops playback
-msgctxt "#60363"
-msgid "Broken or truncated file"
-msgstr "Beschädigte oder unvollständige Datei"
-
-#. Notification body shown when a broken source stops playback
-msgctxt "#60364"
-msgid "Playback stopped - the source stalled or a seek did not complete"
-msgstr "Wiedergabe gestoppt – die Quelle hängt oder ein Suchlauf wurde nicht abgeschlossen"
-
-#. Label of the setting choosing which HDR format to open when a file offers both
-msgctxt "#60365"
-msgid "Preferred format when a file carries two video streams"
-msgstr "Bevorzugtes Format, wenn eine Datei zwei Videostreams enthält"
-
-#. Help of the setting choosing which HDR format to open when a file offers both
-msgctxt "#60366"
-msgid "Some releases carry the same picture twice - once as Dolby Vision and once as HDR10+ - as two separate video streams. This chooses which of them plays. It has no effect on ordinary files, on a Dolby Vision profile 7 disc (where the two streams are one picture, not a choice), or when you have already picked a video stream for an item by hand."
-msgstr "Manche Veröffentlichungen enthalten dasselbe Bild zweimal – einmal als Dolby Vision und einmal als HDR10+ – in Form von zwei getrennten Videostreams. Hier wird ausgewählt, welcher davon wiedergegeben wird. Auf gewöhnliche Dateien hat dies keine Auswirkung, ebenso wenig auf eine Dolby-Vision-Disc mit Profil 7 (dort ergeben beide Streams zusammen ein Bild, es gibt also keine Wahl) oder wenn für ein Element bereits von Hand ein Videostream ausgewählt wurde."
-
-#. Option: prefer the Dolby Vision stream
-msgctxt "#60367"
-msgid "Dolby Vision"
-msgstr "Dolby Vision"
-
-#. Option: prefer the HDR10+ stream
-msgctxt "#60368"
-msgid "HDR10+"
-msgstr "HDR10+"
-
-#. Label of the setting enabling the HDR10+ decode probe during library scans
-msgctxt "#60369"
-msgid "Detect HDR10+ in HDR10 files"
-msgstr "HDR10+ in HDR10-Dateien erkennen"
-
-#. Help of the setting enabling the HDR10+ decode probe during library scans
-msgctxt "#60370"
-msgid "Decodes a frame of every HDR10 file added to the library to find out whether it also carries HDR10+ dynamic metadata. Accurate, but it makes scanning a large HDR library noticeably slower. Turn this off to scan faster, at the cost of HDR10+ files being listed as plain HDR10. Dolby Vision files are always examined, as the profile cannot be determined any other way."
-msgstr "Decodiert von jeder zur Bibliothek hinzugefügten HDR10-Datei ein Einzelbild, um festzustellen, ob sie zusätzlich dynamische HDR10+-Metadaten enthält. Das ist genau, verlangsamt das Durchsuchen einer großen HDR-Bibliothek aber spürbar. Deaktivieren, um schneller zu durchsuchen – dafür werden HDR10+-Dateien als einfaches HDR10 gelistet. Dolby-Vision-Dateien werden immer untersucht, da sich das Profil anders nicht bestimmen lässt."
-
-#. Label of the setting that reports 3D display capability to a Blu-ray 3D disc
-msgctxt "#60371"
-msgid "Simulate 3D display"
-msgstr "3D-fähigen Bildschirm simulieren"
-
-#. Help of the setting that reports 3D display capability to a Blu-ray 3D disc
-msgctxt "#60372"
-msgid "Tells a Blu-ray 3D disc that the connected display can show 3D, whether or not it can. Many 3D discs ask before deciding what to play, and some refuse to start at all on a display that answers no - the disc's app parks the title on a single still frame and nothing further happens, with no menu, no picture and no sound. Turning this on lets those discs run their normal path; the film then plays in ordinary 2D, because only the base view of a 3D title is presented. Also useful when the display really can show 3D but its capability is lost on the way to the player, through an AV receiver or scaler that rewrites EDID. Affects Blu-ray 3D discs only and changes nothing for any other disc."
-msgstr "Teilt einer Blu-ray-3D-Disc mit, dass der angeschlossene Bildschirm 3D darstellen kann – unabhängig davon, ob er es tatsächlich kann. Viele 3D-Discs fragen das ab, bevor sie entscheiden, was sie wiedergeben, und manche starten auf einem Bildschirm, der dies verneint, überhaupt nicht: Die Anwendung der Disc bleibt bei einem einzelnen Standbild stehen und es geschieht nichts weiter – kein Menü, kein Bild und kein Ton. Mit dieser Option durchlaufen solche Discs ihren normalen Weg; der Film wird dann in gewöhnlichem 2D wiedergegeben, da nur die Basisansicht eines 3D-Titels dargestellt wird. Auch nützlich, wenn der Bildschirm tatsächlich 3D darstellen kann, diese Fähigkeit aber auf dem Weg zum Player verloren geht, etwa durch einen AV-Receiver oder Scaler, der das EDID verändert. Betrifft nur Blu-ray-3D-Discs und ändert bei allen anderen Discs nichts."
-
-#. Label of setting "CMv4.0 auto trigger"
-#: system/settings/settings.xml
-msgctxt "#60373"
-msgid "CMv4.0 auto trigger"
-msgstr "CMv4.0-Auto-Auslöser"
-
-#. Description of setting with label #60373 "CMv4.0 auto trigger"
-#: system/settings/settings.xml
-msgctxt "#60374"
-msgid "Only used when [CMv4.0 metadata] is set to [Auto]. Chooses what the title's own mastering brightness is compared against to decide, once per title, whether CMv4.0 is appended. [Display peak] appends when the display's peak brightness is at or above the title's mastering brightness, i.e. when the display can already show the whole grade. The fixed values append when the title was mastered at or below that brightness. In every case CMv4.0 is also appended when the title carries no L2 trim, since there is then nothing to preserve. With [Display peak] and no display peak available, nothing is compared and only no-trim titles are appended. Unlike [Smart], which re-decides every frame, [Auto] decides once and never changes the metadata version mid-playback."
-msgstr "Wird nur verwendet, wenn [CMv4.0-Metadaten] auf [Auto] steht. Legt fest, womit die Mastering-Helligkeit des Titels verglichen wird, um einmal pro Titel zu entscheiden, ob CMv4.0 angehängt wird. [Spitzenhelligkeit des Bildschirms] hängt an, wenn die Spitzenhelligkeit des Bildschirms mindestens der Mastering-Helligkeit des Titels entspricht, der Bildschirm die gesamte Abstufung also bereits darstellen kann. Die festen Werte hängen an, wenn der Titel mit höchstens dieser Helligkeit gemastert wurde. In jedem Fall wird CMv4.0 auch dann angehängt, wenn der Titel kein L2-Trim enthält, da dann nichts zu erhalten ist. Mit [Spitzenhelligkeit des Bildschirms] und ohne verfügbare Spitzenhelligkeit des Bildschirms wird nichts verglichen und es werden nur Titel ohne Trim angehängt. Anders als [Smart], das bei jedem Einzelbild neu entscheidet, entscheidet [Auto] einmalig und wechselt die Metadatenversion nie während der Wiedergabe."
-
-msgctxt "#60375"
-msgid "Display peak"
-msgstr "Spitzenhelligkeit des Bildschirms"
-
-msgctxt "#60376"
-msgid "1000 nits"
-msgstr "1000 Nits"
-
-msgctxt "#60377"
-msgid "2000 nits"
-msgstr "2000 Nits"
-
-msgctxt "#60378"
-msgid "4000 nits"
-msgstr "4000 Nits"
-
-msgctxt "#60379"
-msgid "10000 nits"
-msgstr "10000 Nits"
-
-#: system/settings/settings.xml
-msgctxt "#60380"
-msgid "Black level (VSVDB)"
-msgstr "Schwarzwert (VSVDB)"
-
-#. Description of setting with label #60380
-#: system/settings/settings.xml
-msgctxt "#60381"
-msgid "Override the minimum luminance advertised in the injected Dolby Vision VSVDB. With player-led (low-latency) Dolby Vision the Dolby engine in this box maps black to exactly this level, so it sets where near-black detail stops: a display advertising 0.0006 nit shows everything below 10-bit code 68 as black. 'Display' keeps the panel's own figure. Lower values reveal more shadow detail if the panel can reproduce it; higher values lift black for panels that crush. No effect on TV-led Dolby Vision (the television maps it) or on HDR10/SDR output. Requires a v2 VSVDB display."
-msgstr "Übersteuert die im eingefügten Dolby-Vision-VSVDB angegebene minimale Leuchtdichte. Bei Player-Led-Ausgabe (Low Latency) bildet die Dolby-Engine dieser Box Schwarz genau auf diesen Wert ab und legt damit fest, wo Details nahe Schwarz enden: Ein Bildschirm, der 0,0006 Nits angibt, stellt alles unterhalb von 10-Bit-Code 68 als Schwarz dar. „Bildschirm“ behält den Wert des Panels bei. Niedrigere Werte legen mehr Schattendetails frei, sofern das Panel sie wiedergeben kann; höhere Werte heben Schwarz an, wenn das Panel dunkle Abstufungen verschluckt. Ohne Wirkung bei TV-Led-Dolby-Vision (dort bildet der Fernseher ab) und bei HDR10-/SDR-Ausgabe. Erfordert einen Bildschirm mit VSVDB v2."
-
-#: system/settings/settings.xml
-msgctxt "#60382"
-msgid "0 nit - reference black (code 64)"
-msgstr "0 Nits – Referenzschwarz (Code 64)"
-
-#: system/settings/settings.xml
-msgctxt "#60383"
-msgid "0.0006 nit (code 68)"
-msgstr "0,0006 Nits (Code 68)"
-
-#: system/settings/settings.xml
-msgctxt "#60384"
-msgid "0.0022 nit (code 73)"
-msgstr "0,0022 Nits (Code 73)"
-
-#: system/settings/settings.xml
-msgctxt "#60385"
-msgid "0.0047 nit (code 77)"
-msgstr "0,0047 Nits (Code 77)"
-
-#: system/settings/settings.xml
-msgctxt "#60386"
-msgid "0.0083 nit (code 81)"
-msgstr "0,0083 Nits (Code 81)"
-
-#: system/settings/settings.xml
-msgctxt "#60387"
-msgid "AC3 / EAC3 dialogue normalisation defeat (0 dB)"
-msgstr "Dialognormalisierung für AC3/EAC3 aufheben (0 dB)"
-
-#: system/settings/settings.xml
-msgctxt "#60388"
-msgid "Force the dialogue normalisation of AC3 and EAC3 passthrough bitstreams to 0 dB, so the receiver does not turn the soundtrack down to its dialogue level. EAC3 Dolby Atmos is left alone unless the option below is also enabled."
-msgstr "Erzwingt für AC3- und EAC3-Passthrough-Bitströme eine Dialognormalisierung von 0 dB, damit der Receiver den Ton nicht auf dessen Dialogpegel absenkt. EAC3-Dolby-Atmos bleibt unangetastet, sofern nicht zusätzlich die Option darunter aktiviert ist."
-
-#: system/settings/settings.xml
-msgctxt "#60389"
-msgid "Include EAC3 Atmos (breaks Atmos)"
-msgstr "EAC3-Atmos einbeziehen (zerstört Atmos)"
-
-#: system/settings/settings.xml
-msgctxt "#60390"
-msgid "Also apply dialogue normalisation defeat to EAC3 Dolby Atmos (DD+ Atmos) streams. Receivers stop rendering the Atmos objects and fall back to standard Dolby Digital Plus surround. Only enable this if your setup does not use Atmos."
-msgstr "Hebt die Dialognormalisierung auch bei EAC3-Dolby-Atmos-Strömen (DD+ Atmos) auf. Receiver geben die Atmos-Objekte dann nicht mehr wieder und fallen auf gewöhnlichen Dolby-Digital-Plus-Surround zurück. Nur aktivieren, wenn die eigene Anlage kein Atmos verwendet."
-
-#: system/settings/settings.xml
-msgctxt "#60391"
-msgid "TrueHD dialogue normalisation defeat (0 dB)"
-msgstr "Dialognormalisierung für TrueHD aufheben (0 dB)"
-
-#: system/settings/settings.xml
-msgctxt "#60392"
-msgid "Force the dialogue normalisation of TrueHD passthrough bitstreams to 0 dB for every presentation the stream carries (2, 6, 8 channel and Atmos), so the receiver does not turn the soundtrack down. That attenuation is headroom the mix may rely on: on titles mastered close to full scale the loudest moments can overload the receiver and make it mute for about a second. Turn this off if that happens."
-msgstr "Erzwingt für TrueHD-Passthrough-Bitströme eine Dialognormalisierung von 0 dB für alle im Strom enthaltenen Präsentationen (2, 6, 8 Kanäle und Atmos), damit der Receiver den Ton nicht absenkt. Diese Absenkung ist Aussteuerungsreserve, auf die die Abmischung angewiesen sein kann: Bei Titeln, die nahe an der Vollaussteuerung gemastert wurden, können die lautesten Stellen den Receiver übersteuern und ihn für etwa eine Sekunde stummschalten. In diesem Fall diese Option deaktivieren."
-
-#: system/settings/settings.xml
-msgctxt "#60393"
-msgid "DTS / DTS-HD dialogue normalisation defeat (0 dB)"
-msgstr "Dialognormalisierung für DTS/DTS-HD aufheben (0 dB)"
-
-#: system/settings/settings.xml
-msgctxt "#60394"
-msgid "Force the dialogue normalisation of DTS, DTS-HD High Resolution and DTS-HD Master Audio passthrough bitstreams (including DTS:X) to 0 dB. Many DTS titles carry no dialogue normalisation, so this has no effect on them."
-msgstr "Erzwingt für Passthrough-Bitströme in DTS, DTS-HD High Resolution und DTS-HD Master Audio (einschließlich DTS:X) eine Dialognormalisierung von 0 dB. Viele DTS-Titel enthalten keine Dialognormalisierung; bei ihnen bleibt diese Einstellung wirkungslos."
-
-#: system/settings/settings.xml
-msgctxt "#60395"
-msgid "Dialogue normalisation"
-msgstr "Dialognormalisierung"
-
-#: system/settings/settings.xml
-msgctxt "#60396"
-msgid "GUI brightness follows the display peak"
-msgstr "GUI-Helligkeit folgt der Spitzenhelligkeit des Bildschirms"
-
-#: system/settings/settings.xml
-msgctxt "#60397"
-msgid "On (default): during Dolby Vision processing the menus and on-screen display are mapped to the peak brightness your display reports, as current CoreELEC does, which makes them considerably brighter. Off: use the previous fixed graphics level of about 300 nits."
-msgstr "Ein (Standard): Während der Dolby-Vision-Verarbeitung werden Menüs und Bildschirmanzeige auf die vom Bildschirm gemeldete Spitzenhelligkeit abgebildet, wie es das aktuelle CoreELEC handhabt – das macht sie deutlich heller. Aus: Es wird der bisherige feste Grafikpegel von etwa 300 Nits verwendet."
 
 #~ msgctxt "#14088"
 #~ msgid "Play DVDs automatically"
